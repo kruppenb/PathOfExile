@@ -60,12 +60,18 @@ class Tables(HTMLParser):
         self.tables: list[dict] = []
         self.stack: list[dict] = []  # nested tables
         self.cell = None
-        self.skip = 0  # inside <style>/<script>/<sup class=reference>
+        self.skip: list = []  # [tag, depth] while inside style/script/footnotes/item tooltips
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
-        if tag in ("style", "script") or (tag == "sup" and "reference" in (a.get("class") or "")):
-            self.skip += 1
+        if self.skip:
+            if tag == self.skip[0]:
+                self.skip[1] += 1
+            return
+        cls = a.get("class") or ""
+        if tag in ("style", "script") or (tag == "sup" and "reference" in cls) or \
+                (tag == "span" and "hoverbox__display" in cls):
+            self.skip = [tag, 1]
             return
         if tag in ("h2", "h3", "h4", "h5"):
             self.in_head, self.head_text = int(tag[1]), ""
@@ -83,8 +89,11 @@ class Tables(HTMLParser):
             self.cell["text"] += " / "
 
     def handle_endtag(self, tag):
-        if tag in ("style", "script", "sup") and self.skip:
-            self.skip -= 1
+        if self.skip:
+            if tag == self.skip[0]:
+                self.skip[1] -= 1
+                if not self.skip[1]:
+                    self.skip = []
             return
         if tag in ("h2", "h3", "h4", "h5") and self.in_head:
             lvl = self.in_head - 2
@@ -119,7 +128,7 @@ def to_recipes(tables: list[dict]) -> list[dict]:
             cells = [c for _, c in row]
             if not cells or not any(cells):
                 continue
-            if header and len(header) == len(cells):
+            if header and len(cells) <= len(header):  # shorter rows: a rowspan'd Notes cell
                 rec = dict(zip(header, cells))
             else:
                 rec = {f"col{i}": c for i, c in enumerate(cells)}
@@ -133,16 +142,20 @@ def main() -> None:
     ap.add_argument("--raw", help="also save the raw API answer (JSON) here")
     ap.add_argument("--show", help="print recipes containing this word (after refreshing)")
     ap.add_argument("--offline", action="store_true", help="don't fetch; use the saved data file")
+    ap.add_argument("--from-raw", help="parse a raw API answer saved earlier with --raw instead of fetching")
     a = ap.parse_args()
-    if not a.offline:
-        data, api = fetch()
+    if a.from_raw:
+        data, api = json.loads(Path(a.from_raw).read_text(encoding="utf-8")), APIS[0]
+    if a.from_raw or not a.offline:
+        if not a.from_raw:
+            data, api = fetch()
         if a.raw:
             Path(a.raw).write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
         p = Tables()
         p.feed(data["parse"]["text"])
         recipes = to_recipes(p.tables)
         OUT.parent.mkdir(exist_ok=True)
-        OUT.write_text(json.dumps({"_source": f"{api} page={PAGE}", "_fetched": dt.date.today().isoformat(),
+        OUT.write_text(json.dumps({"_source": f"https://www.poewiki.net/wiki/{PAGE}", "_fetched": dt.date.today().isoformat(),
                                    "recipes": recipes}, ensure_ascii=False, indent=1), encoding="utf-8")
         print(f"Saved {len(recipes)} recipes from {len(p.tables)} tables to {OUT}", file=sys.stderr)
     if a.show:

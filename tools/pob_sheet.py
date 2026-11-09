@@ -306,6 +306,7 @@ def build_cards(build: dict, tree: P.Tree, gems_db: dict, quests_db: dict) -> tu
             cards[placement[i]]["links"].append((ss["title"], rows))
         prev_gems, prev_groups = now, groups_now
     info["placement"] = placement
+    info["recipes"] = leveling_recipes(leveling_profile(build, gdb, placement))
 
     # ---- gems by quest (only gems for the sets shown)
     camp_sets = [i for i in placement if placement[i] != MAPS] or list(placement)
@@ -354,6 +355,61 @@ def build_cards(build: dict, tree: P.Tree, gems_db: dict, quests_db: dict) -> tu
                 f'<span class="u" title="{e(item["base"])} · {e(slot)} · lvl {req}">{e(item["name"])}'
                 f'<small>lvl {req}</small></span>')
     return cards, info
+
+
+RECIPE_DATA = P.DATA_DIR / "vendor_recipes.json"
+
+
+def leveling_profile(build: dict, gdb: dict, placement: dict) -> set[str]:
+    """Tags of the main skill in each early leveling set (acts 1-5)."""
+    ids = [i for i, a in placement.items() if a <= 5] or list(placement)
+    tags: set[str] = set()
+    for i in ids:
+        groups = [g for g in build["skill_sets"][i]["groups"] if g["enabled"] and not g["source"]]
+        if not groups:
+            continue
+        main = max(groups, key=lambda g: len(g["gems"]))
+        for gem in main["gems"]:
+            entry = gdb.get(gid_for(gem["name"], gdb), {})
+            if entry and not entry.get("support"):
+                tags |= set(entry.get("tags", []))
+                break
+    return tags
+
+
+def leveling_recipes(tags: set[str]) -> list[tuple[str, str, str]]:
+    """(label, ingredients, notes) for the vendor recipes that fit the build."""
+    if not RECIPE_DATA.exists():
+        return []
+    import json
+    recipes = json.loads(RECIPE_DATA.read_text(encoding="utf-8"))["recipes"]
+    elems = [e for e in ("fire", "cold", "lightning", "chaos", "physical") if e in tags]
+    wanted = [("boots", r"movement speed", "Move-speed boots")]
+    if "spell" in tags:
+        wanted.append(("w", r"increased spell damage", "Spell damage weapon"))
+        wanted += [("w", rf"level of all {e} spell skill gems", f"+1 {e.title()} spell gems weapon") for e in elems]
+    if "attack" in tags:
+        wanted.append(("w", r"increased physical damage", "+% physical damage weapon"))
+        wanted.append(("w", r"added physical damage one tier", "Added physical damage weapon"))
+        wanted += [("w", rf"added {e} damage one tier", f"Added {e.title()} damage weapon")
+                   for e in elems if e != "physical"]
+    if "minion" in tags:
+        wanted.append(("h", r"minion skill gems", "+1 minion gems helmet"))
+    out, seen = [], set()
+    for _, pat, label in wanted:
+        for r in recipes:
+            res = r.get("Result", "")
+            if not r.get("_section", "").startswith("Equipment") or not re.search(pat, res, re.I):
+                continue
+            if label in seen:
+                break
+            seen.add(label)
+            ing = re.sub(r"\s*\([^)]*\)", "", r.get("Recipes", "")).replace(" / ", " + ")
+            ing = ing.replace(" explicit mod", "").replace("Magic/Rare/Unique ", "any ") \
+                     .replace("2 or more quality gems with a combined total of 40% quality & the", "gems totalling 40% quality with the")
+            out.append((label, ing, f"{res}\n{r.get('Notes', '')}".strip()))
+            break
+    return out
 
 
 def gid_for(name: str, gdb: dict) -> str:
@@ -414,6 +470,7 @@ svg .nb{fill:var(--line)} svg .no{fill:var(--muted)} svg .nn{fill:var(--new)}
 svg .nn.big{stroke:var(--ink);stroke-width:1}
 svg text{font:600 9.5px "Segoe UI",sans-serif;fill:var(--ink);paint-order:stroke;stroke:var(--surface2);stroke-width:3px}
 .tips{font-size:12.5px;flex:1} .tips code{font:12px Consolas,monospace;background:var(--surface2);padding:0 4px;border-radius:3px}
+.rc{font-size:12.5px;margin:0 0 2px;cursor:default}
 .warn{font-size:12.5px;color:var(--red);margin:0 0 8px}
 a{color:var(--gold)}
 .foot{font-size:12px;color:var(--muted);margin-top:14px}
@@ -463,10 +520,15 @@ def render_html(build: dict, tree: P.Tree, gems_db: dict, quests_db: dict, sourc
             rows.append(f'<div><span class="lab">Mastery</span><span class="ms">{" · ".join(c["mast"])}</span></div>')
         if c["asc"]:
             rows.append(f'<div><span class="lab">Ascend</span>{"".join(c["asc"])}</div>')
+        if act == 1 and info["recipes"]:
+            lines = "".join(f'<div class="rc" title="{e(notes)}"><b>{e(label)}:</b> {e(ing)}</div>'
+                            for label, ing, notes in info["recipes"])
+            rows.append(f'<div><span class="lab">Recipes</span><div style="flex:1">{lines}</div></div>')
         if act in TIPS:
             kill_all = build["bandit"] in ("None", "", None)
             tips = [t.replace("{bandit}", BANDIT.get(build["bandit"] or "", BANDIT["None"]))
-                     .replace("{passives}", "24" if kill_all else "23") for t in TIPS[act]]
+                     .replace("{passives}", "24" if kill_all else "23") for t in TIPS[act]
+                    if not (act == 1 and info["recipes"] and t.startswith("<b>Boots:"))]
             rows.append(f'<div><span class="lab">Tips</span><span class="tips">{" · ".join(tips)}</span></div>')
         if c["gear"]:
             rows.append(f'<div><span class="lab">Uniques</span>{"".join(c["gear"])}</div>')

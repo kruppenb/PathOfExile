@@ -31,8 +31,10 @@ in PoB with Import/Export Build -> "Generate" -> "Copy".
 
 Data (tools/pob_data/, refreshed with --update-data):
     tree.json    trimmed from GGG's skilltree-export (github.com/grindinggear/skilltree-export)
-    gems.json    gem names and level requirements  (github.com/HeartofPhos/exile-leveling)
-    quests.json  quest rewards and vendor gems per class (same source)
+    gems.json    gem names and level requirements  (github.com/HeartofPhos/exile-leveling),
+                 plus skill tags from RePoE (github.com/repoe-fork)
+    quests.json  quest rewards and vendor gems per class (exile-leveling)
+    vendor_recipes.json  from poewiki, made by tools/vendor_recipes.py on a PC
 Quest rewards can change in a new league; re-run --update-data once those
 repos update for it.
 """
@@ -56,6 +58,9 @@ UA = "pob-leveling-extractor/1.0 (+https://github.com/kruppenb/PathOfExile)"
 
 TREE_URL = "https://raw.githubusercontent.com/grindinggear/skilltree-export/master/data.json"
 GEMS_URL = "https://raw.githubusercontent.com/HeartofPhos/exile-leveling/main/common/data/json/gems.json"
+REPOE_GEMS_URL = "https://raw.githubusercontent.com/repoe-fork/repoe-fork.github.io/master/data/gems_minimal.json"
+GEM_TAGS = {"attack", "spell", "minion", "fire", "cold", "lightning", "chaos", "physical",
+            "totem", "trap", "mine", "brand", "bow", "melee", "projectile"}
 QUESTS_URL = "https://raw.githubusercontent.com/HeartofPhos/exile-leveling/main/common/data/json/quests.json"
 
 CLASS_NAMES = ["Scion", "Marauder", "Ranger", "Witch", "Duelist", "Templar", "Shadow"]
@@ -215,6 +220,20 @@ def update_data() -> None:
                 "gems": {k: {"name": g["name"], "lvl": g.get("required_level", 1),
                              "attr": g.get("primary_attribute"), "support": g.get("is_support", False)}
                          for k, g in gems.items()}}
+    # Skill tags (attack/spell/element/minion) from RePoE, used to pick vendor recipes.
+    print("Downloading gem tags ...", file=sys.stderr)
+    try:
+        repoe = json.loads(http_get(REPOE_GEMS_URL))
+        for g in repoe:
+            gid = (g.get("base_item") or {}).get("id")
+            if gid in gems_out["gems"]:
+                tags = {t for t in (g.get("tags") or []) if t in GEM_TAGS}
+                if "WandAttack" in ((g.get("active_skill") or {}).get("types") or []):
+                    tags.add("wand")
+                gems_out["gems"][gid]["tags"] = sorted(tags)
+        gems_out["_tags_source"] = REPOE_GEMS_URL
+    except Exception as e:  # noqa: BLE001
+        print(f"  (no gem tags: {e})", file=sys.stderr)
     (DATA_DIR / "gems.json").write_text(json.dumps(gems_out, separators=(",", ":")), encoding="utf-8")
 
     quests = json.loads(http_get(QUESTS_URL))

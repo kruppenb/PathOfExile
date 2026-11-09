@@ -1,0 +1,907 @@
+{
+ "_source": "https://www.poewiki.net/wiki/Vendor_recipe_system",
+ "_fetched": "2026-11-09",
+ "recipes": [
+  {
+   "Result": "Magic Boots with % increased Movement Speed one tier higher / Maximum tier is Tier 2 (30% increased Movement Speed)",
+   "Recipes": "Magic or Rare Boots with % increased Movement Speed explicit mod (or Normal rarity for adding lowest tier mod) / Orb of Augmentation / Quicksilver Flask",
+   "Notes": "The ingredient item must be of Normal or Magic or Rare rarity, recipe always makes a Magic item. / Hybrid weapon local damage mod does not work",
+   "_section": "Equipment › Basic crafting › Create new item"
+  },
+  {
+   "Result": "Magic Weapon with x added Physical Damage one tier higher / Maximum tier is Tier 2",
+   "Recipes": "Magic or Rare Weapon with x added Physical Damage explicit mod (or Normal rarity for adding lowest tier mod) / Orb of Augmentation / Granite Flask",
+   "_section": "Equipment › Basic crafting › Create new item"
+  },
+  {
+   "Result": "Magic Weapon with x added Fire Damage one tier higher / Maximum tier is Tier 3",
+   "Recipes": "Magic or Rare Weapon with x added Fire Damage explicit mod (or Normal rarity for adding lowest tier mod) / Orb of Augmentation / Ruby Flask",
+   "_section": "Equipment › Basic crafting › Create new item"
+  },
+  {
+   "Result": "Magic Weapon with x added Cold Damage one tier higher / Maximum tier is Tier 3",
+   "Recipes": "Magic or Rare Weapon with x added Cold Damage explicit mod (or Normal rarity for adding lowest tier mod) / Orb of Augmentation / Sapphire Flask",
+   "_section": "Equipment › Basic crafting › Create new item"
+  },
+  {
+   "Result": "Magic Weapon with x added Lightning Damage one tier higher / Maximum tier is Tier 3",
+   "Recipes": "Magic or Rare Weapon with x added Lightning Damage explicit mod (or Normal rarity for adding lowest tier mod) / Orb of Augmentation / Topaz Flask",
+   "_section": "Equipment › Basic crafting › Create new item"
+  },
+  {
+   "Result": "Magic Amulet or Ring with x% to Chaos Resistance one tier higher / Maximum tier is Tier 2 ((26–30)% to Chaos Resistance)",
+   "Recipes": "Magic or Rare Amulet or Ring with x% to Chaos Resistance explicit mod (or Normal rarity for adding lowest tier mod) / Orb of Augmentation / Amethyst Flask",
+   "_section": "Equipment › Basic crafting › Create new item"
+  },
+  {
+   "Result": "Magic Weapon with (40 to 84%) Increased Physical Damage",
+   "Recipes": "Weapon / Magic/Rare/Unique Rustic Sash / Blacksmith's Whetstone",
+   "Notes": "Weapon may be any rarity, recipe always makes a Magic item. / Magic Rustic Sash - the \"Heavy\" mod (40-49% - level requirement 1) / Rare Rustic Sash - the \"Serrated\" mod (50-64% - level requirement 8) / Unique Rustic Sash - the \"Wicked\" mod (65-84% - level requirement 18)",
+   "_section": "Equipment › Basic crafting › Create new item"
+  },
+  {
+   "Result": "Magic Weapon with (10 to 39%) Increased Spell Damage (one hand) or (15 to 59%) Increased Spell Damage (two hand)",
+   "Recipes": "Rune Dagger/Sceptre/Wand/generic Staff / Magic/Rare/Unique Chain Belt / Blacksmith's Whetstone",
+   "Notes": "Weapon may be any rarity, recipe always makes a Magic item. / Magic Chain Belt - the \"Apprentice's\" mod (Apprentice's for one hand; Apprentice's for two hand - level requirement 1) / Rare Chain Belt - the \"Adept's\" mod (Adept's for one hand; Adept's for two hand - level requirement 8) / Unique Chain Belt - the \"Scholar's\" mod (Scholar's for one hand; Scholar's for two hand - level requirement 18)",
+   "_section": "Equipment › Basic crafting › Create new item"
+  },
+  {
+   "Result": "Magic Weapon with +1 to Level of all Physical Spell Skill Gems Magic Staff with +2 to Level of all Physical Spell Skill Gems",
+   "Recipes": "Normal Rune Dagger/Sceptre/Staff/Wand / 2 or more quality gems with a combined total of 40% quality & the Physical tag",
+   "Notes": "All gems must have the required damage type tags. / The two-hand version of these mods is always +2 gem levels. / Physical - Lithomancer's mod for one-hand; Lithomancer's mod for two-hand / Fire - Flame Shaper's mod for one-hand; Flame Shaper's mod for two-hand / Cold - Frost Singer's mod for one-hand; Frost Singer's mod for two-hand / Lightning - Thunderhand's mod for one-hand; Thunderhand's mod for two-hand / Chaos - Mad Lord's mod for one-hand; Mad Lord's mod for two-hand / Cannot use warstaff or generic dagger",
+   "_section": "Equipment › Basic crafting › Modify existing item"
+  },
+  {
+   "Result": "Magic Weapon with +1 to Level of all Fire Spell Skill Gems Magic Staff with +2 to Level of all Fire Spell Skill Gems",
+   "Recipes": "Normal Rune Dagger/Sceptre/Staff/Wand / 2 or more quality gems with a combined total of 40% quality & the Fire tag",
+   "_section": "Equipment › Basic crafting › Modify existing item"
+  },
+  {
+   "Result": "Magic Weapon with +1 to Level of all Cold Spell Skill Gems Magic Staff with +2 to Level of all Cold Spell Skill Gems",
+   "Recipes": "Normal Rune Dagger/Sceptre/Staff/Wand / 2 or more quality gems with a combined total of 40% quality & the Cold tag",
+   "_section": "Equipment › Basic crafting › Modify existing item"
+  },
+  {
+   "Result": "Magic Weapon with +1 to Level of all Lightning Spell Skill Gems Magic Staff with +2 to Level of all Lightning Spell Skill Gems",
+   "Recipes": "Normal Rune Dagger/Sceptre/Staff/Wand / 2 or more quality gems with a combined total of 40% quality & the Lightning tag",
+   "_section": "Equipment › Basic crafting › Modify existing item"
+  },
+  {
+   "Result": "Magic Weapon with +1 to Level of all Chaos Spell Skill Gems Magic Staff with +2 to Level of all Chaos Spell Skill Gems",
+   "Recipes": "Normal Rune Dagger/Sceptre/Staff/Wand / 2 or more quality gems with a combined total of 40% quality & the Chaos tag",
+   "_section": "Equipment › Basic crafting › Modify existing item"
+  },
+  {
+   "Result": "Magic Helmet with +1 to Level of all Minion Skill Gems",
+   "Recipes": "Normal Helmet / 2 or more quality gems with a combined total of 40% quality & the Minion tag",
+   "Notes": "All gems must have the required tags.",
+   "_section": "Equipment › Basic crafting › Modify existing item"
+  },
+  {
+   "Result": "Cluster Jewel with # Added Passive Skill is a Jewel Socket Enchantment",
+   "Recipes": "Cluster Jewel with # Added Passive Skill is a Jewel Socket suffix mod",
+   "Notes": "The jewel socket suffix is removed. / All other affixes are retained. / Exists to convert legacy Cluster Jewels into contemporary equivalents, as jewel sockets in cluster jewels used to be a modifier.",
+   "_section": "Equipment › Basic crafting › Modify existing item"
+  },
+  {
+   "Result": "Ruby Ring (normal)",
+   "Recipes": "1x Iron Ring / 1x red gem",
+   "Notes": "",
+   "_section": "Equipment › Basic item production"
+  },
+  {
+   "Result": "Topaz Ring (normal)",
+   "Recipes": "1x Iron Ring / 1x green gem",
+   "Notes": "",
+   "_section": "Equipment › Basic item production"
+  },
+  {
+   "Result": "Sapphire Ring (normal)",
+   "Recipes": "1x Iron Ring / 1x blue gem",
+   "Notes": "",
+   "_section": "Equipment › Basic item production"
+  },
+  {
+   "Result": "Prismatic Ring",
+   "Recipes": "1x Two-Stone Ring / 1x Two-Stone Ring / 1x Two-Stone Ring",
+   "Notes": "Each Two-Stone Ring must be a different stone combination. The resulting ring will have the same itemlevel as the lowest of the 3 rings used.",
+   "_section": "Equipment › Basic item production"
+  },
+  {
+   "Result": "Coral Amulet (rare, unidentified)",
+   "Recipes": "7x Iron Ring (magic or rare) / 1x Coral Ring (rare)",
+   "Notes": "The resulting Coral Amulet will have the same item level as the Coral Ring; the item level of the Iron Rings is irrelevant. For the Iron Rings the 5-to-1 recipe for an unidentified magic or rare Iron Ring takes precedence over this recipe, so 4 magic and 3 rare rings (or vice versa) must be used. Recipe produces a shaper coral amulet if all used rings are shaped.",
+   "_section": "Equipment › Basic item production"
+  },
+  {
+   "Result": "Paua Amulet (rare, unidentified)",
+   "Recipes": "7x Iron Ring (magic or rare) / 1x Paua Ring (rare)",
+   "Notes": "The resulting Paua Amulet will have the same item level as the Paua Ring; the item level of the Iron Rings is irrelevant. For the Iron Rings the 5-to-1 recipe for an unidentified magic or rare Iron Ring takes precedence over this recipe, so 4 magic and 3 rare rings (or vice versa) must be used. Recipe produces a shaper paua amulet if all used rings are shaped.",
+   "_section": "Equipment › Basic item production"
+  },
+  {
+   "Result": "Onyx Amulet (normal)",
+   "Recipes": "1x amulet / 1x red gem / 1x green gem / 1x blue gem",
+   "Notes": "This works even if the input amulet is corrupted. The resulting Onyx Amulet will not be corrupted, and any influence present on the input amulet will persist to the resulting Onyx Amulet. This can be used along with the Locus of Corruption in Incursion, which has a 25% chance of changing the sacrificed item into a corrupted influenced rare. If used on an amulet, it can then be traded to a vendor using this recipe to obtain an uncorrupted Onyx Amulet with the same influence.",
+   "_section": "Equipment › Basic item production"
+  },
+  {
+   "Result": "Double-influenced Onyx Amulet",
+   "Recipes": "1x Astrolabe Amulet / 1x red gem / 1x green gem / 1x blue gem",
+   "Notes": "The influences are random.",
+   "_section": "Equipment › Basic item production"
+  },
+  {
+   "Result": "Agate Amulet",
+   "Recipes": "1x Amber Amulet / 1x Lapis Amulet / 1x Orb of Transmutation",
+   "Notes": "",
+   "_section": "Equipment › Basic item production"
+  },
+  {
+   "Result": "Turquoise Amulet",
+   "Recipes": "1x Jade Amulet / 1x Lapis Amulet / 1x Orb of Transmutation",
+   "Notes": "",
+   "_section": "Equipment › Basic item production"
+  },
+  {
+   "Result": "Citrine Amulet",
+   "Recipes": "1x Amber Amulet / 1x Jade Amulet / 1x Orb of Transmutation",
+   "Notes": "",
+   "_section": "Equipment › Basic item production"
+  },
+  {
+   "Result": "Grasping Mail (rare, unidentified)",
+   "Recipes": "60x Breach Ring",
+   "Notes": "The resulting Grasping Mail will have 1-3 special Breachlord modifiers, which cannot be rolled normally. Its item level is the average item level of all Breach Rings.",
+   "_section": "Equipment › Basic item production"
+  },
+  {
+   "Result": "Grasping Mail (rare, unidentified)",
+   "Recipes": "60x any combination of the following Breach rings: / Enthalpic Ring / Cryonic Ring / Synaptic Ring / Organic Ring / Fugitive Ring",
+   "Notes": "The rings can be any rarity, including unique. The rings can be unidentified, corrupted, or split. The resulting Grasping Mail will have 1-3 special Breachlord modifiers, which cannot be rolled normally. Its item level is the average item level of all rings. The number of each base type used influence which Breachlord modifiers can roll and the likelihood for each Breachlord's modifiers. See Grasping Mail § Keepers league vendor recipe.",
+   "_section": "Equipment › Basic item production"
+  },
+  {
+   "Result": "Item (magic, unidentified)",
+   "Recipes": "5x item (magic)",
+   "Notes": "The components must all be of the same base item type (e.g., Coral Ring). The result will have the lowest item level of all components. This vendor recipe doesn't transfer influence to the resulting item, even if all five components are from the same influence.",
+   "_section": "Equipment › Basic item production"
+  },
+  {
+   "Result": "Item (rare, unidentified)",
+   "Recipes": "5x item (rare)",
+   "Notes": "Components must all be of the same base item type (e.g. Coral Ring). / Resulting item level - lowest of all components, and normal art. / Cluster jewels - random number of passives and type of small passives on resulting item / The recipe does not transfer influence to the resulting item, even if all five components are from the same influence.",
+   "_section": "Equipment › Basic item production"
+  },
+  {
+   "Result": "Item (magic/rare, corrupted/uncorrupted)",
+   "Recipes": "5x item (magic/rare, corrupted)",
+   "Notes": "Components must all be of the same base item type (e.g. Coral Ring). / Resulting item level - lowest of all components, and normal art, not corrupted except basetype list below. / The recipe works with item that are naturally corrupted: e.g. legacy Breach Rings and Thief's Trinket etc. The resulting item is also corrupted. / Legacy Talismans could only historically be directly obtained corrupted, but this recipe returns an uncorrupted copy as talismans are no longer corrupted by default. / Cluster jewels - randomizes the number of passives and type of small passives on resulting item / The recipe does not transfer influence to the resulting item, even if all five components are from the same influence. / This recipe can be used to obtain craftable versions of basetypes that only exist as Unique items, such as Prismatic Jewels, by using uniques that have been corrupted into rares.",
+   "_section": "Equipment › Basic item production"
+  },
+  {
+   "Result": "Hybrid Flask",
+   "Recipes": "1x Orb of Fusing / 1x Life Flask / 1x Mana Flask",
+   "_section": "Equipment › Flasks"
+  },
+  {
+   "Result": "1x Life Flask of next base type",
+   "Recipes": "3x Life Flask",
+   "Notes": "The components must all be of the same base item type (e.g. Small Life Flask). The result will have the lowest item level of all components. If all three are magic, the result will be magic and unidentified. NOTE: This works only up to combining Hallowed (Level 42) Flasks into Sanctified (Level 50). Divine and Eternal Flasks cannot be produced through combination.",
+   "_section": "Equipment › Flasks"
+  },
+  {
+   "Result": "1x Mana Flask of next base type",
+   "Recipes": "3x Mana Flask",
+   "Notes": "The components must all be of the same base item type (e.g. Small Mana Flask). The result will have the lowest item level of all components. If all three are magic, the result will be magic and unidentified. NOTE: This works only up to combining Hallowed (Level 42) Flasks into Sanctified (Level 50). Divine and Eternal Flasks cannot be produced through combination.",
+   "_section": "Equipment › Flasks"
+  },
+  {
+   "Result": "1x Hybrid Flask of next base type",
+   "Recipes": "3x Hybrid Flask",
+   "Notes": "The components must all be of the same base item type (e.g. Small Hybrid Flask). The result will have the lowest item level of all components. If all three are magic, the result will be magic and unidentified.",
+   "_section": "Equipment › Flasks"
+  },
+  {
+   "Result": "Jade Flask",
+   "Recipes": "Ruby Flask with any #% increased Evasion Rating during Effect modifier / Sapphire Flask with any #% increased Evasion Rating during Effect modifier / Topaz Flask with any #% increased Evasion Rating during Effect modifier",
+   "Notes": "Modifiers can be different. Ignores quality and corruption on components. The resulting item will have no quality.",
+   "_section": "Equipment › Flasks"
+  },
+  {
+   "Result": "Granite Flask",
+   "Recipes": "Ruby Flask with any #% increased Armour during Effect modifier / Sapphire Flask with any #% increased Armour during Effect modifier / Topaz Flask with any #% increased Armour during Effect modifier",
+   "Notes": "Modifiers can be different. Ignores quality and corruption on components. The resulting item will have no quality.",
+   "_section": "Equipment › Flasks"
+  },
+  {
+   "Result": "1x Life Flask of the Novice (mod originally known as of Animation)",
+   "Recipes": "1x Any rarity Life Flask / 1x Orb of Transmutation / 1x Any rarity Bone Spirit Shield",
+   "Notes": "The resulting item will have the same quality as the component flask. No longer works with corrupted flasks.",
+   "_section": "Equipment › Flasks"
+  },
+  {
+   "Result": "1x Enkindling Orb",
+   "Recipes": "4x Instilling Orb / 1x Trigger Gem / 1x Orb of Scouring",
+   "Notes": "",
+   "_section": "Equipment › Flasks"
+  },
+  {
+   "Result": "1x Instilling Orb",
+   "Recipes": "2x Enkindling Orb / 1x Trigger Gem / 1x Orb of Alchemy",
+   "Notes": "",
+   "_section": "Equipment › Flasks"
+  },
+  {
+   "Result": "The Anima Stone",
+   "Recipes": "1x Primordial Might / 1x Primordial Harmony / 1x Primordial Eminence",
+   "Notes": "",
+   "_section": "Equipment › Unique items › Crafting"
+  },
+  {
+   "Result": "Arborix",
+   "Recipes": "1x Grelwood Shank / 1x Beltimber Blade / 1x Orb of Fusing",
+   "Notes": "",
+   "_section": "Equipment › Unique items › Crafting"
+  },
+  {
+   "Result": "Cameria's Avarice",
+   "Recipes": "1x Cameria's Maul / 1x Ice Bite Support with 20% quality / 1x Glacial Hammer with 20% quality / 1x Ice Spear with 20% quality",
+   "Notes": "",
+   "_section": "Equipment › Unique items › Crafting"
+  },
+  {
+   "Result": "Combat Focus",
+   "Recipes": "1x uncorrupted gem with the Prismatic gem tag and 20% quality / One of the following: / 1x Ruby Ring and 1x Sapphire Ring / 1x Ruby Ring and 1x Topaz Ring / 1x Sapphire Ring and 1x Topaz Ring",
+   "Notes": "The resulting Combat Focus jewel will block the element of the ring that was not used in the recipe. / Ruby Ring + Sapphire Ring = Combat Focus / Ruby Ring + Topaz Ring = Combat Focus / Sapphire Ring + Topaz Ring = Combat Focus",
+   "_section": "Equipment › Unique items › Crafting"
+  },
+  {
+   "Result": "Duskdawn",
+   "Recipes": "1x Shade of Solaris / 1x Light of Lunaris / 1x Orb of Fusing",
+   "Notes": "Corrupted items cannot be used.",
+   "_section": "Equipment › Unique items › Crafting"
+  },
+  {
+   "Result": "The Goddess Scorned",
+   "Recipes": "1x The Goddess Bound with 20% quality / 1x Elegant Sword with 20% quality (not Unique) / 1x Combustion Support with at least 1% quality / 1x Orb of Fusing",
+   "Notes": "The sockets of The Goddess Bound and the Elegant Sword must also match exactly in number, colour, and links.",
+   "_section": "Equipment › Unique items › Crafting"
+  },
+  {
+   "Result": "Hyrri's Bite",
+   "Recipes": "1x white Sharktooth Arrow Quiver / 1x rare Onyx Amulet / 1x Rain of Arrows gem with at least 1% quality / 1x Orb of Chance",
+   "Notes": "",
+   "_section": "Equipment › Unique items › Crafting"
+  },
+  {
+   "Result": "Kingmaker",
+   "Recipes": "1x Soul Taker / 1x Heartbreaker / 1x Orb of Fusing",
+   "Notes": "Corrupted items cannot be used. If both uniques share the same influence type, the resulting item will have that influence.",
+   "_section": "Equipment › Unique items › Crafting"
+  },
+  {
+   "Result": "Loreweave",
+   "Recipes": "60x unique ring",
+   "Notes": "Corrupted rings can be used. If all 60 rings have the same influence type, the resulting item will have that influence. All other properties of the items (Veiled, Fractured, Synthesised, Foulborn, etc.) do not affect the outcome in any special way.",
+   "_section": "Equipment › Unique items › Crafting"
+  },
+  {
+   "Result": "Lost Unity",
+   "Recipes": "1x The Will of Xoph / 1x The Will of Tul / 1x The Will of Esh / 1x The Will of Uul-Netol / 1x The Sundered Will",
+   "Notes": "",
+   "_section": "Equipment › Unique items › Crafting"
+  },
+  {
+   "Result": "Magna Eclipsis",
+   "Recipes": "1x Invictus Solaris / 1x Vix Lunaris / 1x Orb of Fusing",
+   "Notes": "",
+   "_section": "Equipment › Unique items › Crafting"
+  },
+  {
+   "Result": "The Retch",
+   "Recipes": "1x Feastbind / 1x Faminebind / 1x Orb of Fusing",
+   "Notes": "Corrupted items cannot be used.",
+   "_section": "Equipment › Unique items › Crafting"
+  },
+  {
+   "Result": "Star of Wraeclast",
+   "Recipes": "1x unique Ruby Ring / 1x any rarity Onyx Amulet / 1x level 20 corrupted Lightning Warp",
+   "Notes": "Vaal Lightning Warp will not work. The unique ring must be uncorrupted.",
+   "_section": "Equipment › Unique items › Crafting"
+  },
+  {
+   "Result": "The Taming",
+   "Recipes": "1x Berek's Respite / 1x Berek's Pass / 1x Berek's Grip",
+   "Notes": "Using three alternate art Berek rings will create an alternate art The Taming. If all three rings have the same influence type, the resulting item will have that influence. Corrupted or Foulborn variants can be used. Note that using all Foulborn uniques for the recipe will not create a Foulborn The Taming (which does not exist).",
+   "_section": "Equipment › Unique items › Crafting"
+  },
+  {
+   "Result": "The Vinktar Square",
+   "Recipes": "1x Agnerod North / 1x Agnerod South / 1x Agnerod East / 1x Agnerod West",
+   "Notes": "The resulting map's tier will match the lowest item level of the items used, with a minimum of tier 10 (item level 77) and a maximum of tier 16 (item level 83).",
+   "_section": "Equipment › Unique items › Crafting"
+  },
+  {
+   "Result": "1x unique item",
+   "Recipes": "3x unique item (same name, not corrupted)",
+   "Notes": "The unique items used as recipe components must not only have the same name, but also be of the same unique item variant; if they can generate with variable explicit modifier, all modifiers must be the same between the three items. The resulting item will be of the same variant as the components. This rule also applies to legacy variants. The resulting unique item will have its natural implicit modifier, if any. As of version 3.23.0d, unique synthesised item instead return a synthesised unique item with randomised synthesised implicit modifiers instead. Synthesis \"Circle\" Rings also require that they have the same random explicit modifiers. Foulborn unique items cannot be used as components in the 3 to 1 vendor recipe as of version 3.27.0c, and are not interchangeable for their regular versions.",
+   "_section": "Equipment › Unique items › Rerolling"
+  },
+  {
+   "Result": "20x Orb of Fusing",
+   "Sockets": "6 linked",
+   "Priority": "1",
+   "_section": "Sockets"
+  },
+  {
+   "Result": "1x Chromatic Orb",
+   "Sockets": "Linked red, green, and blue",
+   "Priority": "2",
+   "_section": "Sockets"
+  },
+  {
+   "Result": "7x Jeweller's Orb",
+   "Sockets": "6",
+   "Priority": "3",
+   "_section": "Sockets"
+  },
+  {
+   "Result": "1x Scroll Fragment",
+   "Recipes": "any item without a higher-value vendor recipe",
+   "_section": "Single Item with Mods › Scroll Fragment"
+  },
+  {
+   "Result": "2x Transmutation Shard",
+   "Item rarity": "magic, unidentified",
+   "_section": "Single Item with Mods › Transmutation Shard"
+  },
+  {
+   "Result": "5x Transmutation Shard",
+   "Item rarity": "rare, unidentified",
+   "_section": "Single Item with Mods › Transmutation Shard"
+  },
+  {
+   "Result": "1x Alteration Shard",
+   "Item mod": "#% increased Flask Charges gained / #% increased Flask Life/Mana Recovery Rate / #% increased Global Accuracy Rating / #% increased Light Radius / #% increased Mana Regeneration Rate / #% increased Stun and Block Recovery / #% reduced Attribute Requirements / #% reduced Enemy Stun Threshold / #% reduced Flask Charges used / +# to Accuracy Rating / +# to maximum Mana / +#% (Fire/Cold/Lightning) Resistance / Adds # to # (Fire/Cold/Lightning) Damage to Attacks (Jewellery, Quiver, Gloves) / Adds # to # Cold Damage / Gain # (Life/Mana) per Enemy Killed / Gain # Life per Enemy hit by Attacks / Minions have #% increased Movement Speed / Reflect # Physical Damage to Melee Attackers / Regenerate # Life per Second",
+   "_section": "Single Item with Mods › Alteration Shard"
+  },
+  {
+   "Result": "3x Alteration Shard",
+   "Item mod": "#% increased (Armour/Evasion/Energy Shield) / #% increased (Armour/Evasion/Energy Shield) / #% increased Stun and Block Recovery / #% increased (Fire/Cold/Lightning/Minion) Damage / #% increased Attack/Cast Speed / #% increased Critical Strike Chance / #% increased Critical Strike Chance for Spells / #% increased Critical Strike Chance with Bows / #% increased Damage with Bow Skills / #% increased Elemental Damage with Attack Skills / #% increased Maximum Energy Shield (Jewellery) / #% increased Physical Damage / +# to Accuracy Rating / #% increased Projectile Speed / #% increased Spell Damage (Amulet) / #% increased Spell Damage / +# to maximum Mana / #% increased Stun Duration on Enemies / #% of Physical Attack Damage Leeched as Life / +# Maximum Life / +# to (Armour/Evasion Rating/maximum Energy Shield) / +# to maximum Energy Shield / +# to maximum Mana / +# to Maximum Life / +# to (Armour/Evasion Rating/maximum Energy Shield) / +# to Strength/Dexterity/Intelligence / Adds # to # (Fire/Cold/Lightning) Damage to Spells / Adds # to # (Fire/Lightning) Damage (Weapon) / Adds # to # Physical Damage to Attacks (Jewellery, Quiver, Gloves) / Minions deal #% increased Damage / Minions deal #% increased Damage / +#% to maximum Mana / Minions have #% additional Physical Damage Reduction / Minions have #% increased Attack and Cast Speed / Minions have #% increased Critical Strike Chance / Minions have +# to Accuracy Rating / Minions have +#% to all Elemental Resistances / Minions have +#% to all maximum Elemental Resistances / You take #% reduced Extra Damage from Critical Strikes",
+   "_section": "Single Item with Mods › Alteration Shard"
+  },
+  {
+   "Result": "5x Alteration Shard",
+   "Item mod": "#% additional Physical Damage Reduction / #% increased Damage with Poison / #% chance to Poison on Hit / #% increased Physical Damage (Weapon) / #% increased Spell Damage / #% of Physical Attack Damage Leeched as Mana / +# to all Attributes / +# to Level of All (Fire/Cold/Lightning/Physical/Chaos) Skill Gems / +#% chance to Suppress Spell Damage / +#% Movement Speed / +#% to (Fire/Cold/Physical/Chaos) Damage over Time Multiplier / +#% to all Elemental Resistances / +#% to Critical Strike Multiplier with Bows / +#% to Damage over Time Multiplier / +#% to Global Critical Strike Multiplier / Adds # to # to Physical Damage (Weapon) / Attacks have #% chance to cause Bleeding / #% increased Damage with Bleeding / Minions have +#% to Critical Strike Multiplier / Any modifier on a Cluster Jewel",
+   "_section": "Single Item with Mods › Alteration Shard"
+  },
+  {
+   "Result": "1x Alchemy Shard",
+   "Item mod": "+#% Chaos Resistance",
+   "_section": "Single Item with Mods › Alchemy Shard"
+  },
+  {
+   "Result": "2x Alchemy Shard",
+   "Item mod": "# Life gained when you Block / #% chance to deal Double Damage / #% chance to Shock / #% faster start of Energy Shield Recharge / #% increased (Rarity/Quantity) of Items found / #% increased Burning Damage / +#% Chance to Block / Minions have #% increased maximum Life",
+   "_section": "Single Item with Mods › Alchemy Shard"
+  },
+  {
+   "Result": "4x Alchemy Shard",
+   "Item mod": "#% chance to Avoid Elemental Ailments / #% Chance to Block Spell Damage / #% chance to Freeze / #% chance to Ignite / +# Level of all Minion Skill Gems / +# Level of all (Fire/Cold/Lightning/Physical/Chaos/Minion) Spell Skill Gems / +# Level of Socketed (Fire/Cold/Lightning/Physical/Chaos/Melee) Gems / +#% to maximum (Fire/Cold/Lightning/Chaos) Resistance",
+   "_section": "Single Item with Mods › Alchemy Shard"
+  },
+  {
+   "Result": "6x Alchemy Shard",
+   "Item mod": "#% of Damage taken Recouped as Life / +#% to all maximum Resistances",
+   "_section": "Single Item with Mods › Alchemy Shard"
+  },
+  {
+   "Result": "1x Orb of Augmentation",
+   "Item mod": "item with six affixes",
+   "_section": "Single Item with Mods › Orb of Augmentation"
+  },
+  {
+   "Result": "1x Orb of Scouring",
+   "Item mods": "Any rare item with 2 affixes. This can be created by using a Regal Orb on a one-affix magic item or by using an Orb of Annulment on a rare item.",
+   "_section": "Single Item with Mods › Orb of Scouring"
+  },
+  {
+   "Result": "1x Armourer's Scrap",
+   "Category": "Armour",
+   "_section": "Quality Items"
+  },
+  {
+   "Result": "1x Blacksmith's Whetstone",
+   "Category": "Weapon",
+   "_section": "Quality Items"
+  },
+  {
+   "Result": "1x Catalyst",
+   "Category": "Jewellery",
+   "_section": "Quality Items"
+  },
+  {
+   "Result": "1x Glassblower's Bauble",
+   "Category": "Flask",
+   "_section": "Quality Items"
+  },
+  {
+   "Result": "1x Gemcutter's Prism",
+   "Category": "Gem",
+   "_section": "Quality Items"
+  },
+  {
+   "Result": "1x Orb of Chance",
+   "Recipes": "2 x Identified rare items with same name",
+   "_section": "Multiple Rare Items › X of a Kind"
+  },
+  {
+   "Result": "1x Orb of Alchemy",
+   "Recipes": "3 x Identified rare items with same name",
+   "_section": "Multiple Rare Items › X of a Kind"
+  },
+  {
+   "Result": "1x Orb of Alchemy",
+   "Recipes": "2 x Identified rare items with same name, both ≥20% quality",
+   "_section": "Multiple Rare Items › X of a Kind"
+  },
+  {
+   "Result": "1x Regal Orb",
+   "Recipes": "3 x Identified rare items with same name, all ≥20% quality",
+   "_section": "Multiple Rare Items › X of a Kind"
+  },
+  {
+   "Result": "1x Orb of Augmentation",
+   "Rarities": "normal, magic, rare",
+   "_section": "Multiple Rare Items › Straight Flush"
+  },
+  {
+   "Result": "2x Orb of Augmentation",
+   "Rarities": "normal, magic, rare (all unidentified)",
+   "_section": "Multiple Rare Items › Straight Flush"
+  },
+  {
+   "Result": "1x Orb of Alchemy",
+   "Rarities": "normal, magic, rare (all ≥20% quality)",
+   "_section": "Multiple Rare Items › Straight Flush"
+  },
+  {
+   "Result": "2x Orb of Alchemy",
+   "Rarities": "normal, magic, rare (all ≥20% quality and unidentified)",
+   "_section": "Multiple Rare Items › Straight Flush"
+  },
+  {
+   "Result": "5x Orb of Chance",
+   "Rarities": "normal, magic, rare, unique",
+   "_section": "Multiple Rare Items › Straight Flush"
+  },
+  {
+   "Result": "1x Orb of Chance",
+   "Item Level of lowest-level item": "1 to 59",
+   "_section": "Multiple Rare Items › Full Rare Sets"
+  },
+  {
+   "Result": "2x Orb of Chance",
+   "Item Level of lowest-level item": "1 to 59, all unidentified OR all ≥20% quality",
+   "_section": "Multiple Rare Items › Full Rare Sets"
+  },
+  {
+   "Result": "3x Orb of Chance",
+   "Item Level of lowest-level item": "1 to 59, all unidentified AND all ≥20% quality",
+   "_section": "Multiple Rare Items › Full Rare Sets"
+  },
+  {
+   "Result": "1x Chaos Orb",
+   "Item Level of lowest-level item": "60 to 74",
+   "_section": "Multiple Rare Items › Full Rare Sets"
+  },
+  {
+   "Result": "2x Chaos Orb",
+   "Item Level of lowest-level item": "60 to 74, all unidentified OR all ≥20% quality",
+   "_section": "Multiple Rare Items › Full Rare Sets"
+  },
+  {
+   "Result": "3x Chaos Orb",
+   "Item Level of lowest-level item": "60 to 74, all unidentified AND all ≥20% quality",
+   "_section": "Multiple Rare Items › Full Rare Sets"
+  },
+  {
+   "Result": "1x Regal Orb",
+   "Item Level of lowest-level item": "75 to 100",
+   "_section": "Multiple Rare Items › Full Rare Sets"
+  },
+  {
+   "Result": "2x Regal Orb",
+   "Item Level of lowest-level item": "75 to 100, all unidentified OR all 20% quality",
+   "_section": "Multiple Rare Items › Full Rare Sets"
+  },
+  {
+   "Result": "3x Regal Orb",
+   "Item Level of lowest-level item": "75 to 100, all unidentified AND all 20% quality",
+   "_section": "Multiple Rare Items › Full Rare Sets"
+  },
+  {
+   "Result": "1x Exalted Orb",
+   "Requirement": "Identified, full set of rare influenced items with the same type of influence",
+   "_section": "Multiple Rare Items › Influenced full rare item sets"
+  },
+  {
+   "Result": "2x Exalted Orb",
+   "Requirement": "Unidentified, full set of rare influenced items with the same type of influence",
+   "_section": "Multiple Rare Items › Influenced full rare item sets"
+  },
+  {
+   "Result": "1x Jeweller's Orb",
+   "Recipes": "1x Orb of Fusing / 1x Chromatic Orb",
+   "_section": "Downgrade"
+  },
+  {
+   "Result": "1x Scroll of Wisdom",
+   "Recipes": "1x Portal Scroll",
+   "_section": "Downgrade"
+  },
+  {
+   "Result": "2x Scroll of Wisdom",
+   "Recipes": "1x Armourer's Scrap",
+   "_section": "Downgrade"
+  },
+  {
+   "Result": "4x Scroll of Wisdom",
+   "Recipes": "1x Blacksmith's Whetstone",
+   "_section": "Downgrade"
+  },
+  {
+   "Result": "1x Orb of Alteration",
+   "_section": "Downgrade"
+  },
+  {
+   "Result": "1x Orb of Transmutation",
+   "_section": "Downgrade"
+  },
+  {
+   "Result": "2x Exalted Orb / 5x Regal Orb / 1x Divine Orb",
+   "Recipes": "1x Mirror of Kalandra",
+   "_section": "Downgrade"
+  },
+  {
+   "Result": "Divine Orb",
+   "Recipes": "no known recipe with this as sole result, but see the result for Mirror of Kalandra",
+   "_section": "No Known Recipes"
+  },
+  {
+   "Result": "Blessed Orb",
+   "Recipes": "no known recipes",
+   "_section": "No Known Recipes"
+  },
+  {
+   "Result": "Orb of Regret",
+   "Recipes": "Vendoring the imprint of an Eternal Orb yields an Orb of Regret, and vendoring any Book of Reform(Bandit quest reward change book) yields 20 orbs of regret, but no other recipes are known",
+   "_section": "No Known Recipes"
+  },
+  {
+   "Result": "Portal Scroll",
+   "Recipes": "no known recipes",
+   "_section": "No Known Recipes"
+  },
+  {
+   "Result": "Eternal Orb",
+   "Recipes": "no known recipes",
+   "_section": "No Known Recipes"
+  },
+  {
+   "Result": "1x Vaal Orb",
+   "Recipes": "7x vaal skill gems / 1x Sacrifice vaal fragment",
+   "Notes": "",
+   "_section": "Crafting Material"
+  },
+  {
+   "Result": "1x Vaal Orb",
+   "Recipes": "1x of any unique item that drops from Uber Atziri",
+   "_section": "Crafting Material"
+  },
+  {
+   "Result": "1x Essence tier upgrade",
+   "Recipes": "3x Essence of the same type and tier",
+   "Notes": "Results in Essence of the same type, one tier higher.",
+   "_section": "Crafting Material"
+  },
+  {
+   "Result": "Decrease level of gem by 1 level",
+   "Recipes": "1x gem / 1x Orb of Scouring",
+   "Notes": "Does not work with Corrupted gems, including Vaal gems.",
+   "_section": "Gems"
+  },
+  {
+   "Result": "Reset level of gem to level 1",
+   "Recipes": "1x gem / 1x Orb of Regret",
+   "Notes": "Does not work with Corrupted gems, including Vaal gems.",
+   "_section": "Gems"
+  },
+  {
+   "Result": "20% quality support gem",
+   "Recipes": "1x level 20 non-Awakened non-Exceptional support gem / 1x Gemcutter's Prism",
+   "Notes": "The resulting gem will be of the same gem type, and will have its level reset to 1. Does not work with Corrupted gems (including Vaal gems), skill gems, or support gems with a maximum level below 20 (including awakened support gems and exceptional gems).",
+   "_section": "Gems"
+  },
+  {
+   "Result": "1xBlock Chance Reduction Support",
+   "Recipes": "1x any dexterity shield with ≥20% quality / 1x Puncture",
+   "_section": "Gems"
+  },
+  {
+   "Result": "1x Mirror Arrow",
+   "Recipes": "1x Blink Arrow / 1x Orb of Alteration",
+   "Notes": "",
+   "_section": "Gems"
+  },
+  {
+   "Result": "1x Blink Arrow",
+   "Recipes": "1x Mirror Arrow / 1x Orb of Alteration",
+   "_section": "Gems"
+  },
+  {
+   "Result": "1x level 1 Bonechill Support / 1x level 1 Hypothermia Support / 1x level 1 Ice Bite Support / 1x level 1 Cold Penetration Support / 1x level 10 Added Cold Damage Support / 1x level 1 Inspiration Support",
+   "Recipes": "1x Bitterdream",
+   "Notes": "",
+   "_section": "Gems"
+  },
+  {
+   "Result": "1x level 1 Fire Penetration Support, Cold Penetration Support, or Lightning Penetration Support (random 1/3) / 1x level 10 Innervate Support / 1x level 10 Ice Bite Support / 1x level 10 Immolate Support / 1x level 1 Unbound Ailments Support / 1x level 1 Unleash Support",
+   "Recipes": "1x Replica Bitterdream",
+   "Notes": "Replica Bitterdream returns Unleash Support when vendored, instead of the expected Inspiration Support.",
+   "_section": "Gems"
+  },
+  {
+   "Result": "1x Elemental Penetration Support / 1x level 10 Innervate Support / 1x level 10 Ice Bite Support / 1x level 10 Immolate Support / 1x level 1 Unbound Ailments Support / 1x level 1 Unleash Support",
+   "Recipes": "1x Replica Bitterdream / 1x level 20 Fire Penetration Support / 1x level 20 Cold Penetration Support / 1x level 20 Lightning Penetration Support",
+   "Notes": "",
+   "_section": "Gems"
+  },
+  {
+   "Result": "Consumed support gems",
+   "Recipes": "1x The Hungry Loop",
+   "Notes": "Resulting gems are at maximum level with 0% Quality.",
+   "_section": "Gems"
+  },
+  {
+   "Result": "1x map, one tier higher",
+   "Recipes": "3x map of the same tier",
+   "Notes": "The resulting map is always normal rarity. Can mix and match with Blighted maps, but will still return a regular map.",
+   "_section": "Atlas of Worlds utility"
+  },
+  {
+   "Result": "5x Divine Vessel",
+   "Recipes": "5x Normal flask (any combination) / 1x Divine Orb",
+   "Notes": "",
+   "_section": "Atlas of Worlds utility"
+  },
+  {
+   "Result": "1x random scarab of a different type",
+   "Recipes": "3x scarabs (any type)",
+   "Notes": "The random scarab will be of a different type from the scarabs used for the recipe.",
+   "_section": "Atlas of Worlds utility"
+  },
+  {
+   "Result": "1x Fracturing Shard",
+   "Recipes": "Any Harbinger unique",
+   "Notes": "Does not include Harbinger item pieces and The Beachhead",
+   "_section": "Harbinger"
+  },
+  {
+   "Result": "1x Net, one tier higher",
+   "Recipes": "3x of the same nets",
+   "_section": "Bestiary"
+  },
+  {
+   "Result": "10x Timeless Splinter",
+   "Recipes": "Any unique Timeless Jewel",
+   "Notes": "Returns the corresponding faction's splinters. Does not include Heroic Tragedy.",
+   "_section": "Legion"
+  },
+  {
+   "Result": "1x tier higher Oil",
+   "Recipes": "3x oils, all of same type",
+   "Notes": "Cannot return a Tainted Oil, Prismatic Oil, or Reflective Oil.",
+   "_section": "Blight"
+  },
+  {
+   "Result": "1x random Catalyst",
+   "Recipes": "3x Catalysts, all of same type",
+   "Notes": "Cannot return a Tainted Catalyst, Sinistral Catalyst, or Dextral Catalyst.",
+   "_section": "Ultimatum"
+  },
+  {
+   "Result": "1x random Inscribed Ultimatum",
+   "Recipes": "5x Inscribed Ultimatum, any reward or encounter type",
+   "Notes": "The returned Inscribed Ultimatum's area level is the lowest of the 5 Inscribed Ultimatums used in the recipe. The reward and encounter type is random. / Note: if all 5 Inscribed Ultimatums are the same tier (damage/life% modifier), the resulting Inscribed Ultimatum's reward will also be of the same tier.",
+   "_section": "Ultimatum"
+  },
+  {
+   "Result": "1x Catalyst",
+   "Recipes": "20% quality normal jewellery",
+   "Notes": "The returned catalyst will match the quality type.",
+   "_section": "Ultimatum"
+  },
+  {
+   "Result": "1x Catalyst",
+   "Recipes": "Jewellery with a total of at least 40% of the same quality type",
+   "Notes": "",
+   "_section": "Ultimatum"
+  },
+  {
+   "Result": "1x random tattoo from same tribe",
+   "Recipes": "3x tattoos from same tribe",
+   "Notes": "There are 10 Tribes (Arohongui, Hinekora, etc.). Not to be confused with the Attribute type (Strength/Dexterity/Intelligence) of the Tattoo. It is possible to receive back the same type of Tattoo that you just sold 3 copies of.",
+   "_section": "Settlers of Kalguur"
+  },
+  {
+   "Result": "1x random runegraft",
+   "Recipes": "3x runegraft, any",
+   "Notes": "",
+   "_section": "Settlers of Kalguur"
+  },
+  {
+   "Result": "1x Idol of same type",
+   "Recipes": "3x Idols, all of same type",
+   "Notes": "Cannot use Unique idols",
+   "_section": "Legacy of Phrecia (idols)"
+  },
+  {
+   "Result": "1x random wombgift",
+   "Recipes": "5x wombgifts, any type",
+   "Notes": "Output item has the lowest item level among the input items.",
+   "_section": "Breach"
+  },
+  {
+   "Result": "1x Hivebrain Gland",
+   "Recipes": "1x Breachstone",
+   "Notes": "Non-functional legacy item. Includes Flawless Breachstones",
+   "_section": "Breach"
+  },
+  {
+   "Choice": "Save Kraityn",
+   "Recipes": "20x Orb of Regret / 1x Jade Amulet",
+   "Result": "Book of Reform which grants Kraityn's favour",
+   "_section": "Progression change › Bandit quest reward change"
+  },
+  {
+   "Choice": "Save Alira",
+   "Recipes": "20x Orb of Regret / 1x Lapis Amulet",
+   "Result": "Book of Reform which grants Alira's favour",
+   "_section": "Progression change › Bandit quest reward change"
+  },
+  {
+   "Choice": "Save Oak",
+   "Recipes": "20x Orb of Regret / 1x Amber Amulet",
+   "Result": "Book of Reform which grants Oak's favour",
+   "_section": "Progression change › Bandit quest reward change"
+  },
+  {
+   "Choice": "Kill all bandits",
+   "Recipes": "20x Orb of Regret / 1x Onyx Amulet",
+   "Result": "Book of Reform which grants Eramir's favour",
+   "_section": "Progression change › Bandit quest reward change"
+  },
+  {
+   "Version": "3.29.0",
+   "Changes": "Legacy Talismans are no longer corrupted by default; using the 5-to-1 vendor recipe now returns an uncorrupted copy of the legacy talisman.[Undocumented] / The lowest tier for + physical/fire/cold/lightning/chaos skills on staff is now +2 instead of +(1-2), so the vendor recipe for a + skill level staff now always gives a +2 staff.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.28.0",
+   "Changes": "The priority of the Jeweller's Orb recipe and the Chromatic Orb have been swapped.[Undocumented]",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.28.0",
+   "Changes": "Removed all Vendor Recipes that could grant Cartographer's Chisels. / Breachstones are now non-functional. They can be traded to a vendor in exchange for a Hivebrain Gland (and not asking too many questions). / The vendor recipe for a full set of influenced items of the same type now returns 1 Exalted Orb instead of 2 Exalted Shards (double the amount of all items are unidentified). / Added 1 new Vendor Recipe.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.27.0c",
+   "Changes": "You can now vendor five Wombgifts to receive a random Wombgift in return.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.26.0e",
+   "Changes": "You can no longer vendor 5 Valdo's Maps for a new one.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.25.0",
+   "Changes": "The Cartographer's Chisel vendor recipe now only accepts a Gavel base type, rather than Stone Hammers/Rock Breakers. / The Scarab vendor recipe now returns surplus Scarabs when you vendor four or more Scarabs. / Fixed a bug where some vendor recipes could un-Fracture Fractured Items.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.24.2",
+   "Changes": "(Hotfix 7) The vendor recipe that provides a Life Flask with the \"of the Novice\" modifier no longer works with Corrupted Flasks.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.24.0",
+   "Changes": "Previous vendor recipes for Scarabs have been removed, though we have added a new vendor recipe that can be used to trade three Scarabs for a single Scarab of type different from those vendored.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "Before 3.23.0d",
+   "Changes": "Synthesised unique items now return a synthesised copy with a random synthesised implicit instead of a non-synthesised version when vendored using the 3-to-1 vendor recipe. [Undocumented]",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.23.0",
+   "Changes": "You can once again vendor 5 Inscribed Ultimatums for a new Inscribed Ultimatum. / The resulting Inscribed Ultimatum's area level now matches the lowest area level of the 5 input items, rather than the average. [Undocumented] / The vendor recipe for turning a Level 20 Gem into a 20% Quality Level 1 version of that Gem no longer works with Skill Gems, as the benefit Quality provides to damage dealing Skills is now more powerful. The vendor recipe can now only be used with non-Awakened Support Gems. / The Endless Misery, Soul's Wick and Spirit Guards Unique Jewels can no longer be obtained, as benefits these provided are now found on Transfigured Skill Gems. The vendor recipes for Dead Reckoning, Spirit Guards and Endless Misery have also been removed.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.22.1",
+   "Changes": "Added a vendor recipe that can be used to trade three Tattoos from a tribe for a random single Tattoo of that same tribe.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.21.0",
+   "Changes": "The Vendor Recipe granting flat Elemental Damage to Spells no longer exists. / e.g. Adds # to # Lightning/Fire/Cold Damage to Spells / You can no longer create Books of Regression. Existing unused Books of Regression will be destroyed when 3.21 is deployed.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.19.0",
+   "Changes": "Helmets can no longer roll +1–3 to Level of socketed Minion Gems. Instead, they can now roll +1–2 to Level of all Minion Skill Gems. The Vendor Recipe for a Helmet with a +1 to Level of socketed Minion Gems modifier has been replaced with a new recipe. / Selling an item with 6 Linked Sockets to a vendor now yields 20 Orbs of Fusing, instead of a Divine Orb. / Added a vendor recipe for Cameria's Avarice.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.14.2",
+   "Changes": "Fixed a bug where the vendor recipe for three of the same maps could result in a legacy variant.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.14.0",
+   "Changes": "Added six new Vendor recipes.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.13.0",
+   "Changes": "Items that appear identified or with visible variable properties in a Vendor's window as a result of a recipe now have their properties hidden until the trade is complete. You can no longer see the modifier values change as a result of different ingredient inputs, and will just have to hope for the best (like real cooking (at least how I do it)). / You can now perform the 5-for-1 recipe on items with outputs that are always corrupted (such as Talismans and Breach Rings).",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.10.0",
+   "Changes": "You can once again sell three sextants of the same tier to a vendor for a sextant one tier higher.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.9.0",
+   "Changes": "Removed the Sextant upgrading recipe.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.8.0",
+   "Changes": "The +1 to Lightning, Fire and Cold Gems weapon vendor recipes now instead grants a weapon with added damage of that element for spells. The Chaos variant of this recipe has been removed. The values of the modifiers granted by these recipes is dependant on the rarity of the ring used. This recipe now also works for Rune Daggers.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.6.6c",
+   "Changes": "You can sell Maps to a vendor which will convert them to an equivalent Map from the most recent Map Series.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.5.0",
+   "Changes": "Different combinations of maps for the 3x maps to a +1 tiered map vendor recipe can now lead to different map in return. [Undocumented]",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.3.0",
+   "Changes": "The 5-for-1 magic or rare vendor recipe no longer maintains Shaper/Elder item status. / Updated the Loreweave, Kingmaker, and The Taming vendor recipes to give Shaper and Elder results if all the inputs were Shaper or Elder items. Elder/Shaper Breach items now also maintain their status if they are transformed with a Blessing.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "3.0.0",
+   "Changes": "Added a new vendor recipe.",
+   "_section": "Version history"
+  },
+  {
+   "Version": "Unknown",
+   "Changes": "Introduced to the game.",
+   "_section": "Version history"
+  }
+ ]
+}
