@@ -1,6 +1,6 @@
 # Leveling plan: Elementalist (Witch)
 
-Generated 2026-11-09 by `tools/pob_leveling.py` from the PoB embedded in [Ky's mobalytics guide](https://mobalytics.gg/poe/builds/volatile-dead-spellslinger-elementalist-starter). PoB character level 99, bandit: None.
+Generated 2026-11-09 by `tools/pob_leveling.py` from https://mobalytics.gg/poe/builds/volatile-dead-spellslinger-elementalist-starter. PoB character level 99, bandit: None.
 Tree data: GGG export (2026-11-09); gem/quest data: exile-leveling (2026-11-09). **Quest rewards and gems can change in a new league — check the patch notes.**
 
 Contents: 19 passive trees · 14 skill sets · 10 item sets

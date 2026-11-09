@@ -159,6 +159,27 @@ def to_xml(text: str) -> str:
 
 # --------------------------------------------------------------------------- data
 
+# Angles (degrees, clockwise from 12 o'clock) PoB uses for the uneven orbits.
+ORBIT_ANGLES = {
+    16: [0, 30, 45, 60, 90, 120, 135, 150, 180, 210, 225, 240, 270, 300, 315, 330],
+    40: [0, 10, 20, 30, 40, 45, 50, 60, 70, 80, 90, 100, 110, 120, 130, 135, 140, 150, 160, 170,
+         180, 190, 200, 210, 220, 225, 230, 240, 250, 260, 270, 280, 290, 300, 310, 315, 320, 330, 340, 350],
+}
+
+
+def node_xy(tree: dict, n: dict) -> list[int] | None:
+    import math
+    g = tree["groups"].get(str(n.get("group")))
+    if not g:
+        return None
+    orbit, idx = n.get("orbit", 0), n.get("orbitIndex", 0)
+    r = tree["constants"]["orbitRadii"][orbit]
+    count = tree["constants"]["skillsPerOrbit"][orbit]
+    ang = ORBIT_ANGLES[count][idx] if count in ORBIT_ANGLES else 360 * idx / count
+    a = math.radians(ang)
+    return [round(g["x"] + r * math.sin(a)), round(g["y"] - r * math.cos(a))]
+
+
 def update_data() -> None:
     DATA_DIR.mkdir(exist_ok=True)
     today = dt.date.today().isoformat()
@@ -177,6 +198,9 @@ def update_data() -> None:
             t["nb"] = [int(x) for x in nb if x != "root"]
         if n.get("masteryEffects"):
             t["masteryEffects"] = {str(e["effect"]): e["stats"] for e in n["masteryEffects"]}
+        pos = node_xy(tree, n)
+        if pos:
+            t["xy"] = pos
         nodes[nid] = t
     classes = [{"name": c["name"], "ascendancies": [a["id"] for a in c["ascendancies"]]}
                for c in tree["classes"]]
@@ -514,7 +538,8 @@ def is_vaal(name: str) -> bool:
     return name.lower().startswith("vaal ")
 
 
-def gem_acquisition(build: dict, class_name: str, gems_db: dict, quests: list) -> tuple[list, dict, list]:
+def gem_acquisition(build: dict, class_name: str, gems_db: dict, quests: list,
+                    set_ids: list[int] | None = None) -> tuple[list, dict, list]:
     """Return (act_plan, where, unobtainable).
 
     act_plan: [(act, quest name, npc, take_reward or None, [buy (gem, npc)])]
@@ -527,6 +552,8 @@ def gem_acquisition(build: dict, class_name: str, gems_db: dict, quests: list) -
     # Gems the build needs, with the first skill set that uses them.
     needed: dict[str, dict] = {}
     for si, ss in enumerate(build["skill_sets"]):
+        if set_ids is not None and si not in set_ids:
+            continue
         for grp in ss["groups"]:
             if grp["source"]:  # granted by an item
                 continue
@@ -623,30 +650,16 @@ def leveling_first(sets: list[dict]) -> bool:
     return True
 
 
-def render(build: dict, tree: Tree, gems_db: dict, quests_db: dict, source: str,
-           class_override: str | None, keep_order: bool = False) -> str:
-    out: list[str] = []
-    w = out.append
+def prepare(build: dict, tree: "Tree", keep_order: bool = False, class_override: str | None = None) -> dict:
+    """Shared prep for both outputs: class, points/levels per tree, and
+    leveling-first ordering of trees and sets. Safe to call twice."""
+    if build.get("_prep"):
+        return build["_prep"]
     specs = build["specs"]
     class_name = class_override or build["className"] or CLASS_NAMES[(specs[0]["classId"] or 0) if specs else 0]
     for s in specs:
         if s["classId"] is None:
             s["classId"] = CLASS_NAMES.index(build["className"]) if build["className"] in CLASS_NAMES else 0
-    asc = build["ascendClassName"]
-    gdb = gems_db["gems"]
-
-    w(f"# Leveling plan: {asc or class_name} ({class_name})")
-    w("")
-    w(f"Generated {dt.date.today().isoformat()} by `tools/pob_leveling.py` from {source}. "
-      f"PoB character level {build['level']}, bandit: {build['bandit'] or 'None (kill all, +2 points)'}.")
-    w(f"Tree data: GGG export ({tree.fetched}); gem/quest data: exile-leveling ({gems_db.get('_fetched', '?')}). "
-      "**Quest rewards and gems can change in a new league — check the patch notes.**")
-    w("")
-    w(f"Contents: {len(specs)} passive trees · {len(build['skill_sets'])} skill sets · "
-      f"{len(build['item_sets'])} item sets")
-    w("")
-
-    # ---- overview
     for s in specs:
         main = [n for n in s["nodes"] if n in tree.nodes and not tree.is_asc(n) and tree.kind(n) not in ("start", "mastery")]
         ascn = [n for n in s["nodes"] if tree.is_asc(n) and tree.kind(n) != "ascstart"
@@ -663,6 +676,33 @@ def render(build: dict, tree: Tree, gems_db: dict, quests_db: dict, source: str,
                               for i, a in enumerate(specs) for b in specs[i + 1:]):
         specs.sort(key=lambda s: s["_points"])
         reordered = True
+    moved = [name for name, key in (("skill sets", "skill_sets"), ("item sets", "item_sets"))
+             if not keep_order and leveling_first(build[key])]
+    build["_prep"] = {"class_name": class_name, "reordered": reordered, "moved": moved}
+    return build["_prep"]
+
+
+def render(build: dict, tree: Tree, gems_db: dict, quests_db: dict, source: str,
+           class_override: str | None, keep_order: bool = False) -> str:
+    out: list[str] = []
+    w = out.append
+    specs = build["specs"]
+    prep = prepare(build, tree, keep_order, class_override)
+    class_name, reordered, moved = prep["class_name"], prep["reordered"], prep["moved"]
+    asc = build["ascendClassName"]
+    gdb = gems_db["gems"]
+
+    w(f"# Leveling plan: {asc or class_name} ({class_name})")
+    w("")
+    w(f"Generated {dt.date.today().isoformat()} by `tools/pob_leveling.py` from {source}. "
+      f"PoB character level {build['level']}, bandit: {build['bandit'] or 'None (kill all, +2 points)'}.")
+    w(f"Tree data: GGG export ({tree.fetched}); gem/quest data: exile-leveling ({gems_db.get('_fetched', '?')}). "
+      "**Quest rewards and gems can change in a new league — check the patch notes.**")
+    w("")
+    w(f"Contents: {len(specs)} passive trees · {len(build['skill_sets'])} skill sets · "
+      f"{len(build['item_sets'])} item sets")
+    w("")
+
     if specs:
         w("## Trees at a glance")
         w("")
@@ -680,8 +720,6 @@ def render(build: dict, tree: Tree, gems_db: dict, quests_db: dict, source: str,
         w("")
 
     # ---- gem plan
-    moved = [name for name, key in (("skill sets", "skill_sets"), ("item sets", "item_sets"))
-             if not keep_order and leveling_first(build[key])]
     if moved:
         w(f"*Leveling {' and '.join(moved)} (titles with a level or act) are listed first; "
           "the PoB has them after the endgame ones.*")
@@ -931,9 +969,10 @@ def render(build: dict, tree: Tree, gems_db: dict, quests_db: dict, source: str,
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("source", nargs="?", help="PoB code, pobb.in/pastebin/poe.ninja link, file, or - for stdin")
-    ap.add_argument("-o", "--out", help="write markdown here (default: print)")
+    ap.add_argument("-o", "--out", help="write here: .md = full plan, .html = one-page glance sheet (default: print markdown)")
     ap.add_argument("--save-xml", help="also save the decoded PoB XML here")
     ap.add_argument("--class", dest="cls", choices=CLASS_NAMES, help="class for gem rewards (default: from PoB)")
+    ap.add_argument("--label", help="how to name the source in the output (e.g. the guide URL)")
     ap.add_argument("--keep-order", action="store_true", help="keep the PoB's tree order (default: sort by points if it's jumbled)")
     ap.add_argument("--update-data", action="store_true", help="re-download tree / gem / quest data")
     a = ap.parse_args()
@@ -944,10 +983,21 @@ def main() -> None:
     if not a.source:
         ap.error("give a PoB code, link or file")
     xml_text, label = load_build_xml(a.source)
+    label = a.label or label
     if a.save_xml:
         Path(a.save_xml).write_text(xml_text, encoding="utf-8")
     tree_data, gems, quests = load_data()
-    md = render(parse_build(xml_text), Tree(tree_data), gems, quests, label, a.cls, a.keep_order)
+    build, tree = parse_build(xml_text), Tree(tree_data)
+    if a.out and a.out.lower().endswith(".html"):
+        sys.path.insert(0, str(HERE))
+        import pob_sheet
+        md_name = Path(a.out).with_suffix(".md").name if Path(a.out).with_suffix(".md").exists() else ""
+        page = pob_sheet.render_html(build, tree, gems, quests, label, a.cls, a.keep_order, md_name)
+        Path(a.out).parent.mkdir(parents=True, exist_ok=True)
+        Path(a.out).write_text(page, encoding="utf-8")
+        print(f"Wrote {a.out}", file=sys.stderr)
+        return
+    md = render(build, tree, gems, quests, label, a.cls, a.keep_order)
     if a.out:
         Path(a.out).parent.mkdir(parents=True, exist_ok=True)
         Path(a.out).write_text(md + "\n", encoding="utf-8")

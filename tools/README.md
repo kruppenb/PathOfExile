@@ -60,7 +60,12 @@ every tree in the PoB in order (points to add between trees, grouped as "path to
 every skill set with what changed, **which quest reward to take and what to buy from which vendor, act by act, for your class**,
 item sets and the uniques the guide uses. Plans go in [`builds/leveling/`](../builds/leveling/).
 
+Two outputs, picked by the file extension:
+- **`.html` = the one-page glance sheet** (what to keep open while leveling). One card per act: gems to take/buy at each quest, link changes, passives in click order with a mini tree map (gold = this act), lab picks, leveling uniques. Hover any chip for details. Layout borrowed from Nick's FFXIV hotbar kit.
+- `.md` = the full reference (every tree, skill set and item set).
+
 ```
+python tools/pob_leveling.py https://pobb.in/XXXXXXXX -o builds/leveling/<build>.html --label <guide URL>
 python tools/pob_leveling.py https://pobb.in/XXXXXXXX -o builds/leveling/<build>.md
 python tools/pob_leveling.py code.txt -o builds/leveling/<build>.md     # file with the code
 python tools/pob_leveling.py --update-data                              # refresh tree/gem/quest data
