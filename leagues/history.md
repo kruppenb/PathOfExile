@@ -32,6 +32,23 @@ Dates are from ggseason.com, SeasonDex and Wikipedia (sources differ by a few da
 6. **Atlas has been reworked twice** (3.28, then again in 3.30). Old atlas tree knowledge is obsolete — read the 3.30 file.
 7. **Scarabs are gone** in 3.30. Juicing is now done with Threads of Creation.
 
+## 3.29 week 1 on poe.ninja (screenshot from Nick, Experience ladder, Week 1 time machine)
+
+What people actually league-started with:
+
+| Main skill | Share | | Ascendancy | Share |
+|---|---|---|---|---|
+| Winter Orb | 16% | | Elementalist | 25% |
+| Righteous Fire | 7% | | Chieftain | 9% |
+| Penance Brand | 4% | | Occultist | 9% |
+| Cyclone of Tumult | 2% | | Slayer | 8% |
+| Scorching Ray of Immolation | 2% | | Luminary | 8% |
+| Flicker Strike | 2% | | Necromancer | 8% |
+| Fire Trap | 2% | | Hierophant | 6% |
+| Void Shockwave | 2% | | Deadeye / Assassin | 5% each |
+
+Takeaways: Winter Orb was *the* 3.29 starter (16% at week 1, still ~7% by week 11). No wand attack and no Spark made the top 8.
+
 ## Notable meta snapshot from 3.29 (most recent finished league)
 
 From guide-factory's write-up of poe.ninja (~124k level 80–100 characters, week 11). The meta was spread out: the top 10 skills together were under 26% of characters.

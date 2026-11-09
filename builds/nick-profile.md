@@ -8,7 +8,8 @@ Updated 2026-11-09 from chat.
 | Trade league or SSF? | **Trade** |
 | Usual playstyle | Minions, but **not feeling minions this league** |
 | All-time favourites | **Wand attack builds (Power Siphon etc.)**; scaling spells like **Spark** |
-| Dislikes | **Melee** |
+| Dislikes | **Melee**; not a big fan of **DoT** (don't rule out) |
+| Build arc | Loves **zero-to-hero builds that scale**, but they must **work from early on**. Hates builds that only come online after a late switch (e.g. at level 85) |
 | Last league played seriously | ? |
 | Hardcore or softcore? | ? (assume softcore) |
 | Hours per week, especially launch weekend | ? |

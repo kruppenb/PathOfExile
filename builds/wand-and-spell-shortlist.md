@@ -46,12 +46,19 @@ Legend: **Read** = I read the guide page · *Listed* = found by title/search onl
 
 Note: one 3.29 write-up says **every spell gem carried a 25% mana cost penalty in 3.29** *(single source, allthings.how)*. If that's real and stays in 3.30, it's why mana-stacking and Spellslinger setups are popular.
 
-## Current lean (pre-patch)
+## Current lean (pre-patch), re-ranked 2026-11-09
 
-1. **Kinetic Fusillade (W1 or W2)** for the wand itch.
-2. **Mana Stacker → Spark Hierophant (S1)** for the Spark itch. It's the only guide I found that takes Spark from league start to endgame.
-3. **Winter Orb / Arctic Salvo (S7/S8)** if you want the most proven spell starter.
-4. Have a currency target to **transition into Power Siphon (W7)** later.
+Filter added: **hit-based preferred over DoT**, and **one skill from early game to endgame** that scales with currency (zero-to-hero), no late swap.
+
+| Rank | Pick | Why it fits | Watch out for |
+|---|---|---|---|
+| 1 | **Winter Orb** (S7, Elementalist or Occultist) | Hit-based cold spell; the main skill from ~level 28 all the way up; scales a long way with gear. 16% of 3.29 week-1 characters, so it's the best-tested starter | Channel/stack playstyle; most-played means likely nerf target — check patch notes |
+| 2 | **Kinetic Fusillade Hierophant** (W1) | Wand attack, usable from level 12, becomes a "machine gun" after two cheap uniques, then scales with wand/attack speed | Breakpoint calculator homework; few people played it (not in 3.29 week-1 top 8) |
+| 3 | **Kinetic Blast / Kinetic Rain Elementalist (W3/W6)** | Classic wand clear from early acts on a cheap rare wand; trade wands give a long upgrade path; Power Siphon can join later for bosses | KB was nerfed in 3.29 for bosses; squishy in T16+ |
+| Wild card | **Spark of the Nova Archmage (S2)** | Closest to "old Spark"; same skill throughout | Not tagged as a starter and wants Widowhail; the mana-stacker Spark guide (S1) swaps skills mid-game at ~30 div, which breaks the "no late switch" rule |
+
+**Demoted for Nick:** DoT builds (Essence Drain, Coldslinger, Creeping Frost, Penance Brand ignite, Reap) — keep only as backups.
+**Dropped:** anything that comes online late (Power Siphon Slayer as a starter, CoC Forbidden Rite, Strength stacker).
 
 ## Pending
 - 3.30 patch notes (scheduled check Nov 11).
