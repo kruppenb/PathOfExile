@@ -111,6 +111,9 @@ Source: poe.watch daily averages for **Allflame (3.29)**. Day 7 = Jul 31, **day 
 | Detonate Dead Autobomber | Replica Maloney's Mechanism / Ngamahu's Sign | 13c / 1c | 53c / 1c |
 | Penance Brand Elementalist | Nycta's Lantern / Honourhome | 17c / 3c | 42c / 2c |
 | Arctic Salvo | Mystic Refractor | 3c | 15c |
+| Kinetic Bolt Elementalist | Lethal Pride (cheapest) | — | 14c |
+| | Thread of Hope (Massive ~10c now; other sizes show 460–3,700c on poe.watch but those look like proxy values) | — | ? |
+| Kinetic Blast of Clustering Necromancer | Prismweave (early) | — | ~5c (current) |
 
 ## Notes
 
