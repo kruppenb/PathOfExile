@@ -27,7 +27,7 @@ TIPS = {
         "<b>Trial:</b> Lower Prison"],
     2: ["{bandit}", "<b>Trials:</b> Chamber of Sins 2, Crypt 1"],
     3: ["<b>Trials:</b> Crematorium, Catacombs, Imperial Gardens (all 6 needed for Normal Lab)"],
-    6: ["<b>Trial:</b> Lower Prison", "Lilly Roth sells every gem now"],
+    6: ["<b>Trial:</b> Lower Prison"],
     7: ["<b>Trials:</b> Crypt, Chamber of Sins 2"],
     8: ["<b>Trial:</b> Bath House"],
     9: ["<b>Trial:</b> The Tunnel"],
