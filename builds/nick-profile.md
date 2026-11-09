@@ -12,6 +12,7 @@ Updated 2026-11-09 from chat.
 | Loves | **Trigger builds**: Cast on Crit, Spellslinger (enjoyed Bladefall + Blade Blast Spellslinger in a past league); open to any skill. Also likes **brands** |
 | Feel | Loves builds that **"pop" a screen**: chain reactions like Herald of Ice shatters, Herald of Ash, explode-on-kill. That's his main issue with minion builds. Pop is a bonus in rankings |
 | Indirect builds | **No totems** (too indirect). Traps and mines are treated the same way unless he says otherwise. Brands are fine |
+| Detonate Dead | Only inside a **trigger** setup (e.g. CoC autobomber). Self-cast Detonate Dead is a no-go |
 | Build arc | Loves **zero-to-hero builds that scale**, but they must **work from early on**. Hates builds that only come online after a late switch (e.g. at level 85) |
 | Last league played seriously | ? |
 | Hardcore or softcore? | ? (assume softcore) |
