@@ -1,35 +1,59 @@
 # Wand attack and spell starters for 3.30 (Nick's shortlist)
 
 Updated 2026-11-09, **before 3.30 patch notes**. Filtered for Nick: trade league, likes wand attacks (Power Siphon) and scaling spells (Spark), no melee, not minions this time.
-Re-check every row once patch notes post.
+Most guides below are from 3.28–3.29, so re-check each one against the 3.30 patch notes.
+
+Legend: **Read** = I read the guide page · *Listed* = found by title/search only, not read · ⭐ = current lean
 
 ## Wand attacks
 
-| Build | Class / Asc | Starter? | Notes | Source |
-|---|---|---|---|---|
-| **Kinetic Fusillade** (self-cast) | Templar / Hierophant | Yes ("Starter", "Speed Leveling" tags) | Wand attack that fires a volley of projectiles. Author's pros: fast, scales well with investment, tanky. Cons: "not new player friendly", needs the attack-speed **breakpoint calculator** (https://nemrod10.github.io/KF/), wants Warped Timepiece + Timeclasp before it really takes off. 3.28 guide | [mobalytics (peuget2)](https://mobalytics.gg/poe/profile/peuget2/builds/kinetic-fusillade-hierophant-league-starter) |
-| **Kinetic Fusillade Ballista** | Scion / Ascendant (Reliquarian also mentioned) | Yes, billed as budget starter | Same skill fired from Ballista totems. Comfy mapping, big totem damage. Squishy (not HC). Also needs breakpoint maths. 3.28 guide | [mobalytics (Lazy Exile)](https://mobalytics.gg/poe/builds/ascendant-kf-totem-league-starter) |
-| **Kinetic Blast / Power Siphon "Wander"** | Elementalist (Raider/Deadeye also common historically) | Possible | The classic wander. Kinetic Blast clears, Power Siphon single-targets / generates charges. Wand-dependent: in trade it's fine to buy a decent wand early. Guide pages couldn't be loaded, so not verified for 3.29/3.30 | [mobalytics wander starter](https://mobalytics.gg/poe/profile/peuget2/builds/wander-elementalist-league-starter) (unverified) |
-| **Power Siphon (crit) Slayer** | Duelist / Slayer | No — endgame | 3.29 "map blaster" concept at level 97 with corrupted uniques. Good **target to transition into**, not to start with | [poebuilds.cc](https://www.poebuilds.cc/poe1/build/98Ygs6Jh4FQ) |
-| Kinetic Blast of Clustering | Necromancer / Ranger | Possible | 3.29 starter guides exist; not verified | — |
+| # | Build | Class / Asc | Starter? | Notes | Guide |
+|---|---|---|---|---|---|
+| W1 ⭐ | **Kinetic Fusillade** (self-cast) | Templar / Hierophant | Yes | Wand volley. Fast, tanky, scales well. Not beginner-friendly: needs the attack-speed **breakpoint calculator** (nemrod10.github.io/KF) and wants Warped Timepiece + Timeclasp. 3.28 | **Read**: [mobalytics (peuget2)](https://mobalytics.gg/poe/profile/peuget2/builds/kinetic-fusillade-hierophant-league-starter) |
+| W2 ⭐ | **Kinetic Fusillade Ballista** | Scion / Ascendant (or Reliquarian) | Yes, budget | Totems fire KF. Comfy mapping, big damage; squishy. Same breakpoint maths. 3.28 | **Read**: [mobalytics (Lazy Exile)](https://mobalytics.gg/poe/builds/ascendant-kf-totem-league-starter) |
+| W3 | **Kinetic Rain of Impact** (Kinetic Blast variant) | Witch / Elementalist | Yes, "super budget" | Explosions everywhere, excellent clear, carries to T16. Needs attack speed + AoE, squishy in T16+. 3.27 guide, ~1 yr old | **Read**: [mobalytics (fastaf)](https://mobalytics.gg/poe/profile/fastaf/builds/budget-5l-kinetic-rain-of-explosions-impact-elementalist-lycia) |
+| W4 | **Kinetic Blast of Clustering** | Witch / Necromancer | Yes | Maxroll league-starter guide. Tanky, strong bossing, but KB took a notable nerf in 3.29 (no longer deletes bosses) | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/kinetic-blast-of-clustering-necromancer-league-starter), [mobalytics (raychich)](https://mobalytics.gg/poe/profile/raychich/builds/3-29-ray-kinetic-blast-of-clustering-necro) |
+| W5 | **Kinetic Blast Deadeye** | Ranger / Deadeye | Yes | Maxroll league starter (3.28). Deadeye projectile bonuses suit wands | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/kinetic-blast-deadeye-league-starter) |
+| W6 | **Wander Elementalist** (Kinetic Blast + Power Siphon) | Witch / Elementalist | Yes | Classic wander, 3.27 starter guide; creators called it "stronger than expected" in 3.27 | *Listed*: [mobalytics (peuget2)](https://mobalytics.gg/poe/profile/peuget2/builds/wander-elementalist-league-starter) |
+| W7 | **Power Siphon (crit) Slayer** | Duelist / Slayer | No (endgame) | 3.29 map blaster with corrupted uniques. A **transition target**, not a starter | **Read**: [poebuilds.cc](https://www.poebuilds.cc/poe1/build/98Ygs6Jh4FQ) |
+| W8 | **Luminary Merc Bot** | Scion / Luminary | Yes (3.29) | Mercenary does the work (e.g. Kineticist merc = Kinetic Blast + Cluster Traps). Was the strongest 3.29 starter; ⚠ likely nerf target | *Listed*: [mobalytics (Captainlance9)](https://mobalytics.gg/poe/builds/captainlance9-luminary-merc-bot) |
 
-Mercenary note: in 3.29 the "Kineticist" mercenary (Kinetic Blast + Cluster Traps) was rated the best-clearing mercenary, and Luminary mercenary-link builds were very strong. Watch for nerfs.
+## Spells — lightning (Spark-like)
 
-## Spells
+| # | Build | Class / Asc | Starter? | Notes | Guide |
+|---|---|---|---|---|---|
+| S1 ⭐ | **Mana Stacker → Spark Hierophant** | Templar / Hierophant | Yes | Levels with Rolling Magma → Firestorm, maps with Shock Nova/Ball Lightning on mana-stacking, then goes **crit Spark** (Widowhail) at ~30 div. Very detailed leveling + PoB steps. 3.28 | **Read**: [mobalytics (animeprincess)](https://mobalytics.gg/poe/builds/mana-stacker-hierophant-comprehensive-leaguestart-guide) |
+| S2 | **Spark of the Nova Archmage Hierophant** | Templar / Hierophant | Not tagged | Max-block "screen blaster". Great in corridors, no aiming, good defences. Weak in open maps. Wants Widowhail + Kitava's Thirst. 3.27 | **Read**: [mobalytics (Big Ducks)](https://mobalytics.gg/poe/builds/bigducks-spark-archmage-heirophant) |
+| S3 | **Shock Nova of Procession Archmage** | Templar / Hierophant | Yes | Maxroll 3.29 league starter | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/shock-nova-of-procession-archmage-hierophant-league-starter) |
+| S4 | **Lightning Trap of Sparking** | Witch / Elementalist | Yes | Maxroll league starter; Spark-like projectiles from traps | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/lightning-trap-of-sparking-elementalist-league-starter) |
+| S5 | **Thunder Orb / Lightning Tendrils** | Witch / Elementalist | Yes | MasterT's 3.29 league start to endgame | *Listed*: [mobalytics (MasterT)](https://mobalytics.gg/poe/builds/masterts-whispering-tendrils-elementalist) |
+| S6 | **Ignite Herald of Thunder / Vaal Arc** | Elementalist | ? | poe-vault 3.29 Elementalist guide | *Listed*: [poe-vault](https://www.poe-vault.com/guides/Ignite-herald-of-thunder-vaal-arc-elementalist-build-guide-38) |
 
-| Build | Class / Asc | Starter? | Notes |
-|---|---|---|---|
-| **Winter Orb** | Witch / Occultist or Elementalist | Yes (Lexyu's poe-vault guide) | #1 skill on the 3.29 ladder (~7% combined). Ranged cold caster with Herald of Ice |
-| **Essence Drain + Contagion** | Witch | Yes (S-tier trade + SSF on aoeah) | Chaos DoT, forgiving on gear, scales with gem levels |
-| **Penance Brand** (hit or ignite) | Witch / Elementalist | Yes | 2.2% of 3.29 ladder, cheap |
-| **Tornado** | Templar / Inquisitor | Yes (BalorMage) | Auto-targeting, easy |
-| **Spark** | Templar / Inquisitor or Hierophant; Witch / Elementalist | Check | Long-time favourite. Not on any 3.29 popularity or tier list we found, so it needs a 3.30 guide/patch-note check |
-| Stormburst / Storm Brand totems | Hierophant | Yes | aoeah lists totem spells as A-tier SSF |
+## Spells — cold, fire, chaos
+
+| # | Build | Class / Asc | Starter? | Notes | Guide |
+|---|---|---|---|---|---|
+| S7 ⭐ | **Winter Orb** | Witch / Occultist or Elementalist | Yes | #1 skill on the 3.29 ladder (~7%). Smooth auto-targeting clear | *Listed*: [Lexyu (poe-vault)](https://www.poe-vault.com/guides/builds-for-path-of-exile), [peuget2](https://mobalytics.gg/poe/builds/winter-orb-elementalist-league-starter-peuget2) |
+| S8 | **Arctic Salvo: Creeping Frost + Winter Orb** | Witch / Elementalist | Yes | Strong starter and mapper, top recovery. ES drains in downtime, melee-range bossing, endgame crafts pricey. 3.29 | **Read**: [mobalytics (PhazePlays)](https://mobalytics.gg/poe/builds/phazeplays-arctic-salvo-creeping-frost-winter-orb) |
+| S9 | **Coldslinger Cold DoT** (Creeping Frost + Vortex via Spellslinger) | Witch / Elementalist | Yes | No required gear, high damage for low investment. Lower ceiling, becomes multi-button. 3.29 | **Read**: [mobalytics](https://mobalytics.gg/poe/builds/coldslinger-cold-dot-elementalist-league-starter) |
+| S10 | **Vaal Ice Nova of Frostbolts** | Witch / Occultist | Yes | 3.29 league starter | *Listed*: [mobalytics](https://mobalytics.gg/poe/profile/camaronincheese-fs849b/builds/3-29-vaal-ice-nova-of-frostbolts-occultist-leaguestarter) |
+| S11 | **Penance Brand Ignite** | Witch / Elementalist | Yes, budget | Freezing Pulse → Firestorm → Penance Brand. Affordable, durable, smooth campaign, good enough for 4 Voidstones. 3.29 | **Read**: [mobalytics (animeprincess)](https://mobalytics.gg/poe/builds/penance-brand-ignite-elementalist-league-starter) |
+| S12 | **Reap Ignite** | Witch / Elementalist | Yes | Maxroll league starter | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/reap-ignite-elementalist-league-starter) |
+| S13 | **Essence Drain + Contagion** | Witch / Occultist | Yes | Chaos DoT, packs die as you move. Pact of Ghorr has a drawback. Rated S-tier trade + SSF on aoeah | *Listed*: [allthings.how](https://allthings.how/best-spellcaster-league-start-builds-for-path-of-exile-3-29/) |
+| S14 | **Tornado** | Templar / Inquisitor | Yes | Auto-targeting, easy (BalorMage) | *Listed*: [poe-vault](https://www.poe-vault.com/guides/builds-for-path-of-exile) |
+| S15 | **Bladefall + Blade Blast Spellslinger** | Witch / Elementalist | Yes (pre-patch SSF test) | Frenzy-driven; weak vs moving bosses | *Listed*: [IGGM](https://www.iggm.com/news/poe-3-30-best-league-starter-builds-tested-in-ssf) |
+| S16 | **DoT Slinger Elementalist** | Witch / Elementalist | Yes | A creator's 3.30 campaign speedrun practice video | *Listed*: [YouTube](https://www.youtube.com/watch?v=sAPeJA7nWWc) |
+
+Note: one 3.29 write-up says **every spell gem carried a 25% mana cost penalty in 3.29** *(single source, allthings.how)*. If that's real and stays in 3.30, it's why mana-stacking and Spellslinger setups are popular.
 
 ## Current lean (pre-patch)
 
-1. **Kinetic Fusillade (Hierophant or Ballista)** — the strongest wand starter we found, and the closest to the Power Siphon feel.
-2. **Winter Orb** or **Essence Drain** if a spell appeals more — both well-tested starters.
-3. **Power Siphon / Kinetic Blast wander** as the trade-league transition once there's currency for a crit wand.
+1. **Kinetic Fusillade (W1 or W2)** for the wand itch.
+2. **Mana Stacker → Spark Hierophant (S1)** for the Spark itch. It's the only guide I found that takes Spark from league start to endgame.
+3. **Winter Orb / Arctic Salvo (S7/S8)** if you want the most proven spell starter.
+4. Have a currency target to **transition into Power Siphon (W7)** later.
 
-Next: confirm against 3.30 patch notes, then load the top pick into PoB.
+## Pending
+- 3.30 patch notes (scheduled check Nov 11).
+- Launch-week poe.ninja: which of these actually show up in numbers.
+- 3.30 YouTube starter roundups (titles found: "These 5 builds look VERY promising — league start tests for 3.30", "My top 7 after the ExileCon reveal", "My 3.30 league-start plans"). I can't read YouTube from here, so the names need a quick human skim.

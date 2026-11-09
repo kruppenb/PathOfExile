@@ -60,6 +60,24 @@ The game itself now has a Currency Exchange and async trade, which changes how y
 - Official patch notes forum: https://www.pathofexile.com/forum/view-forum/patch-notes
 - Announcements forum: https://www.pathofexile.com/forum/view-forum/announcements
 
+## Where Claude looks for guides (and what it can't reach)
+
+| Source | Can Claude read it? | Use |
+|---|---|---|
+| Mobalytics build pages | Mostly yes (some pages error) | Main source for creator guides; each has tags (Starter, patch) and pros/cons |
+| poe-vault guides | Yes | League-starter tagged guides, creator hubs (Ghazzy, Lexyu, BalorMage) |
+| Maxroll build guides | **No** (blocks automated reading) | Titles found through search only |
+| poe.ninja builds | **No data** (page loads data with JavaScript; the API is closed to this environment) | Nick can check it directly, see below |
+| YouTube | **No** (blocked) | Video titles via search only |
+| Reddit | **No** (blocked) | — |
+| RMT shop blogs (aoeah, iggm, poecurrency, accountshark) | Yes | Use for news roundups only; treat tier lists as opinion |
+
+### Checking early-league popularity on poe.ninja yourself
+poe.ninja keeps **time-machine snapshots** for each league (hour-3/6/12/18, day-1 to day-6, week-1 onward). For last league:
+- Day 3: https://poe.ninja/poe1/builds/allflame?timemachine=day-3
+- Week 1: https://poe.ninja/poe1/builds/allflame?timemachine=week-1
+Filter by skill (e.g. Kinetic Fusillade, Spark) to see how many played it and what they wore. A screenshot pasted into chat is enough for Claude to read.
+
 ## Also available here
 
 This Claude project has two skills that work well with the knowledge base:
