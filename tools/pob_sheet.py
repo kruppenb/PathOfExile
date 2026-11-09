@@ -384,7 +384,8 @@ def leveling_recipes(tags: set[str]) -> list[tuple[str, str, str]]:
     import json
     recipes = json.loads(RECIPE_DATA.read_text(encoding="utf-8"))["recipes"]
     elems = [e for e in ("fire", "cold", "lightning", "chaos", "physical") if e in tags]
-    wanted = [("boots", r"movement speed", "Move-speed boots")]
+    wanted = [("boots", r"movement speed", "Move-speed boots"),
+              ("ring", r"^Ruby Ring", "Resist rings (Ruby / Topaz / Sapphire)")]
     if "spell" in tags:
         wanted.append(("w", r"increased spell damage", "Spell damage weapon"))
         wanted += [("w", rf"level of all {e} spell skill gems", f"+1 {e.title()} spell gems weapon") for e in elems]
@@ -399,12 +400,14 @@ def leveling_recipes(tags: set[str]) -> list[tuple[str, str, str]]:
     for _, pat, label in wanted:
         for r in recipes:
             res = r.get("Result", "")
-            if not r.get("_section", "").startswith("Equipment") or not re.search(pat, res, re.I):
+            if not r.get("_section", "").startswith("Equipment") or not re.search(pat, res, re.I | re.M):
                 continue
             if label in seen:
                 break
             seen.add(label)
             ing = re.sub(r"\s*\([^)]*\)", "", r.get("Recipes", "")).replace(" / ", " + ")
+            if label.startswith("Resist rings"):
+                ing = "1x Iron Ring + 1x red / green / blue gem (fire / lightning / cold res)"
             ing = ing.replace(" explicit mod", "").replace("Magic/Rare/Unique ", "any ") \
                      .replace("2 or more quality gems with a combined total of 40% quality & the", "gems totalling 40% quality with the")
             out.append((label, ing, f"{res}\n{r.get('Notes', '')}".strip()))
