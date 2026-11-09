@@ -57,6 +57,31 @@ Filter added: **hit-based preferred over DoT**, and **one skill from early game 
 | 3 | **Kinetic Blast / Kinetic Rain Elementalist (W3/W6)** | Classic wand clear from early acts on a cheap rare wand; trade wands give a long upgrade path; Power Siphon can join later for bosses | KB was nerfed in 3.29 for bosses; squishy in T16+ |
 | Wild card | **Spark of the Nova Archmage (S2)** | Closest to "old Spark"; same skill throughout | Not tagged as a starter and wants Widowhail; the mana-stacker Spark guide (S1) swaps skills mid-game at ~30 div, which breaks the "no late switch" rule |
 
+### Mapping / bossing / defence ratings (1–5, estimates)
+
+**How these were made:** the guide authors' own pros/cons where I could read the guide, plus how each archetype usually plays. **Not** measured numbers. Firm up the top 2 with PoB (DPS, eHP, max hit) once PoB ships 3.30 support.
+Nick hates dying and wants to boss (3.30's Fate rewards sit on bosses), so **Bossing and Defence count double** in the total.
+
+| Build | Mapping | Bossing | Defence | Weighted (M + 2B + 2D) | Basis |
+|---|---|---|---|---|---|
+| **Kinetic Fusillade Hierophant** | 4 | 4 | 4 | **20** | Author: "fast", "tanky"; ~5M DPS in their PoB. Arcane Cloak uptime is low |
+| Mana Stacker → Spark Hierophant | 4 | 4 | 4 | 20 | Mana-stacking Hierophant is a tanky shell; but it swaps skills at ~30 div (breaks the no-late-switch rule) |
+| Spark of the Nova Archmage Hierophant | 4 (5 in corridors, 3 open maps) | 3 | 4 | 18 | Author: max block, good recovery; Spark bossing is position-dependent |
+| **Winter Orb Occultist** | 5 | 3 | 3 | **17** | Ladder #1 in 3.29; Occultist ES + curses help survival; channel/stack bossing is OK not great |
+| Kinetic Fusillade Ballista (Ascendant) | 4 | 4 | 2 | 16 | Author: "giga totem damage", "squishy, not HC viable" |
+| Kinetic Blast of Clustering Necromancer | 4 | 3 | 4 | 18 | Write-ups: tanky, strong bossing, but KB nerfed vs bosses in 3.29 |
+| Winter Orb Elementalist / Arctic Salvo | 5 | 3 | 3 | 17 | PhazePlays: top recovery but ES drains in downtime and bossing is close-range |
+| Penance Brand Elementalist | 4 | 3 | 3 | 16 | Author: durable, good enough for 4 Voidstones |
+| Kinetic Rain of Impact Elementalist | 5 | 2 | 2 | 13 | Author: excellent clear, squishy in T16+ |
+
+For comparison (not wand/spell, but famous for "don't die, kill bosses"):
+
+| Build | Mapping | Bossing | Defence | Weighted |
+|---|---|---|---|---|
+| Explosive Arrow Ballista Hierophant (bow totems) | 3 | 5 | 4 | 21 |
+| Righteous Fire Chieftain (DoT) | 3 | 3 | 5 | 19 |
+| Toxic Rain Pathfinder (bow DoT) | 4 | 4 | 3 | 18 |
+
 **Demoted for Nick:** DoT builds (Essence Drain, Coldslinger, Creeping Frost, Penance Brand ignite, Reap) — keep only as backups.
 **Dropped:** anything that comes online late (Power Siphon Slayer as a starter, CoC Forbidden Rite, Strength stacker).
 

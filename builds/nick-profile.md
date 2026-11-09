@@ -15,7 +15,7 @@ Updated 2026-11-09 from chat.
 | Hours per week, especially launch weekend | ? |
 | End goal (red maps / all pinnacles / uber bosses / currency farming) | ? |
 | OK with many buttons, or prefer one-button? | ? |
-| Tolerance for slow-but-safe vs fast-but-fragile | ? |
+| Tolerance for slow-but-safe vs fast-but-fragile | **Hates dying**; wants to **boss** (not just map). Weight bossing + defence over clear speed |
 
 **What this means for picks:** ranged wand attacks (Power Siphon, Kinetic Blast / Bolt / Fusillade / Rain) and projectile/lightning spells
 (Spark, Arc, Ball Lightning, Winter Orb, Penance Brand, Essence Drain). Drop melee and pure minion builds from the shortlist.
