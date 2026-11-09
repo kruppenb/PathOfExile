@@ -6,6 +6,7 @@ Notes for picking and playing a league starter. Current focus: **3.30 Covens of 
 
 | If you want… | Read |
 |---|---|
+| **What's new since last check (digest every 6 h)** | [news/digests.md](news/digests.md) · [how it works](news/README.md) |
 | What's new in 3.30 | [leagues/3.30-covens-of-umbra.md](leagues/3.30-covens-of-umbra.md) |
 | What was overpowered in 3.29 (check vs 3.30 patch notes) | [leagues/3.30-nerf-watch.md](leagues/3.30-nerf-watch.md) |
 | What changed since you last played | [leagues/history.md](leagues/history.md) |
