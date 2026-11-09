@@ -3,14 +3,14 @@
 Updated 2026-11-09, **before 3.30 patch notes**. Filtered for Nick: trade league, likes wand attacks (Power Siphon) and scaling spells (Spark), no melee, not minions this time.
 Most guides below are from 3.28–3.29, so re-check each one against the 3.30 patch notes.
 
-Legend: **Read** = I read the guide page · *Listed* = found by title/search only, not read · ⭐ = current lean
+Legend: **Read** = I read the guide page · *Listed* = found by title/search only, not read · ⭐ = current top 3 (see "Where things stand") · ✗ = ruled out for Nick
 
 ## Wand attacks
 
 | # | Build | Class / Asc | Starter? | Notes | Guide |
 |---|---|---|---|---|---|
-| W1 ⭐ | **Kinetic Fusillade** (self-cast) | Templar / Hierophant | Yes | Wand volley. Fast, tanky, scales well. Not beginner-friendly: needs the attack-speed **breakpoint calculator** (nemrod10.github.io/KF) and wants Warped Timepiece + Timeclasp. 3.28 | **Read**: [mobalytics (peuget2)](https://mobalytics.gg/poe/profile/peuget2/builds/kinetic-fusillade-hierophant-league-starter) |
-| W2 ⭐ | **Kinetic Fusillade Ballista** | Scion / Ascendant (or Reliquarian) | Yes, budget | Totems fire KF. Comfy mapping, big damage; squishy. Same breakpoint maths. 3.28 | **Read**: [mobalytics (Lazy Exile)](https://mobalytics.gg/poe/builds/ascendant-kf-totem-league-starter) |
+| W1 ✗ | **Kinetic Fusillade** (self-cast) | Templar / Hierophant | Yes | Wand volley. Fast, tanky, scales well. Not beginner-friendly: needs the attack-speed **breakpoint calculator** (nemrod10.github.io/KF) and wants Warped Timepiece + Timeclasp. 3.28 | **Read**: [mobalytics (peuget2)](https://mobalytics.gg/poe/profile/peuget2/builds/kinetic-fusillade-hierophant-league-starter) |
+| W2 ✗ | **Kinetic Fusillade Ballista** | Scion / Ascendant (or Reliquarian) | Yes, budget | Totems fire KF. Comfy mapping, big damage; squishy. Same breakpoint maths. 3.28 | **Read**: [mobalytics (Lazy Exile)](https://mobalytics.gg/poe/builds/ascendant-kf-totem-league-starter) |
 | W3 | **Kinetic Rain of Impact** (Kinetic Blast variant) | Witch / Elementalist | Yes, "super budget" | Explosions everywhere, excellent clear, carries to T16. Needs attack speed + AoE, squishy in T16+. 3.27 guide, ~1 yr old | **Read**: [mobalytics (fastaf)](https://mobalytics.gg/poe/profile/fastaf/builds/budget-5l-kinetic-rain-of-explosions-impact-elementalist-lycia) |
 | W4 | **Kinetic Blast of Clustering** | Witch / Necromancer | Yes | Maxroll league-starter guide. Tanky, strong bossing, but KB took a notable nerf in 3.29 (no longer deletes bosses) | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/kinetic-blast-of-clustering-necromancer-league-starter), [mobalytics (raychich)](https://mobalytics.gg/poe/profile/raychich/builds/3-29-ray-kinetic-blast-of-clustering-necro) |
 | W5 | **Kinetic Blast Deadeye** | Ranger / Deadeye | Yes | Maxroll league starter (3.28). Deadeye projectile bonuses suit wands | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/kinetic-blast-deadeye-league-starter) |
@@ -79,7 +79,7 @@ poe.ninja's history wouldn't load from here, so these are poe.watch numbers. Tre
 
 | # | Build | Class / Asc | Starter? | Notes | Guide |
 |---|---|---|---|---|---|
-| S1 ⭐ | **Mana Stacker → Spark Hierophant** | Templar / Hierophant | Yes | Levels with Rolling Magma → Firestorm, maps with Shock Nova/Ball Lightning on mana-stacking, then goes **crit Spark** (Widowhail) at ~30 div. Very detailed leveling + PoB steps. 3.28 | **Read**: [mobalytics (animeprincess)](https://mobalytics.gg/poe/builds/mana-stacker-hierophant-comprehensive-leaguestart-guide) |
+| S1 | **Mana Stacker → Spark Hierophant** | Templar / Hierophant | Yes | Levels with Rolling Magma → Firestorm, maps with Shock Nova/Ball Lightning on mana-stacking, then goes **crit Spark** (Widowhail) at ~30 div. Very detailed leveling + PoB steps. 3.28 | **Read**: [mobalytics (animeprincess)](https://mobalytics.gg/poe/builds/mana-stacker-hierophant-comprehensive-leaguestart-guide) |
 | S2 | **Spark of the Nova Archmage Hierophant** | Templar / Hierophant | Not tagged | Max-block "screen blaster". Great in corridors, no aiming, good defences. Weak in open maps. Wants Widowhail + Kitava's Thirst. 3.27 | **Read**: [mobalytics (Big Ducks)](https://mobalytics.gg/poe/builds/bigducks-spark-archmage-heirophant) |
 | S3 | **Shock Nova of Procession Archmage** | Templar / Hierophant | Yes | Maxroll 3.29 league starter | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/shock-nova-of-procession-archmage-hierophant-league-starter) |
 | S4 | **Lightning Trap of Sparking** | Witch / Elementalist | Yes | Maxroll league starter; Spark-like projectiles from traps | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/lightning-trap-of-sparking-elementalist-league-starter) |
@@ -103,14 +103,14 @@ poe.ninja's history wouldn't load from here, so these are poe.watch numbers. Tre
 
 Note: one 3.29 write-up says **every spell gem carried a 25% mana cost penalty in 3.29** *(single source, allthings.how)*. If that's real and stays in 3.30, it's why mana-stacking and Spellslinger setups are popular.
 
-## Current lean (pre-patch), re-ranked 2026-11-09
+## Earlier ranking (superseded by "Where things stand" above; kept for history)
 
 Filter added: **hit-based preferred over DoT**, and **one skill from early game to endgame** that scales with currency (zero-to-hero), no late swap.
 
 | Rank | Pick | Why it fits | Watch out for |
 |---|---|---|---|
 | 1 | **Winter Orb** (S7, Elementalist or Occultist) | Hit-based cold spell; the main skill from ~level 28 all the way up; scales a long way with gear. 16% of 3.29 week-1 characters, so it's the best-tested starter | Channel/stack playstyle; most-played means likely nerf target — check patch notes |
-| 2 | **Kinetic Fusillade Hierophant** (W1) | Wand attack, usable from level 12, becomes a "machine gun" after two cheap uniques, then scales with wand/attack speed | Breakpoint calculator homework; few people played it (not in 3.29 week-1 top 8) |
+| ~~2~~ ✗ | ~~**Kinetic Fusillade Hierophant** (W1)~~ ruled out: janky breakpoints, nerfed in 3.29, one-shot prone | Wand attack, usable from level 12, becomes a "machine gun" after two cheap uniques, then scales with wand/attack speed | Breakpoint calculator homework; few people played it (not in 3.29 week-1 top 8) |
 | 3 | **Kinetic Blast / Kinetic Rain Elementalist (W3/W6)** | Classic wand clear from early acts on a cheap rare wand; trade wands give a long upgrade path; Power Siphon can join later for bosses | KB was nerfed in 3.29 for bosses; squishy in T16+ |
 | Wild card | **Spark of the Nova Archmage (S2)** | Closest to "old Spark"; same skill throughout | Not tagged as a starter and wants Widowhail; the mana-stacker Spark guide (S1) swaps skills mid-game at ~30 div, which breaks the "no late switch" rule |
 
@@ -147,7 +147,7 @@ Players use a calculator (nemrod10.github.io/KF) and **re-check after gear upgra
 On top of that, 3.29 cut its base attack speed and duration. Sources: [poedb](https://poedb.tw/us/Kinetic_Fusillade), [forum breakpoints thread](https://web.poecdn.com/forum/view-thread/3884849), [mobalytics](https://mobalytics.gg/poe/builds/lolcohol-kinetic-fusillade-elementalist).
 **Verdict for Nick:** move KF out of the top spot.
 
-### Revised top 3 for Nick (after the KF check) — superseded by the trigger section above
+### Revised top 3 after the KF check (superseded by "Where things stand")
 
 1. ~~**Kinetic Blast of Clustering Necromancer**~~ — dropped after the video summaries: it levels as spell → Firestorm → Power Siphon totems and only swaps to KBoC at 70–80. Was: wand attack, not a minion build (Necromancer for its defensive/offering nodes), tanky, Maxroll + several 3.29 league-start guides. KB took a boss nerf in 3.29, so confirm bossing in PoB.
 2. **Winter Orb Occultist** — the proven spell starter (16% of 3.29 week 1).
