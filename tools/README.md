@@ -53,6 +53,24 @@ The game itself now has a Currency Exchange and async trade, which changes how y
 | exile-leveling (HeartofPhos) | https://heartofphos.github.io/exile-leveling/ | Web leveling route; import a PoB to get gem/vendor steps |
 | poelab.com | https://www.poelab.com | Daily Labyrinth layouts for ascending |
 
+### Our own: `tools/pob_leveling.py` (PoB → leveling plan)
+
+Reads a PoB code or link and writes a markdown leveling plan with only the leveling pieces:
+every tree in the PoB in order (points to add between trees, grouped as "path to this notable", respecs, masteries, ascendancy order by lab),
+every skill set with what changed, **which quest reward to take and what to buy from which vendor, act by act, for your class**,
+item sets and the uniques the guide uses. Plans go in [`builds/leveling/`](../builds/leveling/).
+
+```
+python tools/pob_leveling.py https://pobb.in/XXXXXXXX -o builds/leveling/<build>.md
+python tools/pob_leveling.py code.txt -o builds/leveling/<build>.md     # file with the code
+python tools/pob_leveling.py --update-data                              # refresh tree/gem/quest data
+```
+
+- Plain Python 3.9+, no installs. Data lives in `tools/pob_data/` (GGG tree export + exile-leveling gem/quest data); refresh it once 3.30 data lands.
+- pobb.in / pastebin / poe.ninja are **blocked from Claude's cloud sessions**. Either run it on Nick's PC with the link, or paste the PoB code to Claude (PoB → Import/Export Build → Generate → Copy) and Claude runs it.
+- The plan is only as good as the PoB: guides with several trees (e.g. "Level 12", "Act 3", "Level 40") and several skill sets give the best result. A single endgame tree still gives a sensible point order, but no level breakpoints.
+- After the plan exists, the `poe1-leveling-guide-builder` skill can turn it into an act-by-act HTML guide.
+
 ## Wikis and reference
 
 - **poewiki.net** (community wiki, the current one — the old Fandom wiki is outdated): https://www.poewiki.net
