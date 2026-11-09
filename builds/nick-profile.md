@@ -9,6 +9,7 @@ Updated 2026-11-09 from chat.
 | Usual playstyle | Minions, but **not feeling minions this league** |
 | All-time favourites | **Wand attack builds (Power Siphon etc.)**; scaling spells like **Spark** |
 | Dislikes | **Melee**; not a big fan of **DoT** (don't rule out) |
+| Loves | **Trigger builds**: Cast on Crit, Spellslinger (enjoyed Bladefall + Blade Blast Spellslinger in a past league); open to any skill |
 | Build arc | Loves **zero-to-hero builds that scale**, but they must **work from early on**. Hates builds that only come online after a late switch (e.g. at level 85) |
 | Last league played seriously | ? |
 | Hardcore or softcore? | ? (assume softcore) |
