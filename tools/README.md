@@ -61,7 +61,7 @@ every skill set with what changed, **which quest reward to take and what to buy 
 item sets and the uniques the guide uses. Plans go in [`builds/leveling/`](../builds/leveling/).
 
 Two outputs, picked by the file extension:
-- **`.html` = the one-page glance sheet** (what to keep open while leveling). One card per act: gems to take/buy at each quest, link changes, passives in click order with a mini tree map (gold = this act), lab picks, leveling uniques, and a few must-do tips (trials, bandits, Kitava res penalty, lab timing, move-speed boots recipe; from the exile-leveling speedrun route). Hover any chip for details. Layout borrowed from Nick's FFXIV hotbar kit.
+- **`.html` = the one-page glance sheet** (what to keep open while leveling). One card per act: gems to take/buy at each quest, link changes, passives in click order with a mini tree map (gold = this act), lab picks, leveling uniques, and a few must-do tips (trials, bandits, Quicksilver strongbox, move-speed boots recipe; from the exile-leveling speedrun route). Hover any chip for details. Layout borrowed from Nick's FFXIV hotbar kit.
 - `.md` = the full reference (every tree, skill set and item set).
 
 ```

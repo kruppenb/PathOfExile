@@ -16,27 +16,22 @@ ACT_LEVELS = [(a, end) for a, end, _ in P.ACT_END]  # (act, level at end of act)
 MAPS = 11
 LAB_ACT = {1: 4, 2: 7, 3: 10, 4: MAPS}  # lab number -> card it goes in (speedrun route timing)
 
-# The few campaign tips worth a line on the sheet. Trials, lab timing, boss levels,
-# the boots recipe and /passives come from the exile-leveling route
-# (github.com/HeartofPhos/exile-leveling, common/data/routes); Kitava's
-# resistance penalty is standard campaign knowledge.
+# The few campaign tips worth a line on the sheet (Nick cut boss levels, Kitava,
+# lab timing and /passives as already known). Trials, Quicksilver strongbox and
+# the boots recipe come from the exile-leveling route
+# (github.com/HeartofPhos/exile-leveling, common/data/routes).
 TIPS = {
-    1: ["<b>Boots:</b> vendor Quicksilver Flask + Orb of Augmentation + any boots = 10% move speed",
-        "<b>Trial:</b> Lower Prison",
-        "be lvl 8 for Brutus, 12 for Merveil"],
-    2: ["{bandit}",
-        "<b>Trials:</b> Chamber of Sins 2, Crypt 1",
-        "be lvl 20–22 for the Vaal Oversoul"],
+    1: ["<b>Quicksilver:</b> open the Chemist's Strongbox in Upper Prison (high chance)",
+        "<b>Boots:</b> vendor Quicksilver Flask + Orb of Augmentation + any boots = 10% move speed; "
+        "do it again on those boots for more",
+        "<b>Trial:</b> Lower Prison"],
+    2: ["{bandit}", "<b>Trials:</b> Chamber of Sins 2, Crypt 1"],
     3: ["<b>Trials:</b> Crematorium, Catacombs, Imperial Gardens (all 6 needed for Normal Lab)"],
-    4: ["<b>Normal Lab</b> right after <i>An Indomitable Spirit</i>: Sarn waypoint → Aspirants' Plaza"],
-    5: ["<b>Kitava takes −30% all resistances</b> at the end of this act: fix res before Act 6"],
     6: ["<b>Trial:</b> Lower Prison", "Lilly Roth sells every gem now"],
-    7: ["<b>Trials:</b> Crypt, Chamber of Sins 2", "<b>Cruel Lab</b> at the end of the act"],
+    7: ["<b>Trials:</b> Crypt, Chamber of Sins 2"],
     8: ["<b>Trial:</b> Bath House"],
     9: ["<b>Trial:</b> The Tunnel"],
-    10: ["<b>Trial:</b> Ossuary", "<b>Merciless Lab</b> after Vilenta",
-          "<b>Kitava again: −60% res total</b>, get back to 75% before maps",
-          "type <code>/passives</code>: should say {passives}"],
+    10: ["<b>Trial:</b> Ossuary"],
 }
 BANDIT = {"None": "<b>Bandits:</b> kill all three (+2 passive points)", "": "<b>Bandits:</b> kill all three (+2 passive points)",
           "Alira": "<b>Bandits:</b> help <b>Alira</b> (this PoB's choice), kill the others",
