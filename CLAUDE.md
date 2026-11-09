@@ -5,3 +5,4 @@
 - Facts about a new league change fast. Before advising, check the date on each file and look for newer GGG patch notes / poe.ninja data.
 - Third-party "news" sites that sell currency (aoeah, poecurrency, iggm, mmoexp, u4gm, accountshark, timesaver) are often speculative; mark their claims.
 - Skills `poe1-leveling-guide` and `poe1-leveling-guide-builder` can produce tree pathing and act-by-act leveling guides once a build is chosen.
+- Workflow: commit and push straight to `main`. Nick doesn't want PRs or feature branches for this repo.
