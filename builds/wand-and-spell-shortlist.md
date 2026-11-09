@@ -124,7 +124,7 @@ Source: poe.watch daily averages for **Allflame (3.29)**. Day 7 = Jul 31, **day 
 **For comparison:** the classic "don't die, kill bosses" starters are Explosive Arrow Ballista Hierophant (bow totems, 3 / 5 / 4), Righteous Fire Chieftain (DoT, 3 / 3 / 5) and Toxic Rain Pathfinder (bow DoT, 4 / 4 / 3). None of them fit the wand/spell/trigger brief.
 
 ## Pending
-- 3.30 patch notes (scheduled check Nov 11): re-rate every top pick.
+- 3.30 patch notes (scheduled check Nov 11): re-rate every top pick using [../leagues/3.30-nerf-watch.md](../leagues/3.30-nerf-watch.md).
 - PoB numbers (DPS, EHP, max hit) for the finalists once PoB supports 3.30.
 - Transcribe the trigger-build videos with `tools/yt_transcript.py` (none are summarized yet).
 - Launch-week poe.ninja: check which of these people actually play.
