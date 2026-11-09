@@ -1,9 +1,9 @@
 # Pre-league "what's new" digest
 
-A repeatable check for the run-up to **3.30 Covens of Umbra (launch Fri Nov 13, 2026)** and launch week.
+A repeatable check for the run-up to **3.30 Covens of Umbra (launch Fri Nov 13, 2026)** (ends at launch).
 Each run reports only what's **new since the last run**: a short news summary, then what it means for Nick's build list.
 
-- Runs automatically every 6 hours (a scheduled task posts the digest in the "Track pre-league news and build shifts" project thread).
+- Runs automatically every 6 hours until league launch (last run Fri Nov 13, 18:47 UTC); a scheduled task posts the digest in the "Track pre-league news and build shifts" project thread.
 - On demand: ask Claude in the project **"what's new?"** and it follows this file.
 - Output: newest digest at the top of [digests.md](digests.md). What's been seen so far: [state.json](state.json).
 
