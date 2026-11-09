@@ -14,7 +14,34 @@ import pob_leveling as P
 
 ACT_LEVELS = [(a, end) for a, end, _ in P.ACT_END]  # (act, level at end of act)
 MAPS = 11
-LAB_ACT = {1: 3, 2: 7, 3: 10, 4: MAPS}  # lab number -> card it goes in
+LAB_ACT = {1: 4, 2: 7, 3: 10, 4: MAPS}  # lab number -> card it goes in (speedrun route timing)
+
+# The few campaign tips worth a line on the sheet. Trials, lab timing, boss levels,
+# the boots recipe and /passives come from the exile-leveling route
+# (github.com/HeartofPhos/exile-leveling, common/data/routes); Kitava's
+# resistance penalty is standard campaign knowledge.
+TIPS = {
+    1: ["<b>Boots:</b> vendor Quicksilver Flask + Orb of Augmentation + any boots = 10% move speed",
+        "<b>Trial:</b> Lower Prison",
+        "be lvl 8 for Brutus, 12 for Merveil"],
+    2: ["{bandit}",
+        "<b>Trials:</b> Chamber of Sins 2, Crypt 1",
+        "be lvl 20–22 for the Vaal Oversoul"],
+    3: ["<b>Trials:</b> Crematorium, Catacombs, Imperial Gardens (all 6 needed for Normal Lab)"],
+    4: ["<b>Normal Lab</b> right after <i>An Indomitable Spirit</i>: Sarn waypoint → Aspirants' Plaza"],
+    5: ["<b>Kitava takes −30% all resistances</b> at the end of this act: fix res before Act 6"],
+    6: ["<b>Trial:</b> Lower Prison", "Lilly Roth sells every gem now"],
+    7: ["<b>Trials:</b> Crypt, Chamber of Sins 2", "<b>Cruel Lab</b> at the end of the act"],
+    8: ["<b>Trial:</b> Bath House"],
+    9: ["<b>Trial:</b> The Tunnel"],
+    10: ["<b>Trial:</b> Ossuary", "<b>Merciless Lab</b> after Vilenta",
+          "<b>Kitava again: −60% res total</b>, get back to 75% before maps",
+          "type <code>/passives</code>: should say {passives}"],
+}
+BANDIT = {"None": "<b>Bandits:</b> kill all three (+2 passive points)", "": "<b>Bandits:</b> kill all three (+2 passive points)",
+          "Alira": "<b>Bandits:</b> help <b>Alira</b> (this PoB's choice), kill the others",
+          "Kraityn": "<b>Bandits:</b> help <b>Kraityn</b> (this PoB's choice), kill the others",
+          "Oak": "<b>Bandits:</b> help <b>Oak</b> (this PoB's choice), kill the others"}
 CAMPAIGN_LEVEL = 70
 
 
@@ -391,6 +418,7 @@ svg .eb{stroke:var(--line);stroke-width:1} svg .eo{stroke:var(--muted);stroke-wi
 svg .nb{fill:var(--line)} svg .no{fill:var(--muted)} svg .nn{fill:var(--new)}
 svg .nn.big{stroke:var(--ink);stroke-width:1}
 svg text{font:600 9.5px "Segoe UI",sans-serif;fill:var(--ink);paint-order:stroke;stroke:var(--surface2);stroke-width:3px}
+.tips{font-size:12.5px;flex:1} .tips code{font:12px Consolas,monospace;background:var(--surface2);padding:0 4px;border-radius:3px}
 .warn{font-size:12.5px;color:var(--red);margin:0 0 8px}
 a{color:var(--gold)}
 .foot{font-size:12px;color:var(--muted);margin-top:14px}
@@ -418,7 +446,7 @@ def render_html(build: dict, tree: P.Tree, gems_db: dict, quests_db: dict, sourc
            '<span>Hover anything for details.</span></div>']
     for act in range(1, MAPS + 1):
         c = cards[act]
-        if not any(c[k] for k in ("gems", "links", "pass", "respec", "asc", "gear", "mast")):
+        if act not in TIPS and not any(c[k] for k in ("gems", "links", "pass", "respec", "asc", "gear", "mast")):
             continue
         rows = []
         for title, lrows in c["links"]:
@@ -440,6 +468,11 @@ def render_html(build: dict, tree: P.Tree, gems_db: dict, quests_db: dict, sourc
             rows.append(f'<div><span class="lab">Mastery</span><span class="ms">{" · ".join(c["mast"])}</span></div>')
         if c["asc"]:
             rows.append(f'<div><span class="lab">Ascend</span>{"".join(c["asc"])}</div>')
+        if act in TIPS:
+            kill_all = build["bandit"] in ("None", "", None)
+            tips = [t.replace("{bandit}", BANDIT.get(build["bandit"] or "", BANDIT["None"]))
+                     .replace("{passives}", "24" if kill_all else "23") for t in TIPS[act]]
+            rows.append(f'<div><span class="lab">Tips</span><span class="tips">{" · ".join(tips)}</span></div>')
         if c["gear"]:
             rows.append(f'<div><span class="lab">Uniques</span>{"".join(c["gear"])}</div>')
         big_new = {n for n in c["new"] if tree.is_big(n)}
