@@ -24,7 +24,11 @@ Dates are from ggseason.com, SeasonDex and Wikipedia (sources differ by a few da
 2. **Gold** exists and pays for respecs and some vendor/crafting actions. Respecs are much cheaper than Orbs of Regret era.
 3. **Transfigured gems** (3.23) multiply skill options — many "new" builds are a transfigured variant of an old skill.
 4. **Bloodline ascendancies** (3.27) add a second layer to ascendancy choice. Check how they work in 3.30 before committing.
-5. **No socket colour restrictions** (3.29). Gear for links is far less painful: any socket can hold any gem.
+5. **No socket colour restrictions** (3.29). Any gem can go in any socket. Most sockets now drop **white**; some still drop red/green/blue,
+   and putting a gem in a socket of its own colour (e.g. a Strength/red gem in a red socket) gives it **+10% quality**. Chromatic Orbs still exist,
+   now to reroll colours for that bonus. Unconfirmed: details on Jeweller's/Fusing and the chromatic vendor recipe.
+   Sources: [MassivelyOP](https://massivelyop.com/2026/07/17/colorless-skill-gem-sockets-are-coming-in-path-of-exiles-curse-of-the-allflame/),
+   [Mobalytics 3.29 summary](https://mobalytics.gg/poe/guides/3-29-curse-of-the-allflame-content-livestream-summary).
 6. **Atlas has been reworked twice** (3.28, then again in 3.30). Old atlas tree knowledge is obsolete — read the 3.30 file.
 7. **Scarabs are gone** in 3.30. Juicing is now done with Threads of Creation.
 

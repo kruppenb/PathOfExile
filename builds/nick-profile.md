@@ -1,16 +1,20 @@
 # Nick's player profile
 
-Fill this in (or answer in chat) so build picks fit how Nick actually plays.
+Updated 2026-11-09 from chat.
 
 | Question | Answer |
 |---|---|
 | Game | PoE 1 only (not PoE 2) |
+| Trade league or SSF? | **Trade** |
+| Usual playstyle | Minions, but **not feeling minions this league** |
+| All-time favourites | **Wand attack builds (Power Siphon etc.)**; scaling spells like **Spark** |
+| Dislikes | **Melee** |
 | Last league played seriously | ? |
-| Trade league or SSF? | ? |
-| Hardcore or softcore? | ? |
+| Hardcore or softcore? | ? (assume softcore) |
 | Hours per week, especially launch weekend | ? |
 | End goal (red maps / all pinnacles / uber bosses / currency farming) | ? |
-| Melee, ranged, caster, minions, totems — likes and dislikes | ? |
 | OK with many buttons, or prefer one-button? | ? |
-| Past builds enjoyed / hated | ? |
 | Tolerance for slow-but-safe vs fast-but-fragile | ? |
+
+**What this means for picks:** ranged wand attacks (Power Siphon, Kinetic Blast / Bolt / Fusillade / Rain) and projectile/lightning spells
+(Spark, Arc, Ball Lightning, Winter Orb, Penance Brand, Essence Drain). Drop melee and pure minion builds from the shortlist.
