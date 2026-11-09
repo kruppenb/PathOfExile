@@ -1,173 +1,117 @@
-# Wand attack and spell starters for 3.30 (Nick's shortlist)
+# Nick's 3.30 build shortlist
 
-Updated 2026-11-09, **before 3.30 patch notes**. Filtered for Nick: trade league, likes wand attacks (Power Siphon) and scaling spells (Spark), no melee, not minions this time.
-Most guides below are from 3.28–3.29, so re-check each one against the 3.30 patch notes.
+Updated 2026-11-09, **before the 3.30 patch notes**. Most guides and videos are from 3.28–3.29, so re-check each pick once the notes are out.
 
-Legend: **Read** = I read the guide page · *Listed* = found by title/search only, not read · ⭐ = current top 3 (see "Where things stand") · ✗ = ruled out for Nick
+**Nick's rules:** trade league · no melee · not minions this time · hit damage over DoT · loves trigger builds (Spellslinger / cast on crit), wands and Spark-style spells · must **work early** and scale (zero-to-hero), no swap at level 85 · hates dying and wants to boss, so bossing and defence matter more than clear speed.
 
-## Wand attacks
+**Ratings** are Map / Boss / Defence, 1–5. They're estimates from the guide authors' own pros and cons, video transcripts ([../videos/README.md](../videos/README.md)) and how each archetype usually plays, **not** measured numbers. Firm up the finalists in Path of Building once it supports 3.30.
+**Prices** are poe.watch daily averages from 3.29, one month in (Aug 23, 2026, Divine ≈ 177c). See [Key unique prices](#key-unique-prices-one-month-into-329).
 
-| # | Build | Class / Asc | Starter? | Notes | Guide |
-|---|---|---|---|---|---|
-| W1 ✗ | **Kinetic Fusillade** (self-cast) | Templar / Hierophant | Yes | Wand volley. Fast, tanky, scales well. Not beginner-friendly: needs the attack-speed **breakpoint calculator** (nemrod10.github.io/KF) and wants Warped Timepiece + Timeclasp. 3.28 | **Read**: [mobalytics (peuget2)](https://mobalytics.gg/poe/profile/peuget2/builds/kinetic-fusillade-hierophant-league-starter) |
-| W2 ✗ | **Kinetic Fusillade Ballista** | Scion / Ascendant (or Reliquarian) | Yes, budget | Totems fire KF. Comfy mapping, big damage; squishy. Same breakpoint maths. 3.28 | **Read**: [mobalytics (Lazy Exile)](https://mobalytics.gg/poe/builds/ascendant-kf-totem-league-starter) |
-| W3 | **Kinetic Rain of Impact** (Kinetic Blast variant) | Witch / Elementalist | Yes, "super budget" | Explosions everywhere, excellent clear, carries to T16. Needs attack speed + AoE, squishy in T16+. 3.27 guide, ~1 yr old | **Read**: [mobalytics (fastaf)](https://mobalytics.gg/poe/profile/fastaf/builds/budget-5l-kinetic-rain-of-explosions-impact-elementalist-lycia) |
-| W4 | **Kinetic Blast of Clustering** | Witch / Necromancer | Yes | Maxroll league-starter guide. Tanky, strong bossing, but KB took a notable nerf in 3.29 (no longer deletes bosses) | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/kinetic-blast-of-clustering-necromancer-league-starter), [mobalytics (raychich)](https://mobalytics.gg/poe/profile/raychich/builds/3-29-ray-kinetic-blast-of-clustering-necro) |
-| W5 | **Kinetic Blast Deadeye** | Ranger / Deadeye | Yes | Maxroll league starter (3.28). Deadeye projectile bonuses suit wands | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/kinetic-blast-deadeye-league-starter) |
-| W6 | **Wander Elementalist** (Kinetic Blast + Power Siphon) | Witch / Elementalist | Yes | Classic wander, 3.27 starter guide; creators called it "stronger than expected" in 3.27 | *Listed*: [mobalytics (peuget2)](https://mobalytics.gg/poe/profile/peuget2/builds/wander-elementalist-league-starter) |
-| W7 | **Power Siphon (crit) Slayer** | Duelist / Slayer | No (endgame) | 3.29 map blaster with corrupted uniques. A **transition target**, not a starter | **Read**: [poebuilds.cc](https://www.poebuilds.cc/poe1/build/98Ygs6Jh4FQ) |
-| W8 | **Luminary Merc Bot** | Scion / Luminary | Yes (3.29) | Mercenary does the work (e.g. Kineticist merc = Kinetic Blast + Cluster Traps). Was the strongest 3.29 starter; ⚠ likely nerf target | *Listed*: [mobalytics (Captainlance9)](https://mobalytics.gg/poe/builds/captainlance9-luminary-merc-bot) |
+## Top picks
 
-## Where things stand (2026-11-09)
+| Category | Pick | Online from | Map / Boss / Def | Key unique cost (day 30) | Why | Watch out for | Gameplay videos |
+|---|---|---|---|---|---|---|---|
+| Trigger | **1. Volatile Dead Spellslinger Elementalist** (Ky) | **Level 1**; crit swap mid-game | 5 / 3 / 4 | Sandstorm Visage ~424c (2.4 div) | One button (Frenzy fires Desecrate + Volatile Dead), off-screen clear, act-by-act PoBs. Mid-game low-life version has 75% block, ~234K EHP | Semi-random targeting; bossing is the weaker side | [VD Spellslinger Exarch & Eater league-start run](https://www.youtube.com/watch?v=VJyzmqdrETg) · [VD Spellslinger is still insane (short)](https://www.youtube.com/shorts/uLlMBl-thC4) · [3.27 VD Spellslinger Elementalist starter (Korean)](https://www.youtube.com/watch?v=9XFU86o58H0) · [guide](https://mobalytics.gg/poe/builds/volatile-dead-spellslinger-elementalist-starter) |
+| Trigger | **2. Bladefall + Blade Blast Spellslinger Assassin** | Level ~35–40 (levels with Cobra Lash → Poisonous Concoction) | 4 / 4 / 2 | None required | Nick's old favourite. Fast campaign, good bossing, one button. Can grow into a **cast on crit** version later (true zero-to-hero) | Squishy early (~18K EHP) until geared; get MoM once at 3k life / 1.2k ES | [Slinger league-start guide 3.29](https://www.youtube.com/watch?v=d3fCmCBM0F0) · [CoC Bladefall/Blade Blast guide 3.29](https://www.youtube.com/watch?v=VPZCB0Edl9k) · [CoC update 3.29](https://www.youtube.com/watch?v=G9eXPIaWmO8) · [Spellslinger Assassin "very smooth" 3.29](https://www.youtube.com/watch?v=paXhujzXCFY) · [guide](https://mobalytics.gg/poe/builds/shadow-league-start-leveling-scorpius) |
+| Spell | **3. Winter Orb Occultist** | Level ~28 (levels with Freezing Pulse) | 5 / 3 / 4 | ~7.8 div for the full guide set, mostly one optional Foulborn ring (~5 div). Core pieces 6–183c | #1 skill of 3.29 (16% at week 1). CI + capped block, tanky. Same skill to uber endgame. 4 Voidstones on a 5-link | Most-played skill, so a likely nerf target. Mana regen must cover the channel cost | [ronarray in-depth starter](https://www.youtube.com/watch?v=yn1MzoinnUw) · [SoloHood day 1](https://www.youtube.com/watch?v=3oedKtr6Hls) · [SoloHood to 4 Voidstones](https://www.youtube.com/watch?v=zYLg8-yYkoY) · [Velka boss fight](https://www.youtube.com/watch?v=qPs0HdPh0BA) |
+| Spell | **4. Spark of the Nova Archmage Hierophant** (Big Ducks) | Same skill throughout | 4 / 3 / 4 | Under ~1.5 div (Widowhail ~5c, Kitava's Thirst 26c, Militant Faith ~212c?) | Closest to "old Spark". 75% block / 75% spell block, no aiming, a "very tanky map blaster" | Great in corridors, weak in open maps and big boss arenas. 3.29 took a projectile off Spark of the Nova | [Spark Archmage is BACK (3.29)](https://www.youtube.com/watch?v=DpHXNVNeH88) · [Endgame guide (3.25, old prices)](https://www.youtube.com/watch?v=MDDTlW1SsLY) · [7/7 uber bosses (3.25)](https://www.youtube.com/watch?v=rkTF2B19IiM) |
+| Wand | **No clean pick.** Note that both Spellslinger picks above are wand builds: Spellslinger only triggers from wand attacks | — | — | — | Every pure-wand option broke a rule: Kinetic Fusillade is janky and one-shot prone, and Kinetic Blast of Clustering only comes online at 70–80 | — | Best fallback: Wander / Kinetic Rain Elementalist (W3, W5 below), [Wander Elementalist "stronger than I expected" (3.27)](https://www.youtube.com/watch?v=20Wg1oaQBSg) |
 
-1. **Volatile Dead Spellslinger Elementalist (T1)**: trigger, one button, works from the start, tanky mid-game, key unique ~2.4 div at day 30.
-2. **Bladefall + Blade Blast Spellslinger Assassin (T2)**: Nick's old favourite, online at 35–40, good bossing, no required uniques, squishy early.
-3. **Winter Orb Occultist (S7)**: proven, tanky (CI + block), ~8 div of guide uniques at day 30.
-Video summaries for WO, KF, KBoC and Spark are in [../videos/README.md](../videos/README.md). Trigger-build videos aren't transcribed yet.
+**Current call:** Volatile Dead Spellslinger if you want one button and safety from level 1. Bladefall/Blade Blast if you want your old favourite with a cast-on-crit end goal. Winter Orb Occultist is the safest non-trigger choice.
 
-## Key unique prices, one month into 3.29
+## Breakdown by category
 
-Source: poe.watch daily averages for **Allflame (3.29)**. Day 7 = Jul 31, **day 30 = Aug 23, 2026**. Divine Orb ≈ **177c on day 30** (flagged low confidence).
-poe.ninja's history wouldn't load from here, so these are poe.watch numbers. Treat values marked "?" as shaky.
+Legend: **Read** = guide page read · *Listed* = found by title only · ✗ = ruled out for Nick (reason given)
+
+### Trigger builds (Spellslinger / cast on crit)
+
+| # | Build | Class / Asc | Trigger | Online from | M / B / D | Notes | Guide · videos |
+|---|---|---|---|---|---|---|---|
+| T1 | **Volatile Dead Spellslinger** (Ky) | Witch / Elementalist | Spellslinger | Level 1 | 5 / 3 / 4 | See top picks. 3.29, "no changes needed" | **Read**: [mobalytics](https://mobalytics.gg/poe/builds/volatile-dead-spellslinger-elementalist-starter) · [video](https://www.youtube.com/watch?v=VJyzmqdrETg) |
+| T2 | **Bladefall + Blade Blast Spellslinger** (Scorps) | Shadow / Assassin | Spellslinger | ~35–40 | 4 / 4 / 2 | See top picks | **Read**: [mobalytics](https://mobalytics.gg/poe/builds/shadow-league-start-leveling-scorpius) · [video](https://www.youtube.com/watch?v=d3fCmCBM0F0) |
+| T3 | **Bladefall + Blade Blast Slinger → CoC** (Ky) | Shadow / Assassin | Spellslinger → cast on crit | Slinger early, CoC later | ? | The zero-to-hero trigger arc. Guide page wouldn't load | *Listed*: [mobalytics](https://mobalytics.gg/poe/builds/ky-s-blade-fall-blade-blast-slinger-coc-assassin-leaguestart-to-endgame) · [CoC video](https://www.youtube.com/watch?v=VPZCB0Edl9k) |
+| T4 | **Spark Nova Brand Saboteur** | Shadow / Saboteur | Arcanist Brand + trap "triggerbots" | ~70 (post-campaign) | 4 / 3 / 4 | Spark of the Nova. Cheap (~300c), 100% suppression, big regen. Belly of the Beast 6-link ~73c; the specific Watcher's Eye is the main cost. Weaker in open maps. Author says a 3.30 update is coming | **Read**: [forum](https://www.pathofexile.com/forum/view-thread/3993071) |
+| T5 | **Eye of Winter Spellslinger** | Elementalist | Spellslinger | ? | ? | 3.29 league-start test | *Listed*: [video](https://www.youtube.com/watch?v=KfNQgbW92S4) |
+| T6 | **Firestorm cast on crit** | Templar / Inquisitor | CoC | ? | ? | 3.29 league-starter showcase | *Listed*: [video](https://www.youtube.com/watch?v=emEo7o5W6oc) |
+| T7 | **CI CoC Freezing Pulse / Vortex of Projection** | ? | CoC | ? | ? | 3.29 videos | *Listed*: [FP](https://www.youtube.com/watch?v=8gKdVACONUc) · [Vortex](https://www.youtube.com/watch?v=DZzUvvdabYs) |
+| T8 | **Coldslinger cold DoT** | Witch / Elementalist | Spellslinger | Level 1 | 3 / 3 / 3 | DoT (Creeping Frost + Vortex), no required gear, lower ceiling | **Read**: [mobalytics](https://mobalytics.gg/poe/builds/coldslinger-cold-dot-elementalist-league-starter) · [3.29 video](https://www.youtube.com/watch?v=a0qmdTU8PLI) · [3.30 campaign practice](https://www.youtube.com/watch?v=sAPeJA7nWWc) |
+| T9 | Detonate Dead Autobomber (bow CoC) | → Assassin | CoC via Replica Maloney's | Levels as a different build; swaps when crit-capped | ? | Replica Maloney's 53c at day 30. Bow, not wand. 3.28 | **Read**: [forum](https://web.poecdn.com/forum/view-thread/3476163) |
+| ✗ | CoC Forbidden Rite Occultist | Witch / Occultist | CoC | Endgame only (30–40 div) | 5 / 5 / 5 | Breaks the "works early" rule; Ky no longer recommends it | [poe-vault](https://www.poe-vault.com/guides/cast-on-crit-forbidden-rite-occultist-build-guide) |
+
+### Spells: lightning (Spark-like)
+
+| # | Build | Class / Asc | Online from | M / B / D | Notes | Guide · videos |
+|---|---|---|---|---|---|---|
+| S1 | **Spark of the Nova Archmage** (Big Ducks) | Templar / Hierophant | Same skill throughout | 4 / 3 / 4 | See top picks | **Read**: [mobalytics](https://mobalytics.gg/poe/builds/bigducks-spark-archmage-heirophant) · [video](https://www.youtube.com/watch?v=DpHXNVNeH88) |
+| S2 | Mana Stacker → crit Spark | Templar / Hierophant | Swaps to Spark at ~30 div | 4 / 4 / 4 | Very detailed league-start guide, but the late skill swap breaks Nick's rule | **Read**: [mobalytics (animeprincess)](https://mobalytics.gg/poe/builds/mana-stacker-hierophant-comprehensive-leaguestart-guide) |
+| S3 | Shock Nova of Procession Archmage | Templar / Hierophant | ? | ? | Maxroll 3.29 league starter | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/shock-nova-of-procession-archmage-hierophant-league-starter) |
+| S4 | Lightning Trap of Sparking | Witch / Elementalist | ? | ? | Maxroll league starter, Spark-like traps | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/lightning-trap-of-sparking-elementalist-league-starter) |
+| S5 | Thunder Orb / Lightning Tendrils | Witch / Elementalist | ? | ? | MasterT's 3.29 league start to endgame | *Listed*: [mobalytics](https://mobalytics.gg/poe/builds/masterts-whispering-tendrils-elementalist) |
+
+### Spells: cold, fire, chaos
+
+| # | Build | Class / Asc | Online from | M / B / D | Notes | Guide · videos |
+|---|---|---|---|---|---|---|
+| S6 | **Winter Orb Occultist** | Witch / Occultist | ~28 | 5 / 3 / 4 | See top picks | [Lexyu guide](https://www.poe-vault.com/guides/winter-orb-occultist-build-guide) · [mobalytics (ronarray)](https://mobalytics.gg/poe/builds/winter-orb-occultist-witch-build-league-starter-to-endgame) · [video](https://www.youtube.com/watch?v=yn1MzoinnUw) |
+| S7 | Winter Orb Elementalist / Arctic Salvo (+ Creeping Frost) | Witch / Elementalist | ~28 | 5 / 3 / 3 | Top recovery, but ES drains in downtime and bossing is close-range. Mystic Refractor 15c | **Read**: [mobalytics (PhazePlays)](https://mobalytics.gg/poe/builds/phazeplays-arctic-salvo-creeping-frost-winter-orb) |
+| S8 | Penance Brand (hit or ignite) | Witch / Elementalist | Brand from mid-acts | 4 / 3 / 3 | Cheap (Nycta's Lantern 42c), durable, 4 Voidstones. Ignite version is DoT | **Read**: [mobalytics (animeprincess)](https://mobalytics.gg/poe/builds/penance-brand-ignite-elementalist-league-starter) |
+| S9 | Vaal Ice Nova of Frostbolts | Witch / Occultist | ? | ? | 3.29 league starter | *Listed*: [mobalytics](https://mobalytics.gg/poe/profile/camaronincheese-fs849b/builds/3-29-vaal-ice-nova-of-frostbolts-occultist-leaguestarter) |
+| S10 | Tornado | Templar / Inquisitor | ? | ? | Auto-targeting, easy (BalorMage) | *Listed*: [poe-vault](https://www.poe-vault.com/guides/builds-for-path-of-exile) |
+| S11 | Essence Drain + Contagion | Witch / Occultist | Early | ? | Chaos DoT; Pact of Ghorr drawback | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/essence-drain-contagion-occultist-league-starter) |
+| S12 | Reap ignite | Witch / Elementalist | ? | ? | DoT, Maxroll league starter | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/reap-ignite-elementalist-league-starter) |
+
+### Wand attacks
+
+| # | Build | Class / Asc | Online from | M / B / D | Notes | Guide · videos |
+|---|---|---|---|---|---|---|
+| W1 ✗ | Kinetic Fusillade (self-cast) | Templar / Hierophant or Elementalist | 12 | 4 / 3 / 2 | **Janky** (see below), nerfed in 3.29; 3.29 creator: "you will 100% get randomly one-shot" | **Read**: [mobalytics](https://mobalytics.gg/poe/profile/peuget2/builds/kinetic-fusillade-hierophant-league-starter) · [3.29 video](https://www.youtube.com/watch?v=sPebNu-PKm0) |
+| W2 ✗ | Kinetic Fusillade Ballista | Scion / Ascendant or Hierophant | ~31 | 4 / 4 / 2 | Same breakpoint issue; 3.29 test "nerfed by 40%" and died a lot | **Read**: [mobalytics](https://mobalytics.gg/poe/builds/ascendant-kf-totem-league-starter) · [video](https://www.youtube.com/watch?v=oXTR0Q1vK14) |
+| W3 | Kinetic Rain of Impact (Kinetic Blast) | Witch / Elementalist | Early | 5 / 2 / 2 | "Super budget", great clear, squishy in T16+. 3.27 guide | **Read**: [mobalytics (fastaf)](https://mobalytics.gg/poe/profile/fastaf/builds/budget-5l-kinetic-rain-of-explosions-impact-elementalist-lycia) |
+| W4 ✗ | Kinetic Blast of Clustering | Witch / Necromancer | **70–80** after 3 skill swaps | 4 / 3 / 4 | Tanky late, but rated a B/B- starter after the 3.29 nerf | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/kinetic-blast-of-clustering-necromancer-league-starter) · [3.29 primer](https://www.youtube.com/watch?v=lRjDLu8c6Dw) · [1–90](https://www.youtube.com/watch?v=AymYc83c6ZI) |
+| W5 | Wander (Kinetic Blast + Power Siphon) | Witch / Elementalist | Early | ? | Classic wander; 3.27 starter | *Listed*: [mobalytics](https://mobalytics.gg/poe/profile/peuget2/builds/wander-elementalist-league-starter) · [video (3.27)](https://www.youtube.com/watch?v=20Wg1oaQBSg) |
+| W6 | Kinetic Bolt Elementalist | Witch / Elementalist | ? | ? | 3.29 "14M DPS" video | *Listed*: [video](https://www.youtube.com/watch?v=TrkI-sZYshU) |
+| W7 | Kinetic Blast Deadeye | Ranger / Deadeye | ? | ? | Maxroll 3.28 league starter | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/kinetic-blast-deadeye-league-starter) |
+| W8 | Power Siphon (crit) Slayer | Duelist / Slayer | Endgame | ? | A target to transition into, not a starter | **Read**: [poebuilds.cc](https://www.poebuilds.cc/poe1/build/98Ygs6Jh4FQ) |
+| W9 | Luminary mercenary bot | Scion / Luminary | Early | ? | Strongest 3.29 starter, but the mercenary does the work and it's a likely nerf target | *Listed*: [mobalytics](https://mobalytics.gg/poe/builds/captainlance9-luminary-merc-bot) |
+
+## Key unique prices (one month into 3.29)
+
+Source: poe.watch daily averages for **Allflame (3.29)**. Day 7 = Jul 31, **day 30 = Aug 23, 2026**. Divine Orb ≈ **177c on day 30** (low confidence). Values marked "?" are shaky.
 
 | Build | Unique (role) | Day 7 | **Day 30** |
 |---|---|---|---|
-| **Volatile Dead Spellslinger (T1)** | Sandstorm Visage (crit swap, mid-game) | 496c | **424c (~2.4 div)** |
-| Bladefall/Blade Blast Slinger (T2) | none required (rare gear) | — | — |
-| Spark Nova Brand Saboteur (T7) | Belly of the Beast 6-link | 108c | 73c |
-| | Belly of the Beast unlinked | 4c | 9c |
-| | Feast of Flesh (core) | not found on poe.watch | ? |
-| | Watcher's Eye (specific mod is the cost) | 5c | 212c ? |
-| Detonate Dead Autobomber (T10) | Replica Maloney's Mechanism | 13c | 53c |
-| | Ngamahu's Sign | 1c | 1c |
-| **Winter Orb Occultist (S7)** | Foulborn Romira's Banquet (+1 power charge) | 925c | **900c (~5 div)** |
+| **Volatile Dead Spellslinger** | Sandstorm Visage (crit swap, mid-game) | 496c | **424c (~2.4 div)** |
+| Bladefall/Blade Blast Slinger | none required (rare gear) | — | — |
+| **Winter Orb Occultist** | Foulborn Romira's Banquet (+1 power charge) | 925c | **900c (~5 div)** |
 | | Tulfall | 194c | 183c |
 | | Ralakesh's Impatience (power charge version) | 7,110c (launch spike) | 70c |
 | | Badge of the Brotherhood | 56c | 67c |
 | | Graven's Secret | 24c | 53c |
 | | Malachai's Loop | 2c | 13c |
 | | Willclash | 9c | 6c |
-| | Forbidden Flesh + Flame (Elementalist pair as proxy; Occultist pair not listed) | 129c | 85c |
-| | **Total core uniques** | | **~1,380c ≈ 7.8 div** (most of it is the Foulborn ring) |
-| Spark Archmage Hierophant (S2) | Widowhail (unlinked; good 245%+ rolls cost more) | — | ~5c |
+| | Forbidden Flesh + Flame (Elementalist pair as proxy) | 129c | 85c |
+| | **Total** | | **~1,380c ≈ 7.8 div** |
+| Spark Archmage Hierophant | Widowhail (unlinked; good rolls cost more) | — | ~5c |
 | | Kitava's Thirst | 2c | 26c |
 | | Rearguard / Atziri's Foible / Darkness Enthroned | 1–4c | 10c / 10c / 2c |
 | | Militant Faith | 8c | 212c ? |
-| Penance Brand Elementalist (S11) | Nycta's Lantern / Honourhome | 17c / 3c | 42c / 2c |
-| Arctic Salvo (S8) | Mystic Refractor | 3c | 15c |
-| Kinetic Blast Necromancer (W4) | none build-enabling; endgame showcase PoBs use luxury items (Headhunter etc.) | — | — |
+| Spark Nova Brand Saboteur | Belly of the Beast 6-link / unlinked | 108c / 4c | 73c / 9c |
+| | Watcher's Eye (specific mod is the real cost) | 5c | 212c ? |
+| | Feast of Flesh | not on poe.watch | ? |
+| Detonate Dead Autobomber | Replica Maloney's Mechanism / Ngamahu's Sign | 13c / 1c | 53c / 1c |
+| Penance Brand Elementalist | Nycta's Lantern / Honourhome | 17c / 3c | 42c / 2c |
+| Arctic Salvo | Mystic Refractor | 3c | 15c |
 
-**Takeaway:** none of the top trigger picks hinge on an expensive unique. Volatile Dead's one key item was ~2.4 div at day 30. Winter Orb Occultist's guide setup is the priciest at ~8 div, mostly one optional Foulborn ring.
+## Notes
 
-## Trigger builds (Spellslinger / Cast on Crit) — Nick's favourite category
+**Why Kinetic Fusillade is out.** Each attack makes a hovering projectile that fires after a short delay, and attacking again **resets the delay on every hovering projectile**. The "machine gun" mode only works when attack speed, skill duration and projectile count line up, so players use a calculator and re-check after gear upgrades. 3.29 also cut its base attack speed and duration. Sources: [poedb](https://poedb.tw/us/Kinetic_Fusillade), [forum breakpoints thread](https://web.poecdn.com/forum/view-thread/3884849).
 
-| # | Build | Class / Asc | Trigger | When it comes online | Map / Boss / Def | Notes | Guide |
-|---|---|---|---|---|---|---|---|
-| T1 ⭐ | **Volatile Dead Spellslinger** (Ky) | Witch / Elementalist | Spellslinger (Frenzy fires Desecrate + Volatile Dead) | **From the start**; crit swap mid-game after buying **Sandstorm Visage** | 5 / 3 / 4 | One button, off-screen clear, no targeting. Mid-endgame low-life version: 75% block, EHP ~234K, max hit 8.6–61K. Act-by-act PoBs. Semi-random targeting. 3.29, "no changes needed" | **Read**: [mobalytics (Ky)](https://mobalytics.gg/poe/builds/volatile-dead-spellslinger-elementalist-starter) |
-| T2 ⭐ | **Bladefall + Blade Blast Spellslinger** (Scorps) | Shadow / Assassin | Spellslinger (Frenzy fires Bladefall + Blade Blast) | Levels with Cobra Lash → Poisonous Concoction; **switches at ~35–40** | 4 / 4 / 2 | Nick's past favourite. Author: fast campaign, good bossing, one button, easy. Squishy (EHP ~18K, max hit 5–19K), needs gear for endgame; MoM once 3k life/1.2k ES. No required uniques listed | **Read**: [mobalytics (Scorps)](https://mobalytics.gg/poe/builds/shadow-league-start-leveling-scorpius) |
-| T3 | **Bladefall + Blade Blast Slinger → CoC Assassin** (Ky) | Shadow / Assassin | Spellslinger → Cast on Crit | Starts as slinger, upgrades to CoC (exact point unknown) | ? | Exactly the zero-to-hero trigger arc; guide page wouldn't load | *Listed*: [mobalytics (Ky)](https://mobalytics.gg/poe/builds/ky-s-blade-fall-blade-blast-slinger-coc-assassin-leaguestart-to-endgame) · [video](https://www.youtube.com/watch?v=d3fCmCBM0F0) |
-| T4 | **Coldslinger Cold DoT** | Witch / Elementalist | Spellslinger | From the start | 3 / 3 / 3 | DoT (Creeping Frost + Vortex); no required gear | **Read** (see S9) |
-| T5 | **Eye of Winter Spellslinger** | Elementalist | Spellslinger | ? | ? | 3.29 league-start test video | *Listed*: [YouTube](https://www.youtube.com/watch?v=KfNQgbW92S4) |
-| T6 | **Spellslinger Assassin** | Shadow / Assassin | Spellslinger | ? | ? | "League starter was very smooth" (3.29) | *Listed*: [YouTube](https://www.youtube.com/watch?v=paXhujzXCFY) |
-| T7 | **Spark Nova Brand Saboteur** | Shadow / Saboteur | Arcanist Brand + traps "triggerbots" | **~level 70** (post-campaign) | 4 / 3 / 4 | Spark of the Nova! Fun, cheap (~300c 1–2 weeks in), tanky with 100% suppression, big regen. Core: Feast of Flesh helmet; Belly of the Beast + specific Watcher's Eye are the big costs. Author says 3.30 update coming | **Read**: [forum](https://www.pathofexile.com/forum/view-thread/3993071) |
-| T8 | **Firestorm Cast on Crit** | Templar / Inquisitor | CoC | ? | ? | 3.29 league-starter showcase | *Listed*: [YouTube](https://www.youtube.com/watch?v=emEo7o5W6oc) |
-| T9 | **CI CoC Freezing Pulse / Vortex of Projection** | ? | CoC | ? | ? | 3.29 videos | *Listed*: [FP](https://www.youtube.com/watch?v=8gKdVACONUc) · [Vortex](https://www.youtube.com/watch?v=DZzUvvdabYs) |
-| T10 | Detonate Dead Autobomber (bow CoC) | → Assassin | CoC via Replica Maloney's | Must level as Armageddon Brand slinger, swap when crit-capped | ? | Replica Maloney's "never more than 20c". Not SSF/HC viable. 3.28 | **Read**: [forum](https://web.poecdn.com/forum/view-thread/3476163) |
-| ✗ | CoC Forbidden Rite Occultist | Witch / Occultist | CoC | **Endgame only**, ~30–40 div to start; Ky now says not recommended | 5 / 5 / 5 | Breaks the "works early" rule | [poe-vault (Ky)](https://www.poe-vault.com/guides/cast-on-crit-forbidden-rite-occultist-build-guide) |
+**Spell mana cost.** One 3.29 write-up says spells carried a 25% mana cost penalty *(single source, allthings.how)*, which would explain why Spellslinger and mana stacking are popular. Check 3.30.
 
-## Spells — lightning (Spark-like)
-
-| # | Build | Class / Asc | Starter? | Notes | Guide |
-|---|---|---|---|---|---|
-| S1 | **Mana Stacker → Spark Hierophant** | Templar / Hierophant | Yes | Levels with Rolling Magma → Firestorm, maps with Shock Nova/Ball Lightning on mana-stacking, then goes **crit Spark** (Widowhail) at ~30 div. Very detailed leveling + PoB steps. 3.28 | **Read**: [mobalytics (animeprincess)](https://mobalytics.gg/poe/builds/mana-stacker-hierophant-comprehensive-leaguestart-guide) |
-| S2 | **Spark of the Nova Archmage Hierophant** | Templar / Hierophant | Not tagged | Max-block "screen blaster". Great in corridors, no aiming, good defences. Weak in open maps. Wants Widowhail + Kitava's Thirst. 3.27 | **Read**: [mobalytics (Big Ducks)](https://mobalytics.gg/poe/builds/bigducks-spark-archmage-heirophant) |
-| S3 | **Shock Nova of Procession Archmage** | Templar / Hierophant | Yes | Maxroll 3.29 league starter | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/shock-nova-of-procession-archmage-hierophant-league-starter) |
-| S4 | **Lightning Trap of Sparking** | Witch / Elementalist | Yes | Maxroll league starter; Spark-like projectiles from traps | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/lightning-trap-of-sparking-elementalist-league-starter) |
-| S5 | **Thunder Orb / Lightning Tendrils** | Witch / Elementalist | Yes | MasterT's 3.29 league start to endgame | *Listed*: [mobalytics (MasterT)](https://mobalytics.gg/poe/builds/masterts-whispering-tendrils-elementalist) |
-| S6 | **Ignite Herald of Thunder / Vaal Arc** | Elementalist | ? | poe-vault 3.29 Elementalist guide | *Listed*: [poe-vault](https://www.poe-vault.com/guides/Ignite-herald-of-thunder-vaal-arc-elementalist-build-guide-38) |
-
-## Spells — cold, fire, chaos
-
-| # | Build | Class / Asc | Starter? | Notes | Guide |
-|---|---|---|---|---|---|
-| S7 ⭐ | **Winter Orb** | Witch / Occultist or Elementalist | Yes | #1 skill on the 3.29 ladder (~7%). Smooth auto-targeting clear | *Listed*: [Lexyu (poe-vault)](https://www.poe-vault.com/guides/builds-for-path-of-exile), [peuget2](https://mobalytics.gg/poe/builds/winter-orb-elementalist-league-starter-peuget2) |
-| S8 | **Arctic Salvo: Creeping Frost + Winter Orb** | Witch / Elementalist | Yes | Strong starter and mapper, top recovery. ES drains in downtime, melee-range bossing, endgame crafts pricey. 3.29 | **Read**: [mobalytics (PhazePlays)](https://mobalytics.gg/poe/builds/phazeplays-arctic-salvo-creeping-frost-winter-orb) |
-| S9 | **Coldslinger Cold DoT** (Creeping Frost + Vortex via Spellslinger) | Witch / Elementalist | Yes | No required gear, high damage for low investment. Lower ceiling, becomes multi-button. 3.29 | **Read**: [mobalytics](https://mobalytics.gg/poe/builds/coldslinger-cold-dot-elementalist-league-starter) |
-| S10 | **Vaal Ice Nova of Frostbolts** | Witch / Occultist | Yes | 3.29 league starter | *Listed*: [mobalytics](https://mobalytics.gg/poe/profile/camaronincheese-fs849b/builds/3-29-vaal-ice-nova-of-frostbolts-occultist-leaguestarter) |
-| S11 | **Penance Brand Ignite** | Witch / Elementalist | Yes, budget | Freezing Pulse → Firestorm → Penance Brand. Affordable, durable, smooth campaign, good enough for 4 Voidstones. 3.29 | **Read**: [mobalytics (animeprincess)](https://mobalytics.gg/poe/builds/penance-brand-ignite-elementalist-league-starter) |
-| S12 | **Reap Ignite** | Witch / Elementalist | Yes | Maxroll league starter | *Listed*: [maxroll](https://maxroll.gg/poe/build-guides/reap-ignite-elementalist-league-starter) |
-| S13 | **Essence Drain + Contagion** | Witch / Occultist | Yes | Chaos DoT, packs die as you move. Pact of Ghorr has a drawback. Rated S-tier trade + SSF on aoeah | *Listed*: [allthings.how](https://allthings.how/best-spellcaster-league-start-builds-for-path-of-exile-3-29/) |
-| S14 | **Tornado** | Templar / Inquisitor | Yes | Auto-targeting, easy (BalorMage) | *Listed*: [poe-vault](https://www.poe-vault.com/guides/builds-for-path-of-exile) |
-| S15 | **Bladefall + Blade Blast Spellslinger** | Witch / Elementalist | Yes (pre-patch SSF test) | Frenzy-driven; weak vs moving bosses | *Listed*: [IGGM](https://www.iggm.com/news/poe-3-30-best-league-starter-builds-tested-in-ssf) |
-| S16 | **DoT Slinger Elementalist** | Witch / Elementalist | Yes | A creator's 3.30 campaign speedrun practice video | *Listed*: [YouTube](https://www.youtube.com/watch?v=sAPeJA7nWWc) |
-
-Note: one 3.29 write-up says **every spell gem carried a 25% mana cost penalty in 3.29** *(single source, allthings.how)*. If that's real and stays in 3.30, it's why mana-stacking and Spellslinger setups are popular.
-
-## Earlier ranking (superseded by "Where things stand" above; kept for history)
-
-Filter added: **hit-based preferred over DoT**, and **one skill from early game to endgame** that scales with currency (zero-to-hero), no late swap.
-
-| Rank | Pick | Why it fits | Watch out for |
-|---|---|---|---|
-| 1 | **Winter Orb** (S7, Elementalist or Occultist) | Hit-based cold spell; the main skill from ~level 28 all the way up; scales a long way with gear. 16% of 3.29 week-1 characters, so it's the best-tested starter | Channel/stack playstyle; most-played means likely nerf target — check patch notes |
-| ~~2~~ ✗ | ~~**Kinetic Fusillade Hierophant** (W1)~~ ruled out: janky breakpoints, nerfed in 3.29, one-shot prone | Wand attack, usable from level 12, becomes a "machine gun" after two cheap uniques, then scales with wand/attack speed | Breakpoint calculator homework; few people played it (not in 3.29 week-1 top 8) |
-| 3 | **Kinetic Blast / Kinetic Rain Elementalist (W3/W6)** | Classic wand clear from early acts on a cheap rare wand; trade wands give a long upgrade path; Power Siphon can join later for bosses | KB was nerfed in 3.29 for bosses; squishy in T16+ |
-| Wild card | **Spark of the Nova Archmage (S2)** | Closest to "old Spark"; same skill throughout | Not tagged as a starter and wants Widowhail; the mana-stacker Spark guide (S1) swaps skills mid-game at ~30 div, which breaks the "no late switch" rule |
-
-### Mapping / bossing / defence ratings (1–5, estimates)
-
-**How these were made:** the guide authors' own pros/cons where I could read the guide, plus how each archetype usually plays. **Not** measured numbers. Firm up the top 2 with PoB (DPS, eHP, max hit) once PoB ships 3.30 support.
-Nick hates dying and wants to boss (3.30's Fate rewards sit on bosses), so **Bossing and Defence count double** in the total.
-
-| Build | Mapping | Bossing | Defence | Weighted (M + 2B + 2D) | Basis |
-|---|---|---|---|---|---|
-| Kinetic Fusillade Hierophant ⚠ | 4 | 3? | 4 | 18? | Author (3.28): "fast", "tanky". **3.29 nerfed KF** (attack speed 200%→125% of base, duration 0.7→0.5s, more mana); one creator measured the ballista version ~40% weaker. Also fiddly, see below. Self-cast creator (3.29): "squishy… you will 100% get randomly one-shot" |
-| Mana Stacker → Spark Hierophant | 4 | 4 | 4 | 20 | Mana-stacking Hierophant is a tanky shell; but it swaps skills at ~30 div (breaks the no-late-switch rule) |
-| Spark of the Nova Archmage Hierophant | 4 (5 in corridors, 3 open maps) | 3 | 4 | 18 | Author: max block, good recovery; Spark bossing is position-dependent |
-| **Winter Orb Occultist** | 5 | 3 | 4 | **19** | Ladder #1 in 3.29. Videos: **CI + capped block, tanky**; main skill from ~28 to uber endgame; 4 Voidstones on a 5-link. Watch mana regen vs WO cost |
-| Kinetic Fusillade Ballista (Ascendant) | 4 | 4 | 2 | 16 | Author: "giga totem damage", "squishy, not HC viable" |
-| Kinetic Blast of Clustering Necromancer ✗ | 4 | 3 | 4 | 18 | Tanky late (CI, 8–10k ES), but videos show it **swaps skills 3 times and only comes online at ~70–80**; Legi1 rates it a B/B- starter after the 3.29 nerf. Breaks Nick's no-late-switch rule |
-| Winter Orb Elementalist / Arctic Salvo | 5 | 3 | 3 | 17 | PhazePlays: top recovery but ES drains in downtime and bossing is close-range |
-| Penance Brand Elementalist | 4 | 3 | 3 | 16 | Author: durable, good enough for 4 Voidstones |
-| Kinetic Rain of Impact Elementalist | 5 | 2 | 2 | 13 | Author: excellent clear, squishy in T16+ |
-
-For comparison (not wand/spell, but famous for "don't die, kill bosses"):
-
-| Build | Mapping | Bossing | Defence | Weighted |
-|---|---|---|---|---|
-| Explosive Arrow Ballista Hierophant (bow totems) | 3 | 5 | 4 | 21 |
-| Righteous Fire Chieftain (DoT) | 3 | 3 | 5 | 19 |
-| Toxic Rain Pathfinder (bow DoT) | 4 | 4 | 3 | 18 |
-
-### Is Kinetic Fusillade janky? (checked 2026-11-09)
-
-**Yes, somewhat.** Each attack makes a hovering projectile that fires after a short duration, and **attacking again resets the timer on every hovering projectile**.
-If you attack faster than the projectiles fire, they keep getting held back; the "machine gun" mode only works when attack speed, skill duration and projectile count line up.
-Players use a calculator (nemrod10.github.io/KF) and **re-check after gear upgrades**; guides say "not beginner-friendly" and tell you to avoid attack speed on your wand.
-On top of that, 3.29 cut its base attack speed and duration. Sources: [poedb](https://poedb.tw/us/Kinetic_Fusillade), [forum breakpoints thread](https://web.poecdn.com/forum/view-thread/3884849), [mobalytics](https://mobalytics.gg/poe/builds/lolcohol-kinetic-fusillade-elementalist).
-**Verdict for Nick:** move KF out of the top spot.
-
-### Revised top 3 after the KF check (superseded by "Where things stand")
-
-1. ~~**Kinetic Blast of Clustering Necromancer**~~ — dropped after the video summaries: it levels as spell → Firestorm → Power Siphon totems and only swaps to KBoC at 70–80. Was: wand attack, not a minion build (Necromancer for its defensive/offering nodes), tanky, Maxroll + several 3.29 league-start guides. KB took a boss nerf in 3.29, so confirm bossing in PoB.
-2. **Winter Orb Occultist** — the proven spell starter (16% of 3.29 week 1).
-3. **Spark Archmage Hierophant** — same skill from start to finish, max block, the "old Spark" feel.
-
-### Gameplay videos (to see what each looks like)
-
-| Build | Video |
-|---|---|
-| Kinetic Blast of Clustering Necromancer | [3.29 leaguestart primer](https://www.youtube.com/watch?v=lRjDLu8c6Dw) · [Level 1–90](https://www.youtube.com/watch?v=AymYc83c6ZI) · [Day 2–3 update](https://www.youtube.com/watch?v=5T8yx4dhd9E) |
-| Winter Orb Occultist | [Started 3.29 with WO Occultist](https://www.youtube.com/watch?v=3oedKtr6Hls) · [In-depth starter guide](https://www.youtube.com/watch?v=yn1MzoinnUw) · [To 4 Voidstones](https://www.youtube.com/watch?v=zYLg8-yYkoY) · [Boss fight](https://www.youtube.com/watch?v=qPs0HdPh0BA) |
-| Spark Archmage Hierophant | [Spark Archmage is BACK](https://www.youtube.com/watch?v=DpHXNVNeH88) · [Endgame guide (30–100 div)](https://www.youtube.com/watch?v=MDDTlW1SsLY) · [3.25 uber boss showcase](https://www.youtube.com/watch?v=rkTF2B19IiM) |
-| Kinetic Fusillade | [3.29 ballista league-start test, "nerfed by 40%"](https://www.youtube.com/watch?v=oXTR0Q1vK14) · [3.29 self-cast KF Elementalist starter](https://www.youtube.com/watch?v=sPebNu-PKm0) · [3.28 KF Hierophant starter](https://www.youtube.com/watch?v=5uQMm6JJKsU) |
-
-Transcripts of these videos are summarized in [videos/README.md](../videos/README.md) (read 2026-11-09). Short version: Winter Orb Occultist holds up best for "works from the start, tanky, scales"; self-cast KF is called squishy; KBoC needs several skill swaps.
-
-**Demoted for Nick:** DoT builds (Essence Drain, Coldslinger, Creeping Frost, Penance Brand ignite, Reap) — keep only as backups.
-**Dropped:** anything that comes online late (Power Siphon Slayer as a starter, CoC Forbidden Rite, Strength stacker).
+**For comparison:** the classic "don't die, kill bosses" starters are Explosive Arrow Ballista Hierophant (bow totems, 3 / 5 / 4), Righteous Fire Chieftain (DoT, 3 / 3 / 5) and Toxic Rain Pathfinder (bow DoT, 4 / 4 / 3). None of them fit the wand/spell/trigger brief.
 
 ## Pending
-- 3.30 patch notes (scheduled check Nov 11).
-- Launch-week poe.ninja: which of these actually show up in numbers.
-- 3.30 YouTube starter roundups (titles found: "These 5 builds look VERY promising — league start tests for 3.30", "My top 7 after the ExileCon reveal", "My 3.30 league-start plans"). I can't read YouTube from here, so the names need a quick human skim.
+- 3.30 patch notes (scheduled check Nov 11): re-rate every top pick.
+- PoB numbers (DPS, EHP, max hit) for the finalists once PoB supports 3.30.
+- Transcribe the trigger-build videos with `tools/yt_transcript.py` (none are summarized yet).
+- Launch-week poe.ninja: check which of these people actually play.
