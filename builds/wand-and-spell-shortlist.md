@@ -64,7 +64,7 @@ Nick hates dying and wants to boss (3.30's Fate rewards sit on bosses), so **Bos
 
 | Build | Mapping | Bossing | Defence | Weighted (M + 2B + 2D) | Basis |
 |---|---|---|---|---|---|
-| **Kinetic Fusillade Hierophant** | 4 | 4 | 4 | **20** | Author: "fast", "tanky"; ~5M DPS in their PoB. Arcane Cloak uptime is low |
+| Kinetic Fusillade Hierophant ⚠ | 4 | 3? | 4 | 18? | Author (3.28): "fast", "tanky". **3.29 nerfed KF** (attack speed 200%→125% of base, duration 0.7→0.5s, more mana); one creator measured the ballista version ~40% weaker. Also fiddly, see below |
 | Mana Stacker → Spark Hierophant | 4 | 4 | 4 | 20 | Mana-stacking Hierophant is a tanky shell; but it swaps skills at ~30 div (breaks the no-late-switch rule) |
 | Spark of the Nova Archmage Hierophant | 4 (5 in corridors, 3 open maps) | 3 | 4 | 18 | Author: max block, good recovery; Spark bossing is position-dependent |
 | **Winter Orb Occultist** | 5 | 3 | 3 | **17** | Ladder #1 in 3.29; Occultist ES + curses help survival; channel/stack bossing is OK not great |
@@ -81,6 +81,31 @@ For comparison (not wand/spell, but famous for "don't die, kill bosses"):
 | Explosive Arrow Ballista Hierophant (bow totems) | 3 | 5 | 4 | 21 |
 | Righteous Fire Chieftain (DoT) | 3 | 3 | 5 | 19 |
 | Toxic Rain Pathfinder (bow DoT) | 4 | 4 | 3 | 18 |
+
+### Is Kinetic Fusillade janky? (checked 2026-11-09)
+
+**Yes, somewhat.** Each attack makes a hovering projectile that fires after a short duration, and **attacking again resets the timer on every hovering projectile**.
+If you attack faster than the projectiles fire, they keep getting held back; the "machine gun" mode only works when attack speed, skill duration and projectile count line up.
+Players use a calculator (nemrod10.github.io/KF) and **re-check after gear upgrades**; guides say "not beginner-friendly" and tell you to avoid attack speed on your wand.
+On top of that, 3.29 cut its base attack speed and duration. Sources: [poedb](https://poedb.tw/us/Kinetic_Fusillade), [forum breakpoints thread](https://web.poecdn.com/forum/view-thread/3884849), [mobalytics](https://mobalytics.gg/poe/builds/lolcohol-kinetic-fusillade-elementalist).
+**Verdict for Nick:** move KF out of the top spot.
+
+### Revised top 3 for Nick (after the KF check)
+
+1. **Kinetic Blast of Clustering Necromancer** — wand attack, not a minion build (Necromancer for its defensive/offering nodes), tanky, Maxroll + several 3.29 league-start guides. KB took a boss nerf in 3.29, so confirm bossing in PoB.
+2. **Winter Orb Occultist** — the proven spell starter (16% of 3.29 week 1).
+3. **Spark Archmage Hierophant** — same skill from start to finish, max block, the "old Spark" feel.
+
+### Gameplay videos (to see what each looks like)
+
+| Build | Video |
+|---|---|
+| Kinetic Blast of Clustering Necromancer | [3.29 leaguestart primer](https://www.youtube.com/watch?v=lRjDLu8c6Dw) · [Level 1–90](https://www.youtube.com/watch?v=AymYc83c6ZI) · [Day 2–3 update](https://www.youtube.com/watch?v=5T8yx4dhd9E) |
+| Winter Orb Occultist | [Started 3.29 with WO Occultist](https://www.youtube.com/watch?v=3oedKtr6Hls) · [In-depth starter guide](https://www.youtube.com/watch?v=yn1MzoinnUw) · [To 4 Voidstones](https://www.youtube.com/watch?v=zYLg8-yYkoY) · [Boss fight](https://www.youtube.com/watch?v=qPs0HdPh0BA) |
+| Spark Archmage Hierophant | [Spark Archmage is BACK](https://www.youtube.com/watch?v=DpHXNVNeH88) · [Endgame guide (30–100 div)](https://www.youtube.com/watch?v=MDDTlW1SsLY) · [3.25 uber boss showcase](https://www.youtube.com/watch?v=rkTF2B19IiM) |
+| Kinetic Fusillade | [3.29 ballista league-start test, "nerfed by 40%"](https://www.youtube.com/watch?v=oXTR0Q1vK14) · [3.29 self-cast KF Elementalist starter](https://www.youtube.com/watch?v=sPebNu-PKm0) · [3.28 KF Hierophant starter](https://www.youtube.com/watch?v=5uQMm6JJKsU) |
+
+(Found through search; I can't watch YouTube from here, so I haven't checked them. Titles with "NEW META / INSANELY OP" are usually low-effort channels and were skipped.)
 
 **Demoted for Nick:** DoT builds (Essence Drain, Coldslinger, Creeping Frost, Penance Brand ignite, Reap) — keep only as backups.
 **Dropped:** anything that comes online late (Power Siphon Slayer as a starter, CoC Forbidden Rite, Strength stacker).
