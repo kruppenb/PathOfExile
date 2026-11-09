@@ -18,6 +18,13 @@ Legend: **Read** = I read the guide page · *Listed* = found by title/search onl
 | W7 | **Power Siphon (crit) Slayer** | Duelist / Slayer | No (endgame) | 3.29 map blaster with corrupted uniques. A **transition target**, not a starter | **Read**: [poebuilds.cc](https://www.poebuilds.cc/poe1/build/98Ygs6Jh4FQ) |
 | W8 | **Luminary Merc Bot** | Scion / Luminary | Yes (3.29) | Mercenary does the work (e.g. Kineticist merc = Kinetic Blast + Cluster Traps). Was the strongest 3.29 starter; ⚠ likely nerf target | *Listed*: [mobalytics (Captainlance9)](https://mobalytics.gg/poe/builds/captainlance9-luminary-merc-bot) |
 
+## Where things stand (2026-11-09)
+
+1. **Volatile Dead Spellslinger Elementalist (T1)**: trigger, one button, works from the start, tanky mid-game, key unique ~2.4 div at day 30.
+2. **Bladefall + Blade Blast Spellslinger Assassin (T2)**: Nick's old favourite, online at 35–40, good bossing, no required uniques, squishy early.
+3. **Winter Orb Occultist (S7)**: proven, tanky (CI + block), ~8 div of guide uniques at day 30.
+Video summaries for WO, KF, KBoC and Spark are in [../videos/README.md](../videos/README.md). Trigger-build videos aren't transcribed yet.
+
 ## Key unique prices, one month into 3.29
 
 Source: poe.watch daily averages for **Allflame (3.29)**. Day 7 = Jul 31, **day 30 = Aug 23, 2026**. Divine Orb ≈ **177c on day 30** (flagged low confidence).
@@ -114,12 +121,12 @@ Nick hates dying and wants to boss (3.30's Fate rewards sit on bosses), so **Bos
 
 | Build | Mapping | Bossing | Defence | Weighted (M + 2B + 2D) | Basis |
 |---|---|---|---|---|---|
-| Kinetic Fusillade Hierophant ⚠ | 4 | 3? | 4 | 18? | Author (3.28): "fast", "tanky". **3.29 nerfed KF** (attack speed 200%→125% of base, duration 0.7→0.5s, more mana); one creator measured the ballista version ~40% weaker. Also fiddly, see below |
+| Kinetic Fusillade Hierophant ⚠ | 4 | 3? | 4 | 18? | Author (3.28): "fast", "tanky". **3.29 nerfed KF** (attack speed 200%→125% of base, duration 0.7→0.5s, more mana); one creator measured the ballista version ~40% weaker. Also fiddly, see below. Self-cast creator (3.29): "squishy… you will 100% get randomly one-shot" |
 | Mana Stacker → Spark Hierophant | 4 | 4 | 4 | 20 | Mana-stacking Hierophant is a tanky shell; but it swaps skills at ~30 div (breaks the no-late-switch rule) |
 | Spark of the Nova Archmage Hierophant | 4 (5 in corridors, 3 open maps) | 3 | 4 | 18 | Author: max block, good recovery; Spark bossing is position-dependent |
-| **Winter Orb Occultist** | 5 | 3 | 3 | **17** | Ladder #1 in 3.29; Occultist ES + curses help survival; channel/stack bossing is OK not great |
+| **Winter Orb Occultist** | 5 | 3 | 4 | **19** | Ladder #1 in 3.29. Videos: **CI + capped block, tanky**; main skill from ~28 to uber endgame; 4 Voidstones on a 5-link. Watch mana regen vs WO cost |
 | Kinetic Fusillade Ballista (Ascendant) | 4 | 4 | 2 | 16 | Author: "giga totem damage", "squishy, not HC viable" |
-| Kinetic Blast of Clustering Necromancer | 4 | 3 | 4 | 18 | Write-ups: tanky, strong bossing, but KB nerfed vs bosses in 3.29 |
+| Kinetic Blast of Clustering Necromancer ✗ | 4 | 3 | 4 | 18 | Tanky late (CI, 8–10k ES), but videos show it **swaps skills 3 times and only comes online at ~70–80**; Legi1 rates it a B/B- starter after the 3.29 nerf. Breaks Nick's no-late-switch rule |
 | Winter Orb Elementalist / Arctic Salvo | 5 | 3 | 3 | 17 | PhazePlays: top recovery but ES drains in downtime and bossing is close-range |
 | Penance Brand Elementalist | 4 | 3 | 3 | 16 | Author: durable, good enough for 4 Voidstones |
 | Kinetic Rain of Impact Elementalist | 5 | 2 | 2 | 13 | Author: excellent clear, squishy in T16+ |
@@ -142,7 +149,7 @@ On top of that, 3.29 cut its base attack speed and duration. Sources: [poedb](ht
 
 ### Revised top 3 for Nick (after the KF check) — superseded by the trigger section above
 
-1. **Kinetic Blast of Clustering Necromancer** — wand attack, not a minion build (Necromancer for its defensive/offering nodes), tanky, Maxroll + several 3.29 league-start guides. KB took a boss nerf in 3.29, so confirm bossing in PoB.
+1. ~~**Kinetic Blast of Clustering Necromancer**~~ — dropped after the video summaries: it levels as spell → Firestorm → Power Siphon totems and only swaps to KBoC at 70–80. Was: wand attack, not a minion build (Necromancer for its defensive/offering nodes), tanky, Maxroll + several 3.29 league-start guides. KB took a boss nerf in 3.29, so confirm bossing in PoB.
 2. **Winter Orb Occultist** — the proven spell starter (16% of 3.29 week 1).
 3. **Spark Archmage Hierophant** — same skill from start to finish, max block, the "old Spark" feel.
 
