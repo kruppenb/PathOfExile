@@ -67,7 +67,9 @@ python tools/pob_leveling.py --update-data                              # refres
 ```
 
 - Plain Python 3.9+, no installs. Data lives in `tools/pob_data/` (GGG tree export + exile-leveling gem/quest data); refresh it once 3.30 data lands.
-- pobb.in / pastebin / poe.ninja are **blocked from Claude's cloud sessions**. Either run it on Nick's PC with the link, or paste the PoB code to Claude (PoB → Import/Export Build → Generate → Copy) and Claude runs it.
+- Takes pobb.in, pastebin, poe.ninja/pob and maxroll.gg/poe/pob links, and guide pages that embed a PoB (mobalytics pages carry the code in a `"pobCode"` field).
+- Those sites are **blocked from Claude's cloud sessions** (and from the device VM). Either run it on Nick's PC, have Claude start a Remote Control session on the PC to fetch the codes into `C:\repos\drafts\pob-codes\`, or paste the PoB code to Claude (PoB → Import/Export Build → Generate → Copy).
+- If a PoB lists the endgame tree first, trees are shown sorted by points, and skill/item sets with a level or act in the title are moved first (`--keep-order` turns this off).
 - The plan is only as good as the PoB: guides with several trees (e.g. "Level 12", "Act 3", "Level 40") and several skill sets give the best result. A single endgame tree still gives a sensible point order, but no level breakpoints.
 - After the plan exists, the `poe1-leveling-guide-builder` skill can turn it into an act-by-act HTML guide.
 

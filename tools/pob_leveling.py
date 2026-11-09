@@ -18,6 +18,7 @@ No third-party packages needed (Python 3.9+).
 
 Usage:
     python tools/pob_leveling.py https://pobb.in/XXXXXXXX -o builds/leveling/my-build.md
+    python tools/pob_leveling.py https://mobalytics.gg/poe/builds/<guide>   # guide page with a PoB
     python tools/pob_leveling.py build.txt              # file with a code or XML
     python tools/pob_leveling.py - < code.txt           # code on stdin
     python tools/pob_leveling.py URL --class Witch      # override class for gem rewards
@@ -91,6 +92,9 @@ def raw_urls(url: str) -> list[str]:
     m = re.match(r"https?://(?:www\.)?poe\.ninja/pob/(?:raw/)?([A-Za-z0-9_-]+)", url)
     if m:
         return [f"https://poe.ninja/pob/raw/{m.group(1)}"]
+    m = re.match(r"https?://(?:www\.)?maxroll\.gg/poe/pob/([A-Za-z0-9_-]+)", url)
+    if m:
+        return [f"https://maxroll.gg/poe/api/pob/{m.group(1)}"]
     m = re.match(r"https?://(?:www\.)?pob\.codes/(?:raw/)?([A-Za-z0-9_-]+)", url)
     if m:
         return [f"https://pob.codes/raw/{m.group(1)}", url]
@@ -104,7 +108,7 @@ def decode_code(code: str) -> str:
     return zlib.decompress(base64.b64decode(code)).decode("utf-8", "replace")
 
 
-def load_build_xml(src: str) -> tuple[str, str]:
+def load_build_xml(src: str, depth: int = 0) -> tuple[str, str]:
     """Return (xml_text, source_label)."""
     if src == "-":
         text = sys.stdin.read()
@@ -119,7 +123,17 @@ def load_build_xml(src: str) -> tuple[str, str]:
                 continue
             text = text.strip()
             if text.startswith("<") and "<PathOfBuilding" not in text[:500]:
-                continue  # an HTML page, not a code
+                # A guide page (e.g. mobalytics): look for an embedded code, then a PoB link.
+                m = re.search(r'"pobCode"\s*:\s*"(eN[A-Za-z0-9+/=_-]{200,})"', text) or \
+                    re.search(r'\b(eN[A-Za-z0-9_-]{2000,}={0,2})', text)
+                if m:
+                    return to_xml(m.group(1)), src
+                links = re.findall(r"https?://(?:pobb\.in|pastebin\.com|poe\.ninja/pob|maxroll\.gg/poe/pob)/[A-Za-z0-9_/-]+", text)
+                if links and depth == 0:
+                    print(f"Using the first PoB link on the page: {links[0]} "
+                          f"(others: {', '.join(sorted(set(links[1:]))) or 'none'})", file=sys.stderr)
+                    return load_build_xml(links[0], depth=1)
+                continue
             return to_xml(text), src
         sys.exit(f"Couldn't fetch a PoB code from {src} ({last_err or 'got a web page, not a code'}).\n"
                  "If this runs in the cloud, pobb.in/pastebin are blocked: run it on your PC, or "
@@ -222,20 +236,24 @@ def clean(s: str | None) -> str:
     return COLOR_RE.sub("", s or "").strip()
 
 
-def level_from_title(title: str) -> int | None:
+def level_from_title(title: str) -> str | None:
+    """Level (or level range) a guide wrote in a tree / skill-set title."""
     t = title.lower()
-    m = re.search(r"(?:lvl|level|lv|l)\s*\.?\s*(\d{1,3})", t)
+    m = re.search(r"\b(?:lvl|level|lv)\s*\.?\s*(\d{1,3})(?:\s*[-–]\s*(\d{1,3}))?", t)
     if m:
-        return int(m.group(1))
-    m = re.match(r"\s*(\d{1,3})\s*(?:[-+–]|$|\s)", t)
-    if m and 1 <= int(m.group(1)) <= 100:
-        return int(m.group(1))
+        return m.group(1) + (f"–{m.group(2)}" if m.group(2) else "")
+    m = re.match(r"\s*(\d{1,3})\s*(?:[-–]\s*(\d{1,3})|(\+))", t)  # "1-12 | Cobra", "29+"
+    if m and int(m.group(1)) <= 100:
+        return m.group(1) + (f"–{m.group(2)}" if m.group(2) else "+")
     return None
 
 
-def act_from_title(title: str) -> int | None:
-    m = re.search(r"\bact\s*(\d{1,2})", title.lower())
-    return int(m.group(1)) if m else None
+def act_from_title(title: str) -> str | None:
+    """'Act 3', 'Act1', 'Ato 4 e 5' (Portuguese), 'Akt 2' -> '3', '1', '4–5'."""
+    m = re.search(r"\b(?:act|ato|akt|acto)\s*(\d{1,2})(?:\s*(?:-|–|e|and|&|to)\s*(\d{1,2}))?", title.lower())
+    if not m:
+        return None
+    return m.group(1) + (f"–{m.group(2)}" if m.group(2) else "")
 
 
 def parse_item(text: str) -> dict:
@@ -251,18 +269,38 @@ def parse_item(text: str) -> dict:
         item["base"] = lines[i + 1]
     else:
         item["base"] = item["name"]
-    for ln in lines:
+    item["mods"], item["sockets"] = [], ""
+    imp_at = None
+    for j, ln in enumerate(lines):
         m = re.match(r"(?:LevelReq|Requires Level):?\s*(\d+)", ln, re.I)
         if m:
             item["levelreq"] = int(m.group(1))
+        if ln.startswith("Sockets:"):
+            item["sockets"] = ln.split(":", 1)[1].strip()
+        if re.match(r"Implicits:\s*\d+", ln):
+            imp_at = j
+    if imp_at is not None:
+        for ln in lines[imp_at + 1:]:
+            ln = re.sub(r"\{[^}]*\}", "", ln).strip()
+            if ln and ln not in ("Fractured Item", "Corrupted", "Mirrored", "Synthesised Item",
+                                 "Shaper Item", "Elder Item", "Split"):
+                item["mods"].append(ln)
     return item
+
+
+def to_int(v, default: int | None = 0) -> int | None:
+    """PoB writes Lua's "nil" for unset numbers."""
+    try:
+        return int(v)
+    except (TypeError, ValueError):
+        return default
 
 
 def parse_build(xml_text: str) -> dict:
     root = ET.fromstring(xml_text)
     b = root.find("Build")
     build = {
-        "level": int(b.get("level", "1")) if b is not None else 1,
+        "level": to_int(b.get("level"), 1) if b is not None else 1,
         "className": b.get("className", "") if b is not None else "",
         "ascendClassName": b.get("ascendClassName", "") if b is not None else "",
         "bandit": b.get("bandit", "") if b is not None else "",
@@ -283,9 +321,9 @@ def parse_build(xml_text: str) -> dict:
             specs.append({
                 "title": clean(s.get("title")) or f"Tree {i}",
                 "nodes": nodes,
-                "classId": int(s.get("classId")) if s.get("classId") else None,
-                "ascendClassId": int(s.get("ascendClassId", "0") or 0),
-                "secondaryAscendClassId": int(s.get("secondaryAscendClassId", "0") or 0),
+                "classId": to_int(s.get("classId"), None),
+                "ascendClassId": to_int(s.get("ascendClassId")),
+                "secondaryAscendClassId": to_int(s.get("secondaryAscendClassId")),
                 "treeVersion": s.get("treeVersion", ""),
                 "masteries": masteries,
                 "url": (url_el.text or "").strip() if url_el is not None else "",
@@ -559,8 +597,34 @@ def md_escape(s: str) -> str:
     return s.replace("|", "\\|")
 
 
+def stage_key(title: str) -> float | None:
+    lv = level_from_title(title)
+    if lv:
+        return float(re.match(r"\d+", lv).group(0))
+    act = act_from_title(title)
+    if act:
+        return ACT_END[min(int(re.match(r"\d+", act).group(0)), 10) - 1][1] - 5
+    return None
+
+
+def leveling_first(sets: list[dict]) -> bool:
+    """If the first set isn't a leveling one but later ones are (endgame-first
+    PoBs), move the sets with a level/act in the title to the front, in level
+    order. Returns True if it reordered."""
+    keys = [stage_key(x["title"]) for x in sets]
+    if not sets or keys[0] is not None or all(k is None for k in keys):
+        return False
+    def phase(t: str) -> int:  # for the untitled-by-level rest: early < mid < late/endgame
+        t = t.lower()
+        return 0 if "early" in t else 2 if ("late" in t or "end" in t) else 1
+    order = sorted(range(len(sets)), key=lambda i: (keys[i] is None, keys[i] or 0,
+                                                    phase(sets[i]["title"]) if keys[i] is None else 0, i))
+    sets[:] = [sets[i] for i in order]
+    return True
+
+
 def render(build: dict, tree: Tree, gems_db: dict, quests_db: dict, source: str,
-           class_override: str | None) -> str:
+           class_override: str | None, keep_order: bool = False) -> str:
     out: list[str] = []
     w = out.append
     specs = build["specs"]
@@ -583,27 +647,45 @@ def render(build: dict, tree: Tree, gems_db: dict, quests_db: dict, source: str,
     w("")
 
     # ---- overview
-    rows = []
-    for i, s in enumerate(specs, 1):
+    for s in specs:
         main = [n for n in s["nodes"] if n in tree.nodes and not tree.is_asc(n) and tree.kind(n) not in ("start", "mastery")]
-        main += [n for n in s["nodes"] if n in tree.nodes and tree.kind(n) == "mastery"]
-        ascn = [n for n in s["nodes"] if tree.is_asc(n) and tree.kind(n) != "ascstart"]
+        ascn = [n for n in s["nodes"] if tree.is_asc(n) and tree.kind(n) != "ascstart"
+                and not tree.nodes[n].get("isBloodline")]
+        s["_points"], s["_asc"] = len(main), len(ascn)
         lvl = level_from_title(s["title"])
-        guess = lvl if lvl else est_level(len(main), build["bandit"])
-        s["_points"], s["_asc"], s["_lvl"] = len(main), len(ascn), (guess, bool(lvl))
-        rows.append(f"| {i} | {md_escape(s['title'])} | {len(main)} | {'' if lvl else '≈'}{guess} | {len(ascn)} |")
+        guess = est_level(len(main) + len(s["masteries"]), build["bandit"])
+        s["_lvl"] = (lvl, True) if lvl else (f"≈{guess}", False)
+        s["_act"] = act_from_title(s["title"])
+    # Guides often put the endgame tree first. If a tree has clearly more
+    # points than a later one, show them sorted by points instead.
+    reordered = False
+    if not keep_order and any(a["_points"] > b["_points"] + 10
+                              for i, a in enumerate(specs) for b in specs[i + 1:]):
+        specs.sort(key=lambda s: s["_points"])
+        reordered = True
     if specs:
         w("## Trees at a glance")
         w("")
         w("| # | Tree (PoB title) | Passive points | Level | Ascendancy points |")
         w("|---|---|---|---|---|")
-        out.extend(rows)
+        for i, s in enumerate(specs, 1):
+            lvl = s["_lvl"][0] + (f" (end of act {s['_act']})" if s["_act"] else "")
+            w(f"| {i} | {md_escape(s['title'])} | {s['_points']} | {lvl} | {s['_asc']} |")
         w("")
-        w("Level is from the tree title when it has one, otherwise estimated from points "
-          "(`≈`, assumes normal quest points).")
+        w("Level comes from the tree title when it has one, otherwise it's estimated from points "
+          "(`≈`, assumes you do the quests that give passive points).")
+        if reordered:
+            w("**Trees are sorted by points here**: the PoB lists them in a different order "
+              "(usually endgame first). Use `--keep-order` to keep the PoB's order.")
         w("")
 
     # ---- gem plan
+    moved = [name for name, key in (("skill sets", "skill_sets"), ("item sets", "item_sets"))
+             if not keep_order and leveling_first(build[key])]
+    if moved:
+        w(f"*Leveling {' and '.join(moved)} (titles with a level or act) are listed first; "
+          "the PoB has them after the endgame ones.*")
+        w("")
     plan, where, needed = gem_acquisition(build, class_name, gems_db, quests_db["quests"])
     if needed:
         w(f"## Gems: what to take and buy, act by act ({class_name})")
@@ -627,7 +709,8 @@ def render(build: dict, tree: Tree, gems_db: dict, quests_db: dict, source: str,
                 bits.append("buy " + ", ".join(
                     f"{n} (lvl {gdb.get(needed[n]['gid'], {}).get('lvl', 1)})" for n, _ in buys)
                     + f" from {buys[0][1]}")
-            w(f"- *{qname}*: " + "; ".join(bits))
+            first = min(needed[n]["first_set"] for n in ([take] if take else []) + [n for n, _ in buys])
+            w(f"- *{qname}*: " + "; ".join(bits) + f" — needed from *{build['skill_sets'][first]['title']}*")
         w("")
         other = [n for n in needed if not where[n].startswith("Act")]
         if other:
@@ -712,7 +795,7 @@ def render(build: dict, tree: Tree, gems_db: dict, quests_db: dict, source: str,
             lvl, from_title = s["_lvl"]
             w(f"### Tree {i}: {s['title']}")
             w("")
-            w(f"{s['_points']} points ({'level ' if from_title else '≈ level '}{lvl})"
+            w(f"{s['_points']} points (level {lvl.lstrip('≈') if from_title else lvl})"
               + (f" · {ascname}" if ascname else "")
               + (f" · tree {s['treeVersion']}" if s["treeVersion"] else "")
               + (f" · [open tree]({s['url']})" if s["url"].startswith("http") else ""))
@@ -745,7 +828,8 @@ def render(build: dict, tree: Tree, gems_db: dict, quests_db: dict, source: str,
                 w("`[n]` = points spent once this step is done.")
                 w("")
             if unreach:
-                w(f"*Couldn't route {len(unreach)} nodes (detached from the rest):* "
+                w(f"*Not connected to the rest of the tree ({len(unreach)}), usually taken through a jewel such as "
+                  "Thread of Hope / Impossible Escape / Intuitive Leap, or an anoint:* "
                   + ", ".join(tree.label(n) for n in sorted(unreach)))
                 w("")
             if unknown:
@@ -758,21 +842,29 @@ def render(build: dict, tree: Tree, gems_db: dict, quests_db: dict, source: str,
                     f"{tree.name(k)}: *{' / '.join(tree.nodes.get(k, {}).get('masteryEffects', {}).get(str(v), ['effect ' + str(v)]))}*"
                     for k, v in mast_new.items()))
                 w("")
-            # ascendancy
+            # ascendancy (and bloodline / secondary ascendancy, counted separately)
             asc_now = {n for n in known if tree.is_asc(n) and tree.kind(n) != "ascstart"}
             asc_add = asc_now - asc_have
-            if asc_add:
-                ast = tree.asc_start(tree.nodes[next(iter(asc_add))].get("ascendancyName", ""))
-                achunks, _ = tree.order((asc_now & asc_have) | ({ast} if ast else set()), asc_add)
-                pts = len(asc_now & asc_have)
+            groups = collections.defaultdict(set)
+            for n in asc_add:
+                groups[tree.nodes[n]["ascendancyName"]].add(n)
+            for aname, add_n in sorted(groups.items(), key=lambda g: tree.nodes[next(iter(g[1]))].get("isBloodline", False)):
+                bloodline = any(tree.nodes[n].get("isBloodline") for n in add_n)
+                had = {n for n in asc_now & asc_have if tree.nodes[n]["ascendancyName"] == aname}
+                ast = tree.asc_start(aname)
+                achunks, rest = tree.order(had | ({ast} if ast else set()), add_n)
+                if rest:
+                    achunks.append(sorted(rest))
+                pts = len(had)
                 steps = []
                 for ch in achunks:
                     pts += len(ch)
-                    lab = LABS[min((pts - 1) // 2, 3)]
+                    where_ = "" if bloodline else ", " + LABS[min((pts - 1) // 2, 3)].split(" (")[0]
                     big = [n for n in ch if tree.is_big(n)]
                     steps.append(f"{', '.join(tree.label(n) for n in big) or tree.small_summary(ch)} "
-                                 f"({pts} pts, {lab.split(' (')[0]})")
-                w("Ascendancy: " + " → ".join(steps))
+                                 f"({pts} pts{where_})")
+                w(("Bloodline / secondary ascendancy " if bloodline else "Ascendancy ")
+                  + f"({aname}): " + " → ".join(steps))
                 w("")
             if asc_have - asc_now:
                 w("Ascendancy respec: " + ", ".join(tree.label(n) for n in asc_have - asc_now if tree.is_big(n)))
@@ -799,16 +891,31 @@ def render(build: dict, tree: Tree, gems_db: dict, quests_db: dict, source: str,
             w("")
             w("Price them on poe.ninja / trade before committing.")
             w("")
+        w("Each set lists only the slots that changed from the previous set. "
+          "Rares show the mods the guide aims for (its stat targets, not an exact item).")
+        w("")
+        prev_items: dict[str, str] = {}
         for i, s in enumerate(build["item_sets"], 1):
-            if not s["slots"]:
+            cur = {slot: "\n".join(item["text"]) for slot, item in s["slots"]}
+            changed = [(slot, item) for slot, item in s["slots"] if prev_items.get(slot) != cur[slot]]
+            gone = [slot for slot in prev_items if slot not in cur]
+            prev_items = cur
+            if not changed and not gone:
                 continue
             w(f"### {i}. {s['title']}")
             w("")
-            for slot, item in s["slots"]:
-                nm = item["name"] if item["rarity"] != "UNIQUE" else f"**{item['name']}**"
-                base = f" ({item['base']})" if item["base"] and item["base"] != item["name"] else ""
-                req = f", lvl {item['levelreq']}" if item["levelreq"] else ""
-                w(f"- {slot}: {nm}{base} — {item['rarity'].title() or '?'}{req}")
+            for slot, item in changed:
+                req = f"lvl {item['levelreq']}" if item["levelreq"] else ""
+                sock = item["sockets"]
+                meta = ", ".join(x for x in (req, sock and f"sockets {sock}") if x)
+                if item["rarity"] == "UNIQUE":
+                    w(f"- {slot}: **{item['name']}** ({item['base']}{', ' + meta if meta else ''})")
+                else:
+                    mods = "; ".join(item["mods"][:8]) + (" …" if len(item["mods"]) > 8 else "")
+                    w(f"- {slot}: {item['rarity'].title() or '?'} {item['base']}"
+                      f"{' (' + meta + ')' if meta else ''}{' — ' + mods if mods else ''}")
+            if gone:
+                w(f"- *Removed:* {', '.join(gone)}")
             w("")
 
     if build["notes"]:
@@ -827,6 +934,7 @@ def main() -> None:
     ap.add_argument("-o", "--out", help="write markdown here (default: print)")
     ap.add_argument("--save-xml", help="also save the decoded PoB XML here")
     ap.add_argument("--class", dest="cls", choices=CLASS_NAMES, help="class for gem rewards (default: from PoB)")
+    ap.add_argument("--keep-order", action="store_true", help="keep the PoB's tree order (default: sort by points if it's jumbled)")
     ap.add_argument("--update-data", action="store_true", help="re-download tree / gem / quest data")
     a = ap.parse_args()
     if a.update_data:
@@ -839,7 +947,7 @@ def main() -> None:
     if a.save_xml:
         Path(a.save_xml).write_text(xml_text, encoding="utf-8")
     tree_data, gems, quests = load_data()
-    md = render(parse_build(xml_text), Tree(tree_data), gems, quests, label, a.cls)
+    md = render(parse_build(xml_text), Tree(tree_data), gems, quests, label, a.cls, a.keep_order)
     if a.out:
         Path(a.out).parent.mkdir(parents=True, exist_ok=True)
         Path(a.out).write_text(md + "\n", encoding="utf-8")
