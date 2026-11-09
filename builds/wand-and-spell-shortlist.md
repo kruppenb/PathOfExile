@@ -155,7 +155,7 @@ On top of that, 3.29 cut its base attack speed and duration. Sources: [poedb](ht
 | Spark Archmage Hierophant | [Spark Archmage is BACK](https://www.youtube.com/watch?v=DpHXNVNeH88) · [Endgame guide (30–100 div)](https://www.youtube.com/watch?v=MDDTlW1SsLY) · [3.25 uber boss showcase](https://www.youtube.com/watch?v=rkTF2B19IiM) |
 | Kinetic Fusillade | [3.29 ballista league-start test, "nerfed by 40%"](https://www.youtube.com/watch?v=oXTR0Q1vK14) · [3.29 self-cast KF Elementalist starter](https://www.youtube.com/watch?v=sPebNu-PKm0) · [3.28 KF Hierophant starter](https://www.youtube.com/watch?v=5uQMm6JJKsU) |
 
-(Found through search; I can't watch YouTube from here, so I haven't checked them. Titles with "NEW META / INSANELY OP" are usually low-effort channels and were skipped.)
+Transcripts of these videos are summarized in [videos/README.md](../videos/README.md) (read 2026-11-09). Short version: Winter Orb Occultist holds up best for "works from the start, tanky, scales"; self-cast KF is called squishy; KBoC needs several skill swaps.
 
 **Demoted for Nick:** DoT builds (Essence Drain, Coldslinger, Creeping Frost, Penance Brand ignite, Reap) — keep only as backups.
 **Dropped:** anything that comes online late (Power Siphon Slayer as a starter, CoC Forbidden Rite, Strength stacker).
