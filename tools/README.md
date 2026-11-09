@@ -68,7 +68,7 @@ The game itself now has a Currency Exchange and async trade, which changes how y
 | poe-vault guides | Yes | League-starter tagged guides, creator hubs (Ghazzy, Lexyu, BalorMage) |
 | Maxroll build guides | **No** (blocks automated reading) | Titles found through search only |
 | poe.ninja builds | **No data** (page loads data with JavaScript; the API is closed to this environment) | Nick can check it directly, see below |
-| YouTube | **No** (blocked) | Video titles via search only |
+| YouTube | **Not directly** (blocked) | Run `tools/yt_transcript.py` on Nick's PC to save transcripts to `videos/raw/`, then Claude reads them. See [videos/README.md](../videos/README.md) |
 | Reddit | **No** (blocked) | — |
 | RMT shop blogs (aoeah, iggm, poecurrency, accountshark) | Yes | Use for news roundups only; treat tier lists as opinion |
 
