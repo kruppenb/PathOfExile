@@ -325,14 +325,24 @@ def build_cards(build: dict, tree: P.Tree, gems_db: dict, quests_db: dict) -> tu
         if extra:
             chips = [gem_chip(n, gdb.get(needed2[n]["gid"]), tip=f"{n}: {where2[n]}") for n in extra]
             cards[MAPS]["gems"].append(("For this setup", "Lilly Roth (Act 6+) sells every quest gem", "", chips))
+    def base_tip(n: str) -> str:
+        # Transfigured gems: the quest or vendor only gives the base gem.
+        b = needed[n].get("base")
+        return (f". This gets you plain {b}: transfigure it at the Labyrinth's Divine Font, "
+                f"or buy {n} on trade") if b else ""
+
     for act, qname, npc, take, buys in plan:
         chips = []
         if take:
-            chips.append(gem_chip(take, gdb.get(needed[take]["gid"]), note="take",
-                                  tip=f"{take} — quest reward: {qname} ({npc}), lvl {gdb.get(needed[take]['gid'], {}).get('lvl', '?')}"))
+            chips.append(gem_chip(take, gdb.get(needed[take]["gid"]),
+                                  note="take base, then lab/trade" if needed[take].get("base") else "take",
+                                  tip=f"{take} — quest reward: {qname} ({npc}), lvl {gdb.get(needed[take]['gid'], {}).get('lvl', '?')}"
+                                      + base_tip(take)))
         for n, vnpc in buys:
             chips.append(gem_chip(n, gdb.get(needed[n]["gid"]),
-                                  tip=f"{n} — buy from {vnpc} after {qname}, lvl {gdb.get(needed[n]['gid'], {}).get('lvl', '?')}"))
+                                  note="base, then lab/trade" if needed[n].get("base") else "",
+                                  tip=f"{n} — buy from {vnpc} after {qname}, lvl {gdb.get(needed[n]['gid'], {}).get('lvl', '?')}"
+                                      + base_tip(n)))
         cards[act]["gems"].append((qname, npc, buys[0][1] if buys else "", chips))
     info["no_vendor"] = [n for n in needed if not where[n].startswith("Act")]
 

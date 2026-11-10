@@ -57,7 +57,7 @@ Quest reward = pick it from the quest's reward list (one per quest). Buy = from 
 **Act 4**
 
 - *The Eternal Nightmare*: take **Immolate** (lvl 38); buy Barrage Support (lvl 38) from Petarus and Vanja — needed from *Act4 {4}*
-- *Breaking the Seal*: take **Summon Chaos Golem** (lvl 34); buy Summon Flame Golem (lvl 34), Summon Lightning Golem (lvl 34), Summon Stone Golem (lvl 34), Summon Stone Golem of Safeguarding (lvl 34), Summon Ice Golem (lvl 34) from Petarus and Vanja — needed from *Act4 {4}*
+- *Breaking the Seal*: take **Summon Chaos Golem** (lvl 34); buy Summon Flame Golem (lvl 34), Summon Lightning Golem (lvl 34), Summon Stone Golem (lvl 34), Summon Stone Golem (base gem for Summon Stone Golem of Safeguarding) (lvl 34), Summon Ice Golem (lvl 34) from Petarus and Vanja — needed from *Act4 {4}*
 
 **Not from quests or vendors:**
 
@@ -106,7 +106,7 @@ Quest reward = pick it from the quest's reward list (one per quest). Buy = from 
 | Inspiration | 31 | t16s {11} | Act 3 — buy from Siosa after *A Fixture of Fate* |
 | Zealotry | 24 | MidGame {12} | Act 3 — buy from Clarissa after *Lost in Love* |
 | Flame Dash | 10 | MidGame Crit Swap Step 1 {13} | Act 1 — buy from Nessa after *The Caged Brute* |
-| Summon Stone Golem of Safeguarding | 34 | MidGame Crit Swap Step 1 {13} | Act 4 — buy from Petarus and Vanja after *Breaking the Seal* |
+| Summon Stone Golem of Safeguarding | 34 | MidGame Crit Swap Step 1 {13} | Act 4 — buy from Petarus and Vanja after *Breaking the Seal* as plain **Summon Stone Golem**; transfigure it at the Labyrinth's Divine Font, or buy Summon Stone Golem of Safeguarding on trade |
 | Power Charge On Critical | 18 | MidGame Crit Swap Step 1 {13} | Act 2 — buy from Yeena after *Sharp and Cruel* |
 | Discipline | 24 | MidGame Crit Swap - CI {14} | Act 3 — buy from Clarissa after *Lost in Love* |
 | Summon Ice Golem | 34 | MidGame Crit Swap - CI {14} | Act 4 — buy from Petarus and Vanja after *Breaking the Seal* |

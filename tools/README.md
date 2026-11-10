@@ -73,6 +73,8 @@ python tools/pob_leveling.py --update-data                              # refres
 
 - Plain Python 3.9+, no installs. Data lives in `tools/pob_data/` (GGG tree export + exile-leveling gem/quest data); refresh it once 3.30 data lands.
 - Takes pobb.in, pastebin, poe.ninja/pob and maxroll.gg/poe/pob links, and guide pages that embed a PoB (mobalytics pages carry the code in a `"pobCode"` field).
+- **pob.codes** links (`pob.codes/b/<id>`) work too: the raw code is at `https://api.pob.codes/<id>/raw` (the page itself is a script shell, and `pob.codes/raw/<id>` sits behind a bot check). Found 2026-11-10.
+- **Transfigured gems** ("Firestorm of Pelting") are listed with the quest or vendor for their base gem and a note to transfigure it at the Labyrinth's Divine Font or buy it on trade. PoB stores them under the base gem's id, so before 2026-11-10 the plans showed them as plain vendor gems.
 - Those sites are **blocked from Claude's cloud sessions** (and from the device VM). Either run it on Nick's PC, have Claude start a Remote Control session on the PC to fetch the codes into `C:\repos\drafts\pob-codes\`, or paste the PoB code to Claude (PoB → Import/Export Build → Generate → Copy).
 - If a PoB lists the endgame tree first, trees are shown sorted by points, and skill/item sets with a level or act in the title are moved first (`--keep-order` turns this off).
 - The plan is only as good as the PoB: guides with several trees (e.g. "Level 12", "Act 3", "Level 40") and several skill sets give the best result. A single endgame tree still gives a sensible point order, but no level breakpoints.

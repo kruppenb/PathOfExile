@@ -32,8 +32,8 @@ Quest reward = pick it from the quest's reward list (one per quest). Buy = from 
 **Act 3**
 
 - *Lost in Love*: take **Elemental Weakness** (lvl 24) — needed from *Skill set 1*
-- *Sever the Right Hand*: take **Firestorm of Pelting** (lvl 28); buy Animate Guardian (lvl 28), Raise Spectre (lvl 28) from Clarissa — needed from *Skill set 1*
-- *A Fixture of Fate*: take **Archmage** (lvl 31); buy Elemental Army (lvl 31), Increased Critical Damage (lvl 18), Increased Critical Strikes (lvl 8), Meat Shield (lvl 31), Power Siphon of the Archmage (lvl 12) from Siosa — needed from *Skill set 1*
+- *Sever the Right Hand*: take **Firestorm (base gem for Firestorm of Pelting)** (lvl 28); buy Animate Guardian (lvl 28), Raise Spectre (lvl 28) from Clarissa — needed from *Skill set 1*
+- *A Fixture of Fate*: take **Archmage** (lvl 31); buy Elemental Army (lvl 31), Increased Critical Damage (lvl 18), Increased Critical Strikes (lvl 8), Meat Shield (lvl 31), Power Siphon (base gem for Power Siphon of the Archmage) (lvl 12) from Siosa — needed from *Skill set 1*
 
 **Act 4**
 
@@ -48,12 +48,12 @@ Quest reward = pick it from the quest's reward list (one per quest). Buy = from 
 | Arcane Cloak | 16 | Skill set 1 | Act 2 — quest reward for *Intruders in Black* |
 | Clarity | 10 | Skill set 1 | Act 1 — quest reward for *The Caged Brute* |
 | Elemental Weakness | 24 | Skill set 1 | Act 3 — quest reward for *Lost in Love* |
-| Firestorm of Pelting | 28 | Skill set 1 | Act 3 — quest reward for *Sever the Right Hand* |
+| Firestorm of Pelting | 28 | Skill set 1 | Act 3 — quest reward for *Sever the Right Hand* as plain **Firestorm**; transfigure it at the Labyrinth's Divine Font, or buy Firestorm of Pelting on trade |
 | Flame Dash | 10 | Skill set 1 | Act 1 — buy from Nessa after *The Caged Brute* |
 | Frost Shield | 34 | Skill set 1 | Act 4 — quest reward for *Breaking the Seal* |
 | Frost Wall | 4 | Skill set 1 | Act 1 — buy from Nessa after *Breaking Some Eggs* |
 | Immortal Call | 34 | Skill set 1 | Act 4 — buy from Petarus and Vanja after *Breaking the Seal* |
-| Power Siphon of the Archmage | 12 | Skill set 1 | Act 3 — buy from Siosa after *A Fixture of Fate* |
+| Power Siphon of the Archmage | 12 | Skill set 1 | Act 3 — buy from Siosa after *A Fixture of Fate* as plain **Power Siphon**; transfigure it at the Labyrinth's Divine Font, or buy Power Siphon of the Archmage on trade |
 | Precision | 10 | Skill set 1 | Act 1 — buy from Nessa after *The Caged Brute* |
 | Purifying Flame | 1 | Skill set 1 | Act 1 — quest reward for *Enemy at the Gate* |
 | Raise Spectre | 28 | Skill set 1 | Act 3 — buy from Clarissa after *Sever the Right Hand* |

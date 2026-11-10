@@ -100,9 +100,10 @@ def raw_urls(url: str) -> list[str]:
     m = re.match(r"https?://(?:www\.)?maxroll\.gg/poe/pob/([A-Za-z0-9_-]+)", url)
     if m:
         return [f"https://maxroll.gg/poe/api/pob/{m.group(1)}"]
-    m = re.match(r"https?://(?:www\.)?pob\.codes/(?:raw/)?([A-Za-z0-9_-]+)", url)
+    m = re.match(r"https?://(?:www\.|api\.)?pob\.codes/(?:b/|raw/)?([A-Za-z0-9_-]+)", url)
     if m:
-        return [f"https://pob.codes/raw/{m.group(1)}", url]
+        # The page's "Copy full PoB code" button reads api.pob.codes/<id>/raw.
+        return [f"https://api.pob.codes/{m.group(1)}/raw", f"https://pob.codes/raw/{m.group(1)}", url]
     return [url.rstrip("/") + "/raw", url]
 
 
@@ -581,7 +582,13 @@ def gem_acquisition(build: dict, class_name: str, gems_db: dict, quests: list,
                 key = g["name"]
                 if key not in needed:
                     main = gem_main_id(gids)
-                    needed[key] = {"gid": main, "gids": gids, "first_set": si,
+                    # PoB stores a transfigured gem ("Firestorm of Pelting") under its base gem's id,
+                    # so the quest/vendor match below finds the base gem, not the transfigured one.
+                    base = ""
+                    if g["name"].lower() not in by_name and g["gemId"] in gdb \
+                            and g["name"].lower().startswith(gdb[g["gemId"]]["name"].lower() + " of "):
+                        base = gdb[g["gemId"]]["name"]
+                    needed[key] = {"gid": main, "gids": gids, "first_set": si, "base": base,
                                    "support": gdb.get(main, {}).get("support", "support" in g["gemId"].lower()),
                                    "enabled": False}
                 needed[key]["enabled"] |= g["enabled"] and grp["enabled"]
@@ -634,6 +641,10 @@ def gem_acquisition(build: dict, class_name: str, gems_db: dict, quests: list,
             why = "Not sold by quest vendors (drop-only / exceptional support): trade"
         where[n] = why
         unobtainable.append(n)
+    for n, v in needed.items():
+        if v["base"] and where[n].startswith("Act"):
+            where[n] += (f" as plain **{v['base']}**; transfigure it at the Labyrinth's Divine Font, "
+                         f"or buy {n} on trade")
     return plan, where, needed
 
 
@@ -759,12 +770,17 @@ def render(build: dict, tree: Tree, gems_db: dict, quests_db: dict, source: str,
                 w("")
                 cur_act = act
             bits = []
+
+            def shown(n: str) -> str:
+                base = needed[n].get("base")
+                return f"{base} (base gem for {n})" if base else n
+
             if take:
                 lv = gdb.get(needed[take]["gid"], {}).get("lvl", 1)
-                bits.append(f"take **{take}** (lvl {lv})")
+                bits.append(f"take **{shown(take)}** (lvl {lv})")
             if buys:
                 bits.append("buy " + ", ".join(
-                    f"{n} (lvl {gdb.get(needed[n]['gid'], {}).get('lvl', 1)})" for n, _ in buys)
+                    f"{shown(n)} (lvl {gdb.get(needed[n]['gid'], {}).get('lvl', 1)})" for n, _ in buys)
                     + f" from {buys[0][1]}")
             first = min(needed[n]["first_set"] for n in ([take] if take else []) + [n for n, _ in buys])
             w(f"- *{qname}*: " + "; ".join(bits) + f" — needed from *{build['skill_sets'][first]['title']}*")

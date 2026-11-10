@@ -30,7 +30,7 @@ Quest reward = pick it from the quest's reward list (one per quest). Buy = from 
 - *Mercy Mission*: take **Momentum** (lvl 1); buy Volley (lvl 4), Spell Cascade (lvl 4) from Nessa — needed from *1-12 | Cobra*
 - *Breaking Some Eggs*: take **Frostblink** (lvl 4); buy Shield Charge (lvl 4), Sniper's Mark (lvl 4) from Nessa — needed from *1-12 | Cobra*
 - *The Caged Brute*: take **Precision** (lvl 10); buy Faster Attacks (lvl 8), Withering Step (lvl 10), Void Manipulation (lvl 8), Increased Critical Strikes (lvl 8), Clarity (lvl 10), Flame Dash (lvl 10), Manaforged Arrows (lvl 8) from Nessa — needed from *1-12 | Cobra*
-- *The Siren's Cadence*: buy Poisonous Concoction (lvl 12), Poisonous Concoction of Bouncing (lvl 12), Rain of Arrows of Saturation (lvl 12) from Nessa — needed from *13-28 | Pconc*
+- *The Siren's Cadence*: buy Poisonous Concoction (lvl 12), Poisonous Concoction (base gem for Poisonous Concoction of Bouncing) (lvl 12), Rain of Arrows (base gem for Rain of Arrows of Saturation) (lvl 12) from Nessa — needed from *13-28 | Pconc*
 
 **Act 2**
 
@@ -82,7 +82,7 @@ Quest reward = pick it from the quest's reward list (one per quest). Buy = from 
 | Cyclone | 28 | 29+ \| Pconc or BF BB | Act 3 — buy from Siosa after *A Fixture of Fate* |
 | Desecrate | 16 | 29+ \| Pconc or BF BB | Act 2 — buy from Yeena after *Intruders in Black* |
 | General's Cry | 24 | 29+ \| Pconc or BF BB | Act 3 — buy from Siosa after *A Fixture of Fate* |
-| Poisonous Concoction of Bouncing | 12 | 29+ \| Pconc or BF BB | Act 1 — buy from Nessa after *The Siren's Cadence* |
+| Poisonous Concoction of Bouncing | 12 | 29+ \| Pconc or BF BB | Act 1 — buy from Nessa after *The Siren's Cadence* as plain **Poisonous Concoction**; transfigure it at the Labyrinth's Divine Font, or buy Poisonous Concoction of Bouncing on trade |
 | Purity of Elements | 24 | 29+ \| Pconc or BF BB | Act 3 — buy from Clarissa after *Lost in Love* |
 | Greater Multiple Projectiles | 38 | 29+ \| Pconc or BF BB | Act 4 — quest reward for *The Eternal Nightmare* |
 | Greater Volley | 38 | 29+ \| Pconc or BF BB | Act 4 — buy from Petarus and Vanja after *The Eternal Nightmare* |
@@ -106,7 +106,7 @@ Quest reward = pick it from the quest's reward list (one per quest). Buy = from 
 | Flame Dash | 10 | (Late) BF+BB COC | Act 1 — buy from Nessa after *The Caged Brute* |
 | Herald of Purity | 16 | (Late) BF+BB COC | Act 3 — buy from Siosa after *A Fixture of Fate* |
 | Immortal Call | 34 | (Late) BF+BB COC | Act 6 — buy from Lilly Roth after *Fallen from Grace* |
-| Rain of Arrows of Saturation | 12 | (Late) BF+BB COC | Act 1 — buy from Nessa after *The Siren's Cadence* |
+| Rain of Arrows of Saturation | 12 | (Late) BF+BB COC | Act 1 — buy from Nessa after *The Siren's Cadence* as plain **Rain of Arrows**; transfigure it at the Labyrinth's Divine Font, or buy Rain of Arrows of Saturation on trade |
 | Vaal Grace | 24 | (Late) BF+BB COC | Vaal gem: drops / corrupt the normal gem / trade |
 | Cast On Critical Strike | 38 | (Late) BF+BB COC | Act 4 — buy from Petarus and Vanja after *The Eternal Nightmare* |
 | Concentrated Effect | 18 | (Late) BF+BB COC | Act 2 — buy from Yeena after *Sharp and Cruel* |
