@@ -19,10 +19,19 @@ Then ask Claude to "summarize the new videos in videos/raw".
 
 ## Summaries
 
-Read 2026-11-09 from the transcripts in `raw/`. Captions are YouTube's auto-generated ones, so some item names
+Read 2026-11-09 and 2026-11-10 from the transcripts in `raw/`. Captions are YouTube's auto-generated ones, so some item names
 were garbled. I only name items I'm confident about. All videos are **3.29 or older**, so re-check against 3.30 patch notes.
 
 ### Takeaways for Nick
+
+**Added 2026-11-10** (17 more videos pulled on Nick's PC; 8 have full transcripts, 2 have no commentary, 7 have captions turned off):
+- **Bladefall + Blade Blast Assassin (Ky)** is the best-documented early bosser on the list. Spellslinger from level 37, then **cast on crit at ~level 85 for about 3 div**, triggered by Lancing Steel of Spraying on a foil (ranged, one button). Ky had all four Voidstones on day 2 with under 5 div of gear.
+- **Penance Brand ignite** pops more than we thought: one cast spreads ignite across the screen, and Obliteration or Lost Unity add explosions. Goratha says the brand works from the first lab; animeprincess swaps at the end of the campaign.
+- **Power Siphon cast on crit exists**: Kross's 3.30 "CoC Archmage Firestorm of Pelting triggered by Power Siphon" Hierophant. One small video, unverified, but it's a wand, a trigger and a tanky build at once.
+- **Kinetic Blast of Clustering**: its own guide author says single target is "trash" until Whispers of Infinity and behind Winter Orb after.
+- **Kinetic Bolt Elementalist** and **Volatile Dead Spellslinger** videos have no usable commentary. Only their descriptions and chapter lists could be read.
+
+**From 2026-11-09:**
 
 - **Winter Orb Occultist** comes out best for Nick's rules. It's the main skill from about level 28 and stays that way. One creator
   reached all 4 Voidstones on a **5-link** with cheap uniques. It's tanky with CI and capped block, and it auto-targets.
@@ -45,6 +54,24 @@ were garbled. I only name items I'm confident about. All videos are **3.29 or ol
 | [SoloHood: WO Occultist to 4 Voidstones](https://www.youtube.com/watch?v=zYLg8-yYkoY) · [raw](raw/2026-07-28-solohood-winter-orb-occultist-to-4-voidstones-poe-zYLg8-yYkoY.md) | CI, ES leech for recovery. Got **2 Voidstones on a 5-link**. Key uniques: a projectile wand, Light of Lunaris shield, **Anathema** ring, so Arcanist Brand casts 3 curses on bosses. Rest is rare ES gear. Needs a dexterity source. Next big upgrade is pricier (power-charge boots). [PoB](https://pobb.in/GIh4XFQO9VLm) |
 | [Devildoll: Velka boss fight](https://www.youtube.com/watch?v=qPs0HdPh0BA) | No captions. Short 3.29 boss kill with a power-stacker WO Occultist |
 
+### Bladefall + Blade Blast Assassin (Spellslinger → cast on crit)
+
+| Video | Gist |
+|---|---|
+| [Ky: Slinger league-start guide 3.29](https://www.youtube.com/watch?v=d3fCmCBM0F0) (Jul 23, 170k views) · [raw](raw/2026-07-23-ky-path-of-exile-blade-fall-blade-blast-slinger-assassin-d3fCmCBM0F0.md) | One button: Frenzy with a wand fires two Spellslinger setups (Bladefall + Spell Cascade; Blade Blast). Evasion/ES, **Eldritch Battery + Mind over Matter**, ~30% instant leech on Assassin. Day-one gear: life + resists, **The Highwayman gloves (1c)** for leech, a wand with one Essence of Contempt + crafted physical damage. Herald of Ash. In this video he levels with Freezing Pulse + Frost Bomb and swaps in Act 3; tree change around level 80 to pick up Mind over Matter |
+| [Ky: day-2 update](https://www.youtube.com/watch?v=G9eXPIaWmO8) (Jul 26) · [raw](raw/2026-07-26-ky-path-of-exile-blade-fall-blade-blast-cast-on-crit-assa-G9eXPIaWmO8.md) | **All four Voidstones on day 2 on "less than five div of gear"**; tanks a full Innocence memory fight on leech. Updated route: level with Blight / Essence Drain, swap to Slinger at **level 37** (with Eldritch Battery and ~200–250 ES; swapping earlier is "the biggest mistake"). **Don't take Mind over Matter below ~3–3.5k life and 1.4–1.5k ES.** Swap to **cast on crit at ~level 85**: an Overwhelming Malice cluster, an essence-crafted foil (~10c) and **14% cooldown recovery** (12% belt craft + 2% abyss jewel); "about three divines". "Spellslinger is just a day one setup… getting into Cast on Crit as soon as possible" |
+| [Ky: cast-on-crit guide](https://www.youtube.com/watch?v=VPZCB0Edl9k) (Aug 4) · [raw](raw/2026-08-04-ky-path-of-exile-cast-on-crit-blade-fall-blade-blast-assa-VPZCB0Edl9k.md) | Endgame: 200M DPS. Cast on crit from **Lancing Steel of Spraying** (he says "Spring"), which unlike Cyclone needs no exact attack speed. Ming's Heart is the core ring. Skin of the Lords (Mind over Matter) is the bottleneck; **Cloak of Defiance** replaces it. Headhunter's "always crit" buff breaks Assassin's double-roll crit bonus; Mageblood fits better. "Literally 1/5 of this budget" does all ubers. Animate Guardian + a spectre as support only |
+| [Fubgun: Spellslinger Assassin "very smooth"](https://www.youtube.com/watch?v=paXhujzXCFY) | No captions. Description: Ethereal Knives + Bladefall + Blade Blast on one Frenzy; "tanky league starter", **6 div**; PoB is behind Patreon |
+
+### Penance Brand Ignite Elementalist
+
+| Video | Gist |
+|---|---|
+| [animeprincess: league-starter guide 3.29](https://www.youtube.com/watch?v=EOjw8h43-bk) (Jul 23) · [raw](raw/2026-07-23-anime-princess-penance-brand-ignite-leaguestarter-guide-EOjw8h43-bk.md) | Picked over Winter Orb because it's "cheaper to assemble, significantly tankier, and still clears the entire screen with prolif". Freezing Pulse (Acts 1–3) → Firestorm with Ignite Proliferation (from Act 3) → **Penance Brand at the end of the campaign**. Armour + capped block, then Aegis Aurora. Spellblade only with Nycta's Lantern / Rebuke of the Vaal / Martyr of Innocence. **Obliteration is for mapping, not bosses.** Mark of Submission → Lost Unity (Herald of the Hive) for the herald-stacking endgame. Herald of Ash + Herald of Purity later. Budget version handles "all standard endgame content"; he also pitches it as a farmer to fund Winter Orb or Ethereal Knives |
+| [Goratha: updated for 3.29](https://www.youtube.com/watch?v=42t9yK-9_Go) · [raw](raw/2026-07-23-goratha-penance-brand-ignite-elementalist-updated-42t9yK-9_Go.md) | "Crazy clear and very comfy single target". Level 1–28 with **Kinetic Bolt on a wand** (plus a totem), then **Penance Brand from the first lab** (Shaper of Flames) with Swift Brand, or Armageddon Brand + Cremation until the third lab. Nycta's Lantern "will last you a long time"; scepters can now be corrupted with **explode**, so a Nycta's with it replaces Obliteration. Obliteration needs ignite-spread gloves. With Lost Unity you "shield charge through the map and everything else blows up". 3.29 removed two block sources he used, so attack block is harder |
+| [Panda: 3.28 uber bosses](https://www.youtube.com/watch?v=Lt0y--FMRLc) | No captions. Chapters: Uber Cortex, Uber Uber Elder, Uber Incarnation of Dread, Uber Eater, Uber Maven. [PoB](https://pobb.in/mliotroEDtIf), budget unknown |
+| [Boomer: Penance Brand of Dissipation, "5 uber bosses per second"](https://www.youtube.com/watch?v=aLd3kAZqsSY) | No captions. Description: **mirror-tier** build; a "middle budget" [PoB](https://pob.codes/b/f4EwcqD7scK) exists |
+
 ### Kinetic Fusillade
 
 | Video | Gist |
@@ -61,6 +88,9 @@ were garbled. I only name items I'm confident about. All videos are **3.29 or ol
 | [Tino: level 1–90](https://www.youtube.com/watch?v=AymYc83c6ZI) · [raw](raw/2026-07-20-tino-level-1-90-with-kinetic-blast-of-cluster-AymYc83c6ZI.md) | Spell (Rolling Magma / Flame Wall) → Firestorm act 3 → **Power Siphon ballistas act 7** → KBoC at 75–80. MoM in act 5 is optional. Malachai's Loop + power-charge uniques early. Spellslinger Tornado is "mandatory" with KB. Split Shot anoint. [PoB](https://pobb.in/Dr92No-Jkguh) |
 | [Tino: day 2–3 update + loot rant](https://www.youtube.com/watch?v=5T8yx4dhd9E) · [raw](raw/2026-07-27-tino-poe-3-29-kinetic-blast-of-clustering-day-5T8yx4dhd9E.md) | Went full CI + chaos; wants 8–9k ES to feel comfortable (has 10k ES / 11k mana). Swapped to Mind Spiral helmet. The second half is a rant: **3.29 ground loot was awful** (4 divines in ~2 days of play) |
 
+| [Redviles: 3.29 league-start guide](https://www.youtube.com/watch?v=QOXeHiSK-9U) (34k views) · [raw](raw/2026-07-22-redviles-kinetic-blast-of-clustering-necromancer-QOXeHiSK-9U.md) | Honest about the weak start: "**do not play this build if you don't want to deal with low single target**" before Whispers of Infinity (10 div on day one of 3.29, ~2 div three days later). Clear and single target are "kind of trash early"; even with the amulet, single target is "probably worse" than Winter Orb. Pays off at 20–30 div: CI, 8k+ ES, ~20k armour, capped block, face-tanks juiced Breach. 3.29 nerf is 6–11% less damage. Buy the Clustering gem before the third lab |
+| [Kingy: "New favourite league starter?"](https://www.youtube.com/watch?v=izbDiHte8CA) · [raw](raw/2026-08-30-kingy-x-poe-3-29-kboc-necro-new-favourite-league-izbDiHte8CA.md) | A level-97 gear tour (Whispers of Infinity, Crown of the Inward Eye, Anathema, Shavronne's Revelation, Headhunter). CI, near-capped block with Bone Offering. Two Spellslinger setups for Tornado/offerings and Desecrate + Volatile Dead. "Very tanky"; plans to league-start it. [PoB](https://pobb.in/nJCQ4tg_sqZP) |
+
 ### Spark Archmage Hierophant
 
 | Video | Gist |
@@ -73,4 +103,9 @@ were garbled. I only name items I'm confident about. All videos are **3.29 or ol
 
 | Video | Gist |
 |---|---|
+| [Kross: 3.30 starter, CoC Archmage Firestorm](https://www.youtube.com/watch?v=T1Kwl4OzSvE) (Oct 18, 16k views) · [raw](raw/2026-10-18-kross-poe-3-30-starter-cheap-tanky-1-button-co-T1Kwl4OzSvE.md) | **Cast-on-crit Archmage Firestorm of Pelting triggered by Power Siphon**, Hierophant. One button, auto-targeting (pitched at controller players). "Starts working on gear picked straight from the floor": plain Firestorm + Power Siphon until you can afford the Archmage setup. Starter **under 10 div** (mostly clusters and jewels); his 60-div level-97 version shows 28–35M sustained DPS (68M peak after 2 s of stacking storms) and clears a T17 uncut, with one death. Capped attack + spell block, Mind over Matter, life/mana/ES leech. Needs 100% hit chance, 100% crit and 4+ attacks a second for full damage. "Almost nobody is playing" it. [PoB](https://pob.codes/b/l7uOyNzZdJI) |
+| [K2Gaming: 14M DPS Kinetic Bolt Elementalist, 9 div](https://www.youtube.com/watch?v=TrkI-sZYshU) · [raw](raw/2026-08-12-k2gaming-poe-3-29-14m-dps-kinetic-bolt-elementali-TrkI-sZYshU.md) | No commentary. Chapters show kills of Shaper Guardians, Incarnation of Fear, Searing Exarch, Shaper, Incarnation of Dread and Maven, then gear buying and a short levelling note. [Second clip](https://www.youtube.com/watch?v=AspTkZ7Dm2E): 8-mod T16 map clear |
+| [Tuadh: Volatile Dead Spellslinger Exarch & Eater run](https://www.youtube.com/watch?v=VJyzmqdrETg) (Oct 2025, patch 3.26) | No captions; 9-hour run. Volatile Dead Spellslinger from 2:49, maps at 4:36, Eater at 8:51, Exarch at 8:58. Note: Frenzy attacked too fast for the trigger rate, costing ~20% damage. Volatile Dead and Spellslinger were both buffed afterwards in 3.27. [PoB](https://pobb.in/9tHhmYT1UwVV) |
+| [Aleshxile: Firestorm cast on crit Inquisitor](https://www.youtube.com/watch?v=emEo7o5W6oc) | No captions. Mid-game showcase with Minotaur and Maven kills; author notes heavy mana costs (fixed with ring/amulet crafts or Eldritch Battery). [PoB](https://pobb.in/zv-vK_L4-D0Y) |
+| [Afana: Power Siphon Assassin levelling](https://www.youtube.com/watch?v=wtpbS6f1n_4) · [uber test](https://www.youtube.com/watch?v=XBMprZ7E8_I) | No captions (3.27 videos). The author warns of "some difficulties in the transition to the endgame"; fixes are in the [forum thread](https://www.pathofexile.com/forum/view-thread/3459073) |
 | [Desmo Saze: 3.30 practice, DoT Slinger Elementalist campaign](https://www.youtube.com/watch?v=sAPeJA7nWWc) · [raw](raw/2026-11-06-desmo-saze-3-30-league-start-practice-dot-slinger-e-sAPeJA7nWWc.md) | Stream VOD, mostly chatter. Uses Spellslinger to trigger **Vortex + Creeping Frost** from attacks, plus Cold Snap and golems. 3 h 43 campaign without prep; "DPS is crazy", but he expects it to get squishy after yellow maps. He plans to use it only to farm Heist and then swap to Eviscerate. [PoB](https://pobb.in/eDTjt-pgXaNy) |
