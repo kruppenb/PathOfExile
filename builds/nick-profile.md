@@ -1,6 +1,6 @@
 # Nick's player profile
 
-Updated 2026-11-09 from chat.
+Updated 2026-11-10 from chat.
 
 | Question | Answer |
 |---|---|
@@ -14,6 +14,7 @@ Updated 2026-11-09 from chat.
 | Indirect builds | **No totems** (too indirect). Traps and mines are treated the same way unless he says otherwise. Brands are fine |
 | Detonate Dead | Only inside a **trigger** setup (e.g. CoC autobomber). Self-cast Detonate Dead is a no-go |
 | Build arc | Loves **zero-to-hero builds that scale**, but they must **work from early on**. Hates builds that only come online after a late switch (e.g. at level 85) |
+| Later in the league | If he gets bored he wants **swap options on the same character**: a same-class respec is fine (Elementalist → Occultist), a new class is not (Elementalist → Slayer). He may have currency by then (~20 div), so the swap doesn't need to be a starter. He won't roll a second character |
 | Last league played seriously | ? |
 | Hardcore or softcore? | ? (assume softcore) |
 | Hours per week, especially launch weekend | ? |
@@ -22,4 +23,4 @@ Updated 2026-11-09 from chat.
 | Tolerance for slow-but-safe vs fast-but-fragile | **Hates dying**; wants to **boss** (not just map). Weight bossing + defence over clear speed. Wants a **strong bosser before ~30 div**, since almost anything bosses well once it's rich |
 
 **What this means for picks:** ranged wand attacks (Power Siphon, Kinetic Blast / Bolt / Fusillade / Rain) and projectile/lightning spells
-(Spark, Arc, Ball Lightning, Winter Orb, Essence Drain), brands (Penance, Storm, Armageddon, Arcanist), and boss tools like totems, traps and mines. Drop melee and pure minion builds from the shortlist.
+(Spark, Arc, Ball Lightning, Winter Orb, Essence Drain), and brands (Penance, Storm, Armageddon, Arcanist). Drop melee, pure minion builds, totems, traps and mines from the shortlist.
