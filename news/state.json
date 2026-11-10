@@ -1,24 +1,54 @@
 {
-  "last_run": "2026-11-09T17:10:00Z",
+  "last_run": "2026-11-10T06:45:00Z",
   "patch_notes": {
     "status": "not_out",
-    "expected": "Wed Nov 11 NZT = Tue Nov 10 Americas (no hour given)",
+    "expected": "Wed Nov 11 NZT per GGG FAQ; Reddit countdown points to ~2026-11-10 22:00 UTC",
     "latest_forum_patch_post": "3.29.3c Hotfix, 2026-11-08 https://www.pathofexile.com/forum/view-thread/4013354"
   },
   "ranking_formula": "Boss + Def + Pop/2 (from builds/wand-and-spell-shortlist.md)",
   "ranking": [
-    {"rank": 1, "build": "Penance Brand Ignite Elementalist", "score": 9.5},
-    {"rank": 1, "build": "Kinetic Bolt Elementalist", "score": 9.5},
-    {"rank": 1, "build": "Volatile Dead Spellslinger Elementalist", "score": 9.5},
-    {"rank": 1, "build": "Winter Orb Occultist", "score": 9.5},
-    {"rank": 5, "build": "Kinetic Blast of Clustering Necromancer", "score": 9},
-    {"rank": 6, "build": "Bladefall + Blade Blast Spellslinger Assassin", "score": 7.5},
-    {"rank": 6, "build": "Spark of the Nova Archmage Hierophant", "score": 7.5}
+    {
+      "rank": 1,
+      "build": "Winter Orb Occultist",
+      "score": 10.5
+    },
+    {
+      "rank": 2,
+      "build": "Penance Brand Ignite Elementalist",
+      "score": 10
+    },
+    {
+      "rank": 3,
+      "build": "Volatile Dead Spellslinger Elementalist",
+      "score": 9.5
+    },
+    {
+      "rank": 3,
+      "build": "Kinetic Bolt Elementalist",
+      "score": 9.5
+    },
+    {
+      "rank": 5,
+      "build": "Kinetic Blast of Clustering Necromancer",
+      "score": 9
+    },
+    {
+      "rank": 6,
+      "build": "Bladefall + Blade Blast Assassin (Slinger -> CoC)",
+      "score": 8.5
+    },
+    {
+      "rank": 7,
+      "build": "Spark of the Nova Archmage Hierophant",
+      "score": 7.5
+    }
   ],
   "unreadable_sources": {
     "maxroll.gg": "robots.txt blocks automated fetch: ask Nick for a screenshot of the league-starter tier list once it says 3.30",
     "pathofexile.com/forum/view-forum/announcements": "fetch fails; patch-notes forum works",
-    "iggm.com": "fetch fails (RMT site anyway)"
+    "iggm.com": "fetch fails (RMT site anyway)",
+    "web.poecdn.com": "GGG announcement images blocked from cloud and Nick PC VM; ask Nick for screenshot",
+    "reddit.com": "blocked; use Arctic Shift archive via web-fetch (see README)"
   },
   "seen": [
     "https://www.pathofexile.com/forum/view-thread/4012720",
@@ -30,6 +60,16 @@
     "https://www.poecurrency.com/news/poe-3-30-builds-tier-list-which-builds-will-dominate-covens-of-umbra",
     "https://www.iggm.com/news/poe-3-30-best-league-starter-builds-tested-in-ssf",
     "https://maxroll.gg/poe/news/3-30-covens-of-umbra-reveal-summary",
-    "https://spilled.gg/path-exile-update-major-nerfs (old, Apr 2025, not 3.30)"
-  ]
+    "https://spilled.gg/path-exile-update-major-nerfs (old, Apr 2025, not 3.30)",
+    "https://www.pathofexile.com/forum/view-thread/4013519",
+    "https://www.pathofexile.com/forum/view-thread/4013527",
+    "reddit:1xs4z49",
+    "reddit:1xs7fdv",
+    "reddit:1xs029c",
+    "reddit:1xs89xr",
+    "reddit:1xschys",
+    "reddit:1xs5i0a",
+    "reddit:1xsb5d7"
+  ],
+  "reddit_last_seen_utc": "2026-11-10T06:09:18Z"
 }
