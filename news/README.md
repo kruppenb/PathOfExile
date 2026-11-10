@@ -20,6 +20,7 @@ Each run reports only what's **new since the last run**: a short news summary, t
    | 2 | maxroll.gg/poe/tierlists/league-starter-build-tier-list, maxroll build guides | Tier list updated for 3.30? New/moved starters |
    | 2 | mobalytics.gg/poe, poe-vault.com, pathofexile.com forum build sections | New 3.30 guides for shortlisted skills or Nick-style builds |
    | 2 | Search "3.30 league starter" + each top-pick skill name (YouTube titles show up in search even though YouTube itself is blocked) | Creator videos/guides for 3.30 |
+   | 2 | r/PathOfExileBuilds through the Arctic Shift archive (URL patterns in [../tools/README.md](../tools/README.md)); the community practice-run sheet linked in the shortlist's Community check | New threads on shortlisted builds, league-start index, practice runs, player reviews |
    | 3 | poe.ninja/poe1/builds (after launch only; JS page, ask Nick for a screenshot) | What people actually play |
    | 3 | outputlag, sportskeeda, game news sites | Recaps (fine as pointers; verify against GGG) |
    RMT/currency-shop sites (aoeah, poecurrency, iggm, mmoexp, u4gm, mmogah, ssegold, ezg, accountshark, timesaver) are speculative: label them *(RMT site)* and never move a build on their word alone.
