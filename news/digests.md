@@ -2,6 +2,19 @@
 
 How these are made: [README.md](README.md).
 
+## 2026-11-11 18:55 UTC
+
+**News**
+- No 3.30 hotfix yet. Reddit is quiet (new posts only).
+- New 3.30 videos ([poebuilds.cc](https://www.poebuilds.cc/poe1?league=covens&sort=recent)): **[Kinetic Bolt of Fragmentation Assassin league starter](https://www.youtube.com/watch?v=wKcgHAf0uTw)**, a wand starter. **[KBoC Necro league starter](https://www.youtube.com/watch?v=lTYVlFrYlgQ)** (lifewithoutpants). Four patch-review videos ([biggest buffs & nerfs](https://www.youtube.com/watch?v=-lDp68HKsik), [biggest changes](https://www.youtube.com/watch?v=FXbh7V4ALB0)). Several Reliquarian starter plans (melee or mines).
+- r/pathofexile: "PSA: HotHT Vestige gloves … heavily nerfed"; "All Currency Now Has a Gold Cost" (unverified).
+
+**Your build list** (suggestions sent to the knowledge-base thread)
+| Change | Build | Why |
+|---|---|---|
+| 🆕 lead | Kinetic Bolt of Fragmentation Assassin | A 3.30 wand-attack starter video; needs a transcript |
+| ✅ | KBoC Necromancer | Fresh 3.30 starter video → confidence up once it's checked |
+
 ## 2026-11-11 16:45 UTC: correction
 
 **⚠ Correction to the 01:45 entry:** the Occultist changes (Void Beacon −15%, Profane Bloom 50% explode, Withering Presence), Elementalist changes (Shaper of Flames "Hits always Ignite", Shaper of Storms/Winter), Hierophant changes (Arcane Blessing / Illuminated Devotion) and Chieftain's Tasalio change are all under the patch notes' **"Ruthless-specific Changes"** heading. They **don't apply to trade league**. So in your league, Occultist didn't get compensation for the Winter Orb nerf, and Elementalist and Hierophant are unchanged. The ranking still holds: Penance Brand Ignite #1, because Penance Brand itself is untouched.
