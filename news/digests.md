@@ -2,6 +2,18 @@
 
 How these are made: [README.md](README.md).
 
+## 2026-11-11 12:50 UTC
+
+**News**
+- GGG also posted [3.29.3d patch notes](https://www.pathofexile.com/forum/view-thread/4013659) alongside 3.30 (Standard housekeeping). No 3.30 hotfixes yet.
+- A [Betrayal cheatsheet + customizer](https://www.reddit.com/r/pathofexile/comments/1xte5xk/) for 3.30 is out (93 points).
+
+**Your build list**
+| Change | Build | Why |
+|---|---|---|
+| ↓ | Reliquarian Choir of the Storm lead | Ascendancy-granted skills can't take support gems, so Choir's Lightning Bolt is a side bonus, not a main damage source ([thread](https://www.reddit.com/r/pathofexile/comments/1xtdiko/)) |
+| — | Everything else | Nothing new on your picks |
+
 ## 2026-11-11 07:00 UTC (since the patch notes)
 
 **News**
