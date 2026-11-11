@@ -20,6 +20,13 @@ How these are made: [README.md](README.md).
 | — | KBoC Necro (9), Bladefall/Blade Blast (8.5), Spark Archmage (7.5) | Untouched; Hierophant's Arcane Blessing now carries the 8% more spell damage |
 | — | Power Siphon CoC, Reliquarian Choir of the Storm | Not mentioned: unchanged |
 
+**Reddit reaction** (patch notes post [1xt2edm](https://www.reddit.com/r/pathofexile/comments/1xt2edm/), 937 comments; newest ~200 read through the archive, so scores are low and early):
+- Mood is mixed to negative. The main losers players name are Luminary and mercenaries, Winter Orb, crafting (the Recombinator nerf) and golems. Shavronne's Wrappings, Trickster and Rallying Cry come out ahead.
+- Players put the Winter Orb nerf at **~30–44% less single-target damage** (two player estimates, unverified).
+- On Elementalist, the take is "pretty happy with starting elementalist again", but "it probably won't be heads and shoulders above" the rest.
+- "So many spells are good now." Luminary is "probably still op".
+- No comments read mention Penance Brand, Spellslinger, Volatile Dead, Kinetic Bolt, Spark, Bladefall, Power Siphon or Reliquarian.
+
 **Current top 5:** 1. Penance Brand Ignite Ele · 2= Winter Orb Occultist · 2= Volatile Dead Slinger Ele · 2= Kinetic Bolt Ele · 5. KBoC Necro
 **Next:** creators' 3.30 guides and tier lists now that the numbers are known.
 
