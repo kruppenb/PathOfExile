@@ -31,7 +31,7 @@ Each run reports only what's **new since the last run**: a short news summary, t
    - A **new build** that fits Nick's rules (trigger/CoC/Spellslinger, wand attacks, Spark-like or brand spells, pops the screen, tanky, bosses early under ~30 div, works from early levels, no melee/minions/totems/traps/mines, ideally hit not DoT) → propose it as a new entry.
    - Re-score with the shortlist formula (**Boss + Def + Pop/2**) when a rating changes, and compare with `ranking` in state.json to show ↑/↓.
 4. **Write the digest** (template below) at the top of [digests.md](digests.md). Keep it under ~25 lines. Links for every claim.
-5. **Update the knowledge base only for solid changes:** GGG patch notes or multiple reputable guides. Edit the shortlist ratings/ranking table, nerf-watch, or the 3.30 league file, and say so in the digest. Single-source or RMT claims stay in the digest only.
+5. **Don't edit the shortlist here.** Nick wants build-list changes made by the "Build PoE league knowledge base" project thread, which has the build context. Record findings in the digest (and patch-note results in [../leagues/3.30-nerf-watch.md](../leagues/3.30-nerf-watch.md)), then message that thread with what's new and the suggested rating/confidence changes.
 6. **Update [state.json](state.json):** `last_run`, add new URLs to `seen` (keep it to the last ~150), set `ranking` to the current order, set `patch_notes` status.
 7. **Commit and push to `main`** (no PRs): `News digest YYYY-MM-DD HH:MM UTC`.
 8. **Post in the thread:** the digest text itself (short), with a link to digests.md. If nothing new: don't post (Nick doesn't need a ping) and skip the commit; on-demand runs still answer "nothing new since <time>".
