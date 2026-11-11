@@ -13,6 +13,7 @@ Notes for picking and playing a league starter. Current focus: **3.30 Covens of 
 | Which tools/sites people use now (PoB, poe.ninja, etc.) | [tools/README.md](tools/README.md) |
 | How to pick a starter | [builds/selection-guide.md](builds/selection-guide.md) |
 | **Nick's top picks + full shortlist** | [builds/wand-and-spell-shortlist.md](builds/wand-and-spell-shortlist.md) |
+| **AJ's brand shortlist** (Nick's brother: Penance Brand ranked + one pick per other brand) | [builds/aj-brand-shortlist.md](builds/aj-brand-shortlist.md) |
 | General starter candidates (pre-preferences) | [builds/candidates.md](builds/candidates.md) |
 | Your preferences (fill in) | [builds/nick-profile.md](builds/nick-profile.md) |
 | Leveling | [strategy/leveling.md](strategy/leveling.md) |
