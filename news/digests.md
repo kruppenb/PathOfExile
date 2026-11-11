@@ -2,6 +2,27 @@
 
 How these are made: [README.md](README.md).
 
+## 2026-11-11 01:45 UTC: 3.30 patch notes are out
+
+**News**
+- **[3.30.0 patch notes](https://www.pathofexile.com/forum/view-thread/4013680)** posted Nov 10. Full breakdown in [the nerf watch](../leagues/3.30-nerf-watch.md#result-3300-patch-notes-posted-nov-10-2026).
+- **Winter Orb nerfed:** 2 projectiles at all levels (was 2–3), 70% added-damage effectiveness (was 80%), level-20 damage 307–460 (was 360–539).
+- **Mercenaries and Luminary nerfed** as predicted: big resistance penalties in maps, less attack damage, Golden Glory halved.
+- **Occultist buffed:** Void Beacon −15% cold/chaos res (was −8%), Profane Bloom 50% explode chance. **Elementalist:** Shaper nodes now "Hits always Ignite / Shock".
+- Item and loot overhaul: Orbs of Chance much rarer but better at uniques; scarabs replaced by Threads; Transfusion support reworked.
+
+**Your build list**
+| Change | Build | Why |
+|---|---|---|
+| ↑ #1 | Penance Brand Ignite Elementalist (10) | Untouched; Shaper of Flames "Hits always Ignite" helps it |
+| ↓ #2= | Winter Orb Occultist (10.5 → 9.5) | Nerf above: Boss 4 → 3. Occultist buffs (Void Beacon, Profane Bloom pop) soften it |
+| — #2= | Volatile Dead Slinger Ele, Kinetic Bolt Ele (9.5) | Untouched (Spellslinger, Volatile Dead, Kinetic Bolt not mentioned) |
+| — | KBoC Necro (9), Bladefall/Blade Blast (8.5), Spark Archmage (7.5) | Untouched; Hierophant's Arcane Blessing now carries the 8% more spell damage |
+| — | Power Siphon CoC, Reliquarian Choir of the Storm | Not mentioned: unchanged |
+
+**Current top 5:** 1. Penance Brand Ignite Ele · 2= Winter Orb Occultist · 2= Volatile Dead Slinger Ele · 2= Kinetic Bolt Ele · 5. KBoC Necro
+**Next:** creators' 3.30 guides and tier lists now that the numbers are known.
+
 ## 2026-11-10 06:45 UTC (since Nov 9 17:10)
 
 **News**

@@ -1,29 +1,29 @@
 {
-  "last_run": "2026-11-10T06:45:00Z",
+  "last_run": "2026-11-11T01:45:00Z",
   "patch_notes": {
-    "status": "not_out",
-    "expected": "Wed Nov 11 NZT per GGG FAQ; Reddit countdown points to ~2026-11-10 22:00 UTC",
-    "latest_forum_patch_post": "3.29.3c Hotfix, 2026-11-08 https://www.pathofexile.com/forum/view-thread/4013354"
+    "status": "out",
+    "url": "https://www.pathofexile.com/forum/view-thread/4013680",
+    "posted": "2026-11-10 (Stacey_GGG)"
   },
   "ranking_formula": "Boss + Def + Pop/2 (from builds/wand-and-spell-shortlist.md)",
   "ranking": [
     {
       "rank": 1,
-      "build": "Winter Orb Occultist",
-      "score": 10.5
-    },
-    {
-      "rank": 2,
       "build": "Penance Brand Ignite Elementalist",
       "score": 10
     },
     {
-      "rank": 3,
+      "rank": 2,
+      "build": "Winter Orb Occultist",
+      "score": 9.5
+    },
+    {
+      "rank": 2,
       "build": "Volatile Dead Spellslinger Elementalist",
       "score": 9.5
     },
     {
-      "rank": 3,
+      "rank": 2,
       "build": "Kinetic Bolt Elementalist",
       "score": 9.5
     },
@@ -69,12 +69,14 @@
     "reddit:1xs89xr",
     "reddit:1xschys",
     "reddit:1xs5i0a",
-    "reddit:1xsb5d7"
+    "reddit:1xsb5d7",
+    "https://www.pathofexile.com/forum/view-thread/4013680"
   ],
   "reddit_last_seen_utc": "2026-11-10T06:09:18Z",
   "watch": [
-    "3.30 patch notes",
+    "3.30 creator guides/tier lists after patch notes",
     "Reliquarian trigger/crit wand guides (Choir of the Storm + Praxis)",
-    "Power Siphon CoC Firestorm (Kross)"
+    "Power Siphon CoC Firestorm (Kross)",
+    "Winter Orb post-nerf reactions"
   ]
 }
