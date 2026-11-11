@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-11T01:45:00Z",
+  "last_run": "2026-11-11T07:00:00Z",
   "patch_notes": {
     "status": "out",
     "url": "https://www.pathofexile.com/forum/view-thread/4013680",
@@ -70,11 +70,16 @@
     "reddit:1xschys",
     "reddit:1xs5i0a",
     "reddit:1xsb5d7",
-    "https://www.pathofexile.com/forum/view-thread/4013680"
+    "https://www.pathofexile.com/forum/view-thread/4013680",
+    "reddit:1xt3dye",
+    "reddit:1xt3iza",
+    "reddit:1xt57m7",
+    "reddit:1xt2edm",
+    "reddit:1xt2k17"
   ],
   "reddit_last_seen_utc": "2026-11-10T06:09:18Z",
   "watch": [
-    "r/PathOfExileBuilds 3.30 league-start megathread (not in archive as of Nov 11 02:30 UTC; patch post 1xt2k17 has 197 comments but archive comment fetch failed; Build Index post 1xt3dye unread) - retry",
+    "Bladefall/Blade Blast after Assassin Deathmarked attack-crit fix (Ky update?)",
     "3.30 creator guides/tier lists after patch notes",
     "Reliquarian trigger/crit wand guides (Choir of the Storm + Praxis)",
     "Power Siphon CoC Firestorm (Kross)",

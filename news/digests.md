@@ -2,6 +2,24 @@
 
 How these are made: [README.md](README.md).
 
+## 2026-11-11 07:00 UTC (since the patch notes)
+
+**News**
+- **r/PathOfExileBuilds [3.30 League Start Build Index](https://www.reddit.com/r/PathOfExileBuilds/comments/1xt3dye/)** (171 points, 82 comments). Mostly 3.29 builds; "builds that got major changes were removed". Your picks in it: **Penance Brand** (Goratha, Zeeboub, animeprincess, all Elementalist), **Bladefall/Blade Blast** (Path of Ky, Telvanni), **Spark** (Big Ducks), **Crackling Lance** (peuget2), **Wintertide Brand** (5 guides). **Winter Orb is not in the index.** Volatile Dead Slinger, Kinetic Bolt and Power Siphon aren't either.
+- **"3.30 League Starter!" thread** ([1xt3iza](https://www.reddit.com/r/PathOfExileBuilds/comments/1xt3iza/), ~290 comments; about 90 read). Most named: PRAW, Static Strike, Dominating Blow, Storm Burst/KF totems, Flicker. Elementalist "got a light slap on the wrist"; "can't believe elementalist survived… guess we're doing witch start".
+- **Assassin bug fix** (patch notes): Deathmarked's Assassin's Mark now triggers only from **attack** crits. Players ask how much this hurts Bladefall/Blade Blast: "you will need to crit on LSoS to actually cast bf/bb", and "on spellslinger setup it might not proc the mark consistently" (unverified).
+- GGG posted the new 3.30 uniques ([r/pathofexile](https://www.reddit.com/r/pathofexile/comments/1xt57m7/)). The realm was briefly down for fixes.
+
+**Your build list**
+| Change | Build | Why |
+|---|---|---|
+| ✅ | Penance Brand Ignite Ele (#1) | In the community index with three guides |
+| ⚠ | Bladefall + Blade Blast Assassin | Assassin's Mark fix may weaken the Spellslinger phase; the CoC phase (Lancing Steel attack crits) should be fine. Unverified, so no rating change yet |
+| ↓ confidence | Winter Orb Occultist | Left out of the community index after the nerf; players split on "gutted" vs "hasn't changed much" |
+| — | Volatile Dead Slinger, Kinetic Bolt Ele | Still no community coverage |
+
+**Current top 5:** unchanged: 1. Penance Brand Ignite Ele · 2= Winter Orb Occultist · 2= Volatile Dead Slinger Ele · 2= Kinetic Bolt Ele · 5. KBoC Necro
+
 ## 2026-11-11 01:45 UTC: 3.30 patch notes are out
 
 **News**
