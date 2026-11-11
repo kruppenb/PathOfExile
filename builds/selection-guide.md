@@ -38,7 +38,7 @@ Use this checklist to score candidates. Then fill in [nick-profile.md](nick-prof
 
 ## Process
 
-1. Read patch notes → strike nerfed candidates from [candidates.md](candidates.md).
+1. Read patch notes → strike nerfed candidates from [candidates.md](candidates.md). (Done Nov 11: Winter Orb and Luminary/mercenary builds were the nerfs.)
 2. Shortlist 3 from the candidates that fit Nick's profile.
 3. Open each in PoB; check level-90 numbers with "budget" gear tier.
 4. Watch a creator's 3.30 video for the top choice; check launch-day poe.ninja for early adoption.
