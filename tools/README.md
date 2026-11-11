@@ -85,7 +85,7 @@ python tools/pob_leveling.py --update-data                              # refres
 
 - **poewiki.net** (community wiki, the current one — the old Fandom wiki is outdated): https://www.poewiki.net
 - poedb: https://poedb.tw/us/
-- Official patch notes forum: https://www.pathofexile.com/forum/view-forum/patch-notes
+- Official patch notes forum: https://www.pathofexile.com/forum/view-forum/patch-notes. The notes include a "Ruthless-specific Changes" section whose lines (ascendancy changes among them) don't apply to trade league; on Nov 11 both the news and build threads first read 3.30's Occultist and Elementalist lines there as real buffs.
 - Announcements forum: https://www.pathofexile.com/forum/view-forum/announcements
 
 ## Where Claude looks for guides (and what it can't reach)
