@@ -48,7 +48,9 @@ Ky 3.29, cast-on-crit map showcase (12:19 is a loading screen) · [watch from 12
 
 ## 6. Lightning Tendrils / Lightning Conduit Elementalist
 
-No clip yet: it joined the ranked list on Nov 11 (evening). Videos a clip could come from: [Peuget2's 3.30 Tendrils starter](https://www.youtube.com/watch?v=sOKiVtyhb8M) and [Telvanni's Lightning Conduit (3.29)](https://www.youtube.com/watch?v=OJ8P64fg4D0).
+![Lightning Tendrils / Lightning Conduit Elementalist mapping](media/lightning-tendrils-elementalist.gif)
+
+Peuget2 3.30 Tendrils starter, endgame map · [watch from 0:53](https://www.youtube.com/watch?v=sOKiVtyhb8M&t=53s)
 
 ## 8. Spark of the Nova Archmage Hierophant
 
