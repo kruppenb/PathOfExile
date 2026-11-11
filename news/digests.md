@@ -2,6 +2,12 @@
 
 How these are made: [README.md](README.md).
 
+## 2026-11-11 16:45 UTC: correction
+
+**⚠ Correction to the 01:45 entry:** the Occultist changes (Void Beacon −15%, Profane Bloom 50% explode, Withering Presence), Elementalist changes (Shaper of Flames "Hits always Ignite", Shaper of Storms/Winter), Hierophant changes (Arcane Blessing / Illuminated Devotion) and Chieftain's Tasalio change are all under the patch notes' **"Ruthless-specific Changes"** heading. They **don't apply to trade league**. So in your league, Occultist didn't get compensation for the Winter Orb nerf, and Elementalist and Hierophant are unchanged. The ranking still holds: Penance Brand Ignite #1, because Penance Brand itself is untouched.
+
+These changes are real and apply to every league: the Winter Orb and Pact of Beidat nerf, golem trims, Ralakesh's Impatience (−1 charge) and Malachai's Loop changes, Trickster buffs, mercenary and Luminary nerfs, the item-generation changes, and buffed Atlas glove bases (Fingerless Silk Gloves 20–26% spell damage, Apothecary's Gloves +14–18% DoT multiplier).
+
 ## 2026-11-11 16:40 UTC (on demand)
 
 **News**

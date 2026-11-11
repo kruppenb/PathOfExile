@@ -26,7 +26,7 @@ Each run reports only what's **new since the last run**: a short news summary, t
    GGG's announcement images (web.poecdn.com) are blocked from the cloud and from Nick's PC VM: say what the post covers and ask Nick for a screenshot if it matters.
    RMT/currency-shop sites (aoeah, poecurrency, iggm, mmoexp, u4gm, mmogah, ssegold, ezg, accountshark, timesaver) are speculative: label them *(RMT site)* and never move a build on their word alone.
 3. **Judge each new item against the shortlist.**
-   - Patch-note change to a "Look for" term → buff / nerf / neutral for that pick, with the exact quote.
+   - Patch-note change to a "Look for" term → buff / nerf / neutral for that pick, with the exact quote. **Check the section heading first:** lines under "Ruthless-specific Changes" don't apply to Nick's trade league.
    - A new 3.30 guide or tier placement for a listed build → note it (raises confidence; a top-tier placement can move a pick up).
    - A **new build** that fits Nick's rules (trigger/CoC/Spellslinger, wand attacks, Spark-like or brand spells, pops the screen, tanky, bosses early under ~30 div, works from early levels, no melee/minions/totems/traps/mines, ideally hit not DoT) → propose it as a new entry.
    - Re-score with the shortlist formula (**Boss + Def + Pop/2**) when a rating changes, and compare with `ranking` in state.json to show ↑/↓.
