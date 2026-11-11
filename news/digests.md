@@ -2,6 +2,25 @@
 
 How these are made: [README.md](README.md).
 
+## 2026-11-11 23:30 UTC (on demand: gem changes)
+
+**News**
+- **GGG: [New and Changed Gems in Covens of Umbra](https://www.pathofexile.com/forum/view-thread/4013898)** (Nov 11). It shows the same gem changes as the patch notes, with level-20 numbers. No Ruthless section.
+  - **Winter Orb:** **3 → 2 projectiles** at level 20, 360–539 → 307–460 cold damage, 80% → 70% added-damage effectiveness. Roughly a third fewer projectiles plus ~15% less base damage.
+  - **Pact of Beidat:** chains and extra projectiles 6 → 4.
+  - **Flame Link:** 169–254 → 219–329 flat fire, but the life-based part 5% → 3%.
+  - **Golems:** Flame Golem damage 29% → 24% and area 20% → 15%; Stone Golem defences 20% → 16%; Lightning Golem speed 10% → 8%.
+  - **Transfusion Support:** now supports spells, and spending life grants a power, frenzy or endurance charge per 400 life (was souls).
+  - **Vaal Sacrifice:** now sacrifices all but 20% of life and ES (was all but 1).
+  - Dark Bargain: wording only. The "New Gems" section is empty in the post (Fireball of Radiation and Arcane Link were announced at ExileCon).
+- GGG also updated the [Covens of Umbra FAQ](https://www.reddit.com/r/pathofexile/comments/1xtt53e/) (Nov 11).
+
+**Your build list** (sent to the knowledge-base thread)
+| Change | Build | Why |
+|---|---|---|
+| ⚠ confirmed | Winter Orb Occultist | The level-20 numbers confirm 3 → 2 projectiles |
+| — | Penance Brand, all brands (incl. AJ's list), Spellslinger, Volatile Dead, Bladefall/Blade Blast, cast on crit, Spark, Kinetic Bolt/Blast, Power Siphon, heralds | Not in the gem post: unchanged |
+
 ## 2026-11-11 18:55 UTC
 
 **News**
