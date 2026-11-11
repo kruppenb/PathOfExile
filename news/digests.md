@@ -2,6 +2,21 @@
 
 How these are made: [README.md](README.md).
 
+## 2026-11-11 16:40 UTC (on demand)
+
+**News**
+- **[The Divine Ledger: 3.30 top 10 after the patch notes](https://www.youtube.com/watch?v=Xaa6xKxAdFw)** (Nov 10; read from title and chapters only). It re-ranks 3.29's popular starters against the patch: 1. RF Chieftain, **2. Penance Brand Elementalist**, 3. Cyclone Slayer, 4. Reap Ele, 5. Spectres, 6. EH Deadeye, 7. Flicker, 8. KF Hierophant, 9–10. Animate Guardian/Weapon. Winter Orb gets its own "What about Winter Orb?" section and isn't in the top 10.
+- [poebuilds.cc 3.30 video list](https://www.poebuilds.cc/poe1?league=covens) has 16 videos. Relevant to you: a "Bladefalling in love" video (poopbutts2200), two Reliquarian videos (Allie's Shield Charge autobomber, mas0ny1's PoB analysis) and ItFightsBack's "Potential league starters for each ascendancy".
+- Mobalytics and poe-vault are still labelled 3.28/3.29. There's no 3.30 hotfix yet.
+- Reddit: "Ralakesh got hit with -1 charge" ([r/PathOfExileBuilds](https://www.reddit.com/r/PathOfExileBuilds/comments/1xtjsmb/), unverified). Ralakesh's Impatience is the first unique in the Winter Orb Occultist guide. There's also a 14-comment "Winter Orb nerf" thread.
+
+**Your build list**
+| Change | Build | Why |
+|---|---|---|
+| ↑ confidence | Penance Brand Ignite Ele (#1) | #2 on a post-patch top 10, plus three guides in the community index → confidence High |
+| ↓ confidence | Winter Orb Occultist (#2=) | Missing from both post-patch lists; possible Ralakesh nerf → confidence Medium |
+| — | Others | No new data |
+
 ## 2026-11-11 12:50 UTC
 
 **News**

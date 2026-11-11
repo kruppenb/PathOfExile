@@ -27,8 +27,8 @@ Updated 2026-11-11, **after the 3.30 patch notes** (posted Nov 10; what changed 
 
 | Rank | Pick | B + D + Pop/2 | Confidence | Pop source |
 |---|---|---|---|---|
-| 1 | Penance Brand Ignite Elementalist | 10 (10.5 with Obliteration) | Medium–high (two creators' videos now read) | One-cast ignite spread; Obliteration and Lost Unity explosions later (prices not checked) |
-| 2 | Winter Orb Occultist (start without power charges; Elementalist is the usual cheap start) | **9.5** (was 10.5: nerfed in 3.30) | High | Herald of Ice shatter chains; **Profane Bloom** now 50% explode chance (3.30) |
+| 1 | Penance Brand Ignite Elementalist | 10 (10.5 with Obliteration) | **High** (two creators' videos read; three guides in the r/PathOfExileBuilds 3.30 build index; #2 on The Divine Ledger's post-patch top 10) | One-cast ignite spread; Obliteration and Lost Unity explosions later (prices not checked) |
+| 2 | Winter Orb Occultist (start without power charges; Elementalist is the usual cheap start) | **9.5** (was 10.5: nerfed in 3.30) | **Medium** (dropped from the 3.30 build index and post-patch top-10 lists; a Reddit post says Ralakesh's Impatience lost a charge, unverified) | Herald of Ice shatter chains; **Profane Bloom** now 50% explode chance (3.30) |
 | 2 | Volatile Dead Spellslinger Elementalist | 9.5 | Low–medium (one guide; no player reports found) | Exploding seeker orbs from level 1; explode-on-kill gear later |
 | 2 | Kinetic Bolt Elementalist | 9.5 | **Low** (one creator; the video does show pinnacle boss kills) | Runs four heralds (Ice, Thunder, Purity, Ash); how much it visibly pops is unconfirmed |
 | 5 | Kinetic Blast of Clustering Necromancer | 9 | Medium | Cluster explosions + Volatile Dead via Spellslinger |
