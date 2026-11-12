@@ -2,6 +2,23 @@
 
 How these are made: [README.md](README.md).
 
+## 2026-11-12 05:00 UTC (on demand, since 23:30 Nov 11)
+
+**News**
+- No 3.30 hotfix or patch-note amendment yet; the newest patch-notes thread is still [3.30.0](https://www.pathofexile.com/forum/view-thread/4013680). FAQ ([4013527](https://www.pathofexile.com/forum/view-thread/4013527)) has no balance info.
+- GGG posted the [item filter info](https://www.pathofexile.com/forum/view-thread/4013923), the 3.30.0 developer-docs changelog and the passive/atlas tree export. These are tooling posts, not balance changes.
+- Most-viewed 3.30 starter videos ([poebuilds.cc](https://www.poebuilds.cc/poe1?league=covens)) are melee or totem builds: Flicker Strike Slayer, Static Strike Guardian, POEGuy's totem Hierophant ("No Build Nerfs & One Significant Buff"), and Cyclone Slayer. A top-5 builds video from Phoenix is also up.
+- "PoE 3.30 - Bladefalling in love" (poopbutts2200, Ranger spell, 26k views) is a new Bladefall starter video on the same list.
+- Reddit: [KB of Clustering on Reliquarian?](https://www.reddit.com/r/PathOfExileBuilds/comments/1xtz2ww/) (3 comments) and Eva the Fairy's [VD/CDD Necro/Occultist](https://www.reddit.com/r/PathOfExileBuilds/comments/1xtyq4q/). Nothing on Penance Brand, Winter Orb, Spark, Spellslinger or Power Siphon.
+
+**Your build list**
+| Change | Build | Why |
+|---|---|---|
+| — | all | No balance news. Bladefall has a fresh 3.30 video, but it doesn't say whether the Assassin's Mark fix hurts the build. Ask for a transcript if wanted. |
+
+**Current top 5:** 1. Penance Brand Ignite Ele (10) 2=. Winter Orb Occultist / VD Slinger Ele / Kinetic Bolt Ele (9.5) 5. KBoC Necro (9)
+**Next:** any 3.30.0 hotfixes before launch; Bladefall video content; Reliquarian trigger guides.
+
 ## 2026-11-11 23:30 UTC (on demand: gem changes)
 
 **News**
