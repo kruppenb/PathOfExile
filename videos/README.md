@@ -67,6 +67,8 @@ were garbled. I only name items I'm confident about. Most videos are **3.29 or o
 | [SoloHood: WO Occultist to 4 Voidstones](https://www.youtube.com/watch?v=zYLg8-yYkoY) · [raw](raw/2026-07-28-solohood-winter-orb-occultist-to-4-voidstones-poe-zYLg8-yYkoY.md) | CI, ES leech for recovery. Got **2 Voidstones on a 5-link**. Key uniques: a projectile wand, Light of Lunaris shield, **Anathema** ring, so Arcanist Brand casts 3 curses on bosses. Rest is rare ES gear. Needs a dexterity source. Next big upgrade is pricier (power-charge boots). [PoB](https://pobb.in/GIh4XFQO9VLm) |
 | [Devildoll: Velka boss fight](https://www.youtube.com/watch?v=qPs0HdPh0BA) | No captions. Short 3.29 boss kill with a power-stacker WO Occultist |
 
+PoB files for these builds and for Fubgun's, Zizaran's and Lexyu's Winter Orb guides are saved in [../builds/pob/](../builds/pob/) (added 2026-11-12). What they show for boss damage, before and after the 3.30 nerf, is in [the shortlist](../builds/wand-and-spell-shortlist.md#boss-damage-winter-orb-vs-penance-brand-ignite).
+
 ### Bladefall + Blade Blast Assassin (Spellslinger → cast on crit)
 
 | Video | Gist |
@@ -85,6 +87,8 @@ were garbled. I only name items I'm confident about. Most videos are **3.29 or o
 | [Goratha: updated for 3.29](https://www.youtube.com/watch?v=42t9yK-9_Go) · [raw](raw/2026-07-19-goratha-penance-brand-ignite-elementalist-update-42t9yK-9_Go.md) | "Crazy clear and very comfy single target". Level 1–28 with **Kinetic Bolt on a wand** (plus a totem), then **Penance Brand from the first lab** (Shaper of Flames) with Swift Brand, or Armageddon Brand + Cremation until the third lab. Nycta's Lantern "will last you a long time"; scepters can now be corrupted with **explode**, so a Nycta's with it replaces Obliteration. Obliteration needs ignite-spread gloves. With Lost Unity you "shield charge through the map and everything else blows up". 3.29 removed two block sources he used, so attack block is harder |
 | [Panda: 3.28 uber bosses](https://www.youtube.com/watch?v=Lt0y--FMRLc) | No captions. Chapters: Uber Cortex, Uber Uber Elder, Uber Incarnation of Dread, Uber Eater, Uber Maven. [PoB](https://pobb.in/mliotroEDtIf), budget unknown |
 | [Boomer: Penance Brand of Dissipation, "5 uber bosses per second"](https://www.youtube.com/watch?v=aLd3kAZqsSY) | No captions. Description: **mirror-tier** build; a "middle budget" [PoB](https://pob.codes/b/f4EwcqD7scK) exists |
+
+Six of animeprincess's PoBs (the progression list in the Mobalytics guide), Goratha's and Panda's are saved in [../builds/pob/](../builds/pob/) (added 2026-11-12); their boss numbers are in [the shortlist](../builds/wand-and-spell-shortlist.md#boss-damage-winter-orb-vs-penance-brand-ignite).
 
 ### Lightning Tendrils / Lightning Conduit Elementalist
 
