@@ -20,7 +20,7 @@ How these are made: [README.md](README.md).
 | ⚠ | Penance Brand | Two 3.30 guides say it's unchanged, but early bossing is the weak spot (Fubgun 14th; Zeeboub and animeprincess agree). Clears cheaply |
 | 🆕 lead | Archmage Crackling Lance Hiero | Spell, cheap, early Ubers per its creator, levels with Tendrils |
 
-**Current top 5:** unchanged pending the build thread's review (Penance Brand, Winter Orb, VD Slinger, Kinetic Bolt, KBoC).
+**Current top 5:** unchanged after the build thread's review (commit 546daba): Penance Brand, Winter Orb (confidence now Low-medium), VD Slinger, Kinetic Bolt, KBoC. Archmage Crackling Lance Hiero added as a rated lead (8.5). Correction: Freezing Pulse isn't a 3.30 change; Flame Golem area 20%→15% is confirmed.
 **Next:** last run Nov 13 18:47 UTC, before launch.
 
 ## 2026-11-12 05:00 UTC (on demand, since 23:30 Nov 11)
