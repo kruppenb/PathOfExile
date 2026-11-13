@@ -7,6 +7,7 @@ Written 2026-11-11 for AJ (updated the same evening with AJ's preferences, and o
 ## What AJ wants
 
 From AJ (via Nick, Nov 11):
+
 - **Trade league.**
 - **Damage over time or hits are both fine**, so ignite and cold DoT builds rank on equal terms with hit builds.
 - **Likes "pop":** screens that chain-react (explode-on-kill, ignite spreading, herald explosions). This is now its own rating.
