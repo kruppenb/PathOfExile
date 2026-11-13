@@ -6,6 +6,8 @@ Updated 2026-11-13 (launch day, about 17:00 UTC), after the 3.30 patch notes and
 
 ## Top picks
 
+**Nov 13, just before launch:** Nick narrowed it to Penance Brand ignite against Lightning Tendrils. The head-to-head is in [penance-brand-vs-lightning-tendrils.md](penance-brand-vs-lightning-tendrils.md), and its verdict is **start Lightning Tendrils** if bossing and not dying come first, and Penance Brand only if the pop matters more. Tendrils now has its own [league-start sheet](leveling/lightning-tendrils-elementalist.html). The table below still ranks by the usual score, where Penance Brand leads on Pop alone.
+
 **If you want one answer on launch day, it is still Penance Brand**, with its boss weapon planned from the start (see its row in [Pick details](#pick-details)) and a fallback chosen in advance. It is the best-sourced pick here, 3.30 left the skill alone, and it is the brand-and-pop build on the list.
 
 **But launch-day guides call this a bossing league, and bossing is this build's weak side.** Goratha's 3.30 update says it is "fine at bossing" but "not really a bossing build", and Spicysushi's tier list puts it among the builds where "the max hit is just not there on a budget". Its Boss rating went from 3–4 to 3 on Nov 13, so on score it now sits second, behind Winter Orb, which is nerfed and untested. **If early bossing matters more to you than brands and pop, start on Lightning Tendrils instead** ([fallback 2](#fallback-plans)). It now has two 3.30 guides, one of them written around the new boss mechanic, and a 25.8K physical one-hit limit at level 92 against Penance Brand's 10.6–12.6K. Either way you are an Elementalist, and moving between the two costs 50 to 80 refund points.
