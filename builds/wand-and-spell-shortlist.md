@@ -51,13 +51,14 @@ Added Nov 13 at Nick's request: what to switch to **early** if Penance Brand doe
 - **Arc ignite Elementalist** was the most-watched Witch lightning build of 3.29 (ArminYou, 32.0k views; a BuffaloBaron series). It is ignite again, so DoT; its tanky version is CI with six unique items; and it uses Pact of Beidat, which 3.30 nerfed (4 additional beam chains at every gem level, was 4–6).
 - **Herald of Thunder autobomber** is all pop, but it levels with Holy Flame Totem to 60 and its PoBs show 5.6K EHP at level 75 and 23K at level 98. It fails "hates dying".
 - **Storm Brand Elementalist** is a brand, but no 3.30 guide was found. Zeeboub started 3.28 on it, was "tempted" again this league and chose Penance Brand.
+- **Storm Burst of Repulsion** (Nick asked on Nov 13). The build known by that name is a Hierophant totem build, 9th on Fubgun's list, so it is a Templar and totems. A self-cast Elementalist version has one forum guide, updated for 3.29. It is another stand-still channel with a channel-and-release timing on top, and its own PoBs show 13–23K EHP at levels 87–91, against 104–259K for the three lightning fallbacks above. Details in [Leads](shortlist-reference.md#leads-and-honourable-mentions).
 - **Hexblast ignite** is covered in [Leads](shortlist-reference.md#leads-and-honourable-mentions): free to try at level 28, not recommended as the plan.
 - **Spark** has no Witch starter that I could find. The Spark pick is a Templar, so it needs a new character.
 
 **Popular lightning starters this league** (Nick's question).
 
 - **On a Witch:** Lightning Tendrils Elementalist (Peuget2's 3.30 guide, 57.8k views, the most-watched Witch lightning guide I found on poebuilds.cc's 3.30 list), Lightning Conduit Elementalist (the Reddit guide and Telvanni), Crackling Lance Elementalist (Peuget2; in the community's 3.30 build index) and Arc ignite Elementalist.
-- **On other classes**, so a new character and not a fallback: Lightning Arrow Deadeye (a bow build and Fubgun's own start, 75.9k views; "Deadeye bows" are 7th of 18 on Fubgun's list), Static Strike (melee, 3rd), Storm Burst totems (9th), Archmage Hierophant with Spark, Crackling Lance or Arc (Templar, 16th; the Arc guide has 33.8k views), Arc of Oscillating on Assassin, and Storm Brand on Inquisitor or Hierophant.
+- **On other classes**, so a new character and not a fallback: Lightning Arrow Deadeye (a bow build and Fubgun's own start, 75.9k views; "Deadeye bows" are 7th of 18 on Fubgun's list), Static Strike (melee, 3rd), Storm Burst of Repulsion totems on Hierophant (9th), Archmage Hierophant with Spark, Crackling Lance or Arc (Templar, 16th; the Arc guide has 33.8k views), Arc of Oscillating on Assassin, and Storm Brand on Inquisitor or Hierophant.
 
 Sources: poebuilds.cc's 3.30 and 3.29 build lists (view counts as of Nov 13), [Fubgun's 3.30 starter tier list](https://www.youtube.com/watch?v=mpj396DknOA), the community practice-run sheet, and the saved PoB files. Full notes on the Tendrils and Conduit guides are in [Pick details: full notes](shortlist-reference.md#pick-details-full-notes).
 
