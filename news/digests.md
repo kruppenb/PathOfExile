@@ -2,6 +2,27 @@
 
 How these are made: [README.md](README.md).
 
+## 2026-11-13 00:50 UTC (on demand, since 05:00 Nov 12)
+
+**News**
+- GGG: no 3.30 hotfix or new announcement. Launch is still Nov 13, 11am PST ([forum](https://www.pathofexile.com/forum/view-forum/patch-notes)). Reddit is quiet: posts are all build questions with scores of 1 to 8.
+- **[Fubgun: full 3.30 starter tier list](https://www.youtube.com/watch?v=mpj396DknOA)** (110k views) puts Luminary first. Your picks: **Winter Orb last of 18** ("30 to 40% weaker", "not a build I would really play"), **Penance Brand 14th** ("not as strong early"), KBoC Necro 11th, and Bladefall 10th (as poison Bladefall of Impaling, not your Assassin version).
+- **Penance Brand 3.30 guides:**
+  - [animeprincess](https://www.youtube.com/watch?v=X3xQR9gM95E): "None of the fundamental mechanics… have changed". Mapping before all four Voidstones is the weak point. Mark of Submission is mandatory, and bosses want Nycta's Lantern or Rebuke of the Vaal.
+  - [Zeeboub](https://www.youtube.com/watch?v=oygzdaPd1K8): T16-ready on near-free gear (Honourhome 2c, Obliteration 3c), but "single target is not the greatest".
+- **New spell idea:** [DapperDD's Archmage Crackling Lance Hierophant](https://www.youtube.com/watch?v=vYTrCTsUxm0). Cheap, Mind over Matter, "Ubers on day two", weak max hit.
+- Other tier lists (GhazzyTV, Jorgen ×2, P4RL3Y) have none of your builds. Summaries are in [videos/README.md](../videos/README.md).
+
+**Your build list**
+| Change | Build | Why |
+|---|---|---|
+| ⚠ | Winter Orb | Fubgun ranks it last of 18 after the nerf, alongside his earlier "50 to 60% less" endgame estimate |
+| ⚠ | Penance Brand | Two 3.30 guides say it's unchanged, but early bossing is the weak spot (Fubgun 14th; Zeeboub and animeprincess agree). Clears cheaply |
+| 🆕 lead | Archmage Crackling Lance Hiero | Spell, cheap, early Ubers per its creator, levels with Tendrils |
+
+**Current top 5:** unchanged pending the build thread's review (Penance Brand, Winter Orb, VD Slinger, Kinetic Bolt, KBoC).
+**Next:** last run Nov 13 18:47 UTC, before launch.
+
 ## 2026-11-12 05:00 UTC (on demand, since 23:30 Nov 11)
 
 **News**
