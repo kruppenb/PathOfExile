@@ -2,6 +2,27 @@
 
 How these are made: [README.md](README.md).
 
+## 2026-11-13 16:50 UTC (on demand: last-minute streamer guides)
+
+**News**
+- GGG: still no 3.30 hotfix. Launch is today at 11am PST (19:00 UTC).
+- 10 new guides transcribed ([videos/README.md](../videos/README.md)):
+  - **Goratha** updated Penance Brand for 3.30: "not really a bossing build". Meta-crafts cost double, so the Crown spike comes later, and Lost Unity is uncertain after the Breach rework ("rougher league start"). He now says Armageddon Brand is "probably the best way to level by far".
+  - **Spicysushi's tier list** (142k views) puts **Penance Brand ignite Ele and Bladefall in B**: "the max hit is just not there on a budget". A tier is Stormburst totems, Earthshatter, Static Strike Guardian, Luminary and Poison Animate Weapon.
+  - **Fallback evidence:**
+    - [Master T](https://www.youtube.com/watch?v=ns-gb3WjkcQ): Lightning Tendrils from level 1. "1c uniques" gets all four Voidstones; mid setup ~6M DPS. Heralds are optional, so the Scarab of Refinement removal doesn't hurt it.
+    - [Klovehitch](https://www.youtube.com/watch?v=Ab1Pm3zJ5XI): cold-convert Crackling Lance, "best boss single target", "Ubers day two", starts on about 1 div.
+  - Ziz (Boneshatter Jugg), Palsteron (Stormburst totems), Ruetoo (Elemental Hit Slayer) and Mathil (3.29 review) have none of your builds. Conner's Spark Luminary is endgame-only and not a starter.
+
+**Your build list**
+| Change | Build | Why |
+|---|---|---|
+| ⚠ | Penance Brand | Goratha, Spicysushi, animeprincess and Zeeboub all say early bossing and max hit are its weak spots. Lost Unity may be harder to get this league |
+| ✅ | Lightning Tendrils fallback | New 3.30 guide: cheap, strong early bossing, no Herald cost |
+| ✅ | Crackling Lance fallback | Creator claims best single target and day-2 Ubers |
+
+**Next:** final run at 18:47 UTC, then the digests end at launch.
+
 ## 2026-11-13 01:20 UTC (Nick's Reddit link)
 
 - [r/PathOfExileBuilds 1xuhf8s](https://www.reddit.com/r/PathOfExileBuilds/comments/1xuhf8s/) is "[3.30] Ignite Elementalist – League Starter + Massive Ignite Explosions" by animeprincess (score 13, 36 comments). It's **the same Penance Brand Ignite Elementalist** already at #1 on the shortlist: the [mobalytics guide](https://mobalytics.gg/poe/builds/penance-brand-ignite-elementalist-league-starter) plus a new PoB, [pobb.in/rqEMV7nZaPrq](https://pobb.in/rqEMV7nZaPrq). OP says the Elementalist nerfs cost "a little bit of damage and some minor golem bonuses". Endgame uses Venarius' Astrolabe to get three Shaper notables and +3 to Penance Brand, which frees a point for Herald stacking.
