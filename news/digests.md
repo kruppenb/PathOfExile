@@ -174,7 +174,7 @@ These changes are real and apply to every league: the Winter Orb and Pact of Bei
 **Your build list** (since the first digest, mostly from the other thread's Reddit and video research)
 | Change | Build | Why |
 |---|---|---|
-| ↑ to #1 | Winter Orb Occultist (10.5) | Players back its bossing: all ubers in SSF ([community check](../builds/wand-and-spell-shortlist.md#community-check-reddit)) |
+| ↑ to #1 | Winter Orb Occultist (10.5) | Players back its bossing: all ubers in SSF ([community check](../builds/shortlist-reference.md#community-check-reddit)) |
 | ↑ #2 | Penance Brand Ignite Ele (10) | Two creators' videos now read |
 | ↓ #3 | Volatile Dead Slinger, Kinetic Bolt Ele (9.5) | No player reports; Kinetic Bolt is a single source |
 | ↑ | Bladefall + Blade Blast (7.5 → 8.5) | Best-documented early bosser: 4 Voidstones on day 2 for under 5 div; cast on crit at ~level 85 |

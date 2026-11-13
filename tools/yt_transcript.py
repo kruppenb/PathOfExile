@@ -10,7 +10,7 @@ Setup (once):
 Usage:
     python tools/yt_transcript.py https://www.youtube.com/watch?v=lRjDLu8c6Dw
     python tools/yt_transcript.py URL1 URL2 ...
-    python tools/yt_transcript.py --from-md builds/wand-and-spell-shortlist.md
+    python tools/yt_transcript.py --from-md builds/wand-and-spell-shortlist.md --from-md builds/shortlist-reference.md
     python tools/yt_transcript.py --list urls.txt --out videos/raw
 
 Each video becomes videos/raw/<upload-date>-<channel>-<title>-<id>.md with:

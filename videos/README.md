@@ -11,7 +11,7 @@ On Nick's PC (or ask Claude to do it through Remote Control):
 ```bash
 pip install -U yt-dlp youtube-transcript-api
 python tools/yt_transcript.py https://www.youtube.com/watch?v=VIDEO_ID
-python tools/yt_transcript.py --from-md builds/wand-and-spell-shortlist.md   # every link in a file
+python tools/yt_transcript.py --from-md builds/wand-and-spell-shortlist.md --from-md builds/shortlist-reference.md   # every link in the shortlist and its reference doc
 git add videos && git commit -m "Add video transcripts" && git push
 ```
 
@@ -40,7 +40,7 @@ were garbled. I only name items I'm confident about. Most videos are **3.29 or o
 **Added 2026-11-10** (17 more videos pulled on Nick's PC; 8 have full transcripts, 2 have no commentary, 7 have captions turned off):
 - **Bladefall + Blade Blast Assassin (Ky)** is the best-documented early bosser on the list. Spellslinger from level 37, then **cast on crit at ~level 85 for about 3 div**, triggered by Lancing Steel of Spraying on a foil (ranged, one button). Ky had all four Voidstones on day 2 with under 5 div of gear.
 - **Penance Brand ignite** pops more than we thought: one cast spreads ignite across the screen, and Obliteration or Lost Unity add explosions. Goratha says the brand works from the first lab; animeprincess swaps at the end of the campaign.
-- **Power Siphon cast on crit exists**: Kross's 3.30 "CoC Archmage Firestorm of Pelting triggered by Power Siphon" Hierophant. One small video. Its PoB was read on Nov 10 and doesn't back the "tanky" pitch (46.7K EHP, 14.3K physical max hit at level 97) or the DPS figure; see [the shortlist](../builds/wand-and-spell-shortlist.md#power-siphon-cast-on-crit-what-the-pob-shows).
+- **Power Siphon cast on crit exists**: Kross's 3.30 "CoC Archmage Firestorm of Pelting triggered by Power Siphon" Hierophant. One small video. Its PoB was read on Nov 10 and doesn't back the "tanky" pitch (46.7K EHP, 14.3K physical max hit at level 97) or the DPS figure; see [the shortlist](../builds/shortlist-reference.md#power-siphon-cast-on-crit-what-the-pob-shows).
 - **Kinetic Blast of Clustering**: its own guide author says single target is "trash" until Whispers of Infinity and behind Winter Orb after.
 - **Kinetic Bolt Elementalist** and **Volatile Dead Spellslinger** videos have no usable commentary. Only their descriptions and chapter lists could be read.
 
@@ -67,7 +67,7 @@ were garbled. I only name items I'm confident about. Most videos are **3.29 or o
 | [SoloHood: WO Occultist to 4 Voidstones](https://www.youtube.com/watch?v=zYLg8-yYkoY) · [raw](raw/2026-07-28-solohood-winter-orb-occultist-to-4-voidstones-poe-zYLg8-yYkoY.md) | CI, ES leech for recovery. Got **2 Voidstones on a 5-link**. Key uniques: a projectile wand, Light of Lunaris shield, **Anathema** ring, so Arcanist Brand casts 3 curses on bosses. Rest is rare ES gear. Needs a dexterity source. Next big upgrade is pricier (power-charge boots). [PoB](https://pobb.in/GIh4XFQO9VLm) |
 | [Devildoll: Velka boss fight](https://www.youtube.com/watch?v=qPs0HdPh0BA) | No captions. Short 3.29 boss kill with a power-stacker WO Occultist |
 
-PoB files for these builds and for Fubgun's, Zizaran's and Lexyu's Winter Orb guides are saved in [../builds/pob/](../builds/pob/) (added 2026-11-12). What they show for boss damage, before and after the 3.30 nerf, is in [the shortlist](../builds/wand-and-spell-shortlist.md#boss-damage-winter-orb-vs-penance-brand-ignite).
+PoB files for these builds and for Fubgun's, Zizaran's and Lexyu's Winter Orb guides are saved in [../builds/pob/](../builds/pob/) (added 2026-11-12). What they show for boss damage, before and after the 3.30 nerf, is in [the shortlist](../builds/shortlist-reference.md#boss-damage-winter-orb-vs-penance-brand-ignite).
 
 ### Bladefall + Blade Blast Assassin (Spellslinger → cast on crit)
 
@@ -90,7 +90,7 @@ PoB files for these builds and for Fubgun's, Zizaran's and Lexyu's Winter Orb gu
 | [Panda: 3.28 uber bosses](https://www.youtube.com/watch?v=Lt0y--FMRLc) | No captions. Chapters: Uber Cortex, Uber Uber Elder, Uber Incarnation of Dread, Uber Eater, Uber Maven. [PoB](https://pobb.in/mliotroEDtIf), budget unknown |
 | [Boomer: Penance Brand of Dissipation, "5 uber bosses per second"](https://www.youtube.com/watch?v=aLd3kAZqsSY) | No captions. Description: **mirror-tier** build; a "middle budget" [PoB](https://pob.codes/b/f4EwcqD7scK) exists |
 
-Six of animeprincess's PoBs (the progression list in the Mobalytics guide), Goratha's and Panda's are saved in [../builds/pob/](../builds/pob/) (added 2026-11-12); their boss numbers are in [the shortlist](../builds/wand-and-spell-shortlist.md#boss-damage-winter-orb-vs-penance-brand-ignite).
+Six of animeprincess's PoBs (the progression list in the Mobalytics guide), Goratha's and Panda's are saved in [../builds/pob/](../builds/pob/) (added 2026-11-12); their boss numbers are in [the shortlist](../builds/shortlist-reference.md#boss-damage-winter-orb-vs-penance-brand-ignite).
 
 ### Lightning Tendrils / Lightning Conduit Elementalist
 
@@ -100,7 +100,7 @@ Six of animeprincess's PoBs (the progression list in the Mobalytics guide), Gora
 | [Telvanni: Lightning Conduit Elementalist, day 1 (3.29)](https://www.youtube.com/watch?v=OJ8P64fg4D0) (Jul 26, 6 min) · [raw](raw/2026-07-26-telvanni-poe-poe-3-29-this-build-over-delivered-tanky-OJ8P64fg4D0.md) | A league-start update a day in: level 89, 50/100 atlas. "I had zero deaths going through the campaign. My first death wasn't until about around tier 10 maps", and he reached yellow maps on what was effectively a four-link. **Switch to Conduit only after the first ascendancy in act 3**: without guaranteed shock "you are going to have a pretty rough time". Keep Arcane Surge at about level 12 so it stays up. His day-one PoB: wand + shield, no crit (Elemental Overload), 4,000 life, 67% / 78% block, 104K EHP, 6.0M DPS. His league-start build video is not read yet. [PoB](https://pobb.in/yX0fhXb79CLw) · [saved code](../builds/pob/telvanni-lightning-conduit-elementalist.pob.txt) |
 | [Tuadh: Lightning Tendrils Exarch & Eater league-start run](https://www.youtube.com/watch?v=mSVhj2KNSfo) (Oct 29, 5.5 h) · [raw](raw/2026-10-29-tuadh-lightning-tendrils-exarch-eater-leaguest-mSVhj2KNSfo.md) | A racer's practice run with sparse commentary (the transcript is mostly game audio). Tendrils from act 1–2; maps at 3:35, the Eater fight from 5:23 and the Exarch fight from 5:27 (both dead at 5:33 on the practice sheet). "Lightning tendrils is low radius", so he takes area nodes; mana is a problem early; single-target damage is very good. In maps: "Pretty good in campaign, but it's falling off a little now", and "I think crackling lance had more damage than this". End character: level 76, 4,109 life + 1,066 ES, 24.6K EHP, 0.81M DPS. [PoB](https://pobb.in/2adOZ761YhuY) · [saved code](../builds/pob/tuadh-lightning-tendrils-practice-run.pob.txt) |
 
-The Reddit guide for this build has no video; its two PoBs are saved as [Conduit](../builds/pob/reddit-lightning-conduit-elementalist.pob.txt) and [Tendrils of Escalation](../builds/pob/reddit-lightning-tendrils-escalation-elementalist.pob.txt), and their notes are summarised in [the shortlist](../builds/wand-and-spell-shortlist.md#pick-details).
+The Reddit guide for this build has no video; its two PoBs are saved as [Conduit](../builds/pob/reddit-lightning-conduit-elementalist.pob.txt) and [Tendrils of Escalation](../builds/pob/reddit-lightning-tendrils-escalation-elementalist.pob.txt), and their notes are summarised in [the shortlist](../builds/shortlist-reference.md#pick-details-full-notes).
 
 ### Kinetic Fusillade
 

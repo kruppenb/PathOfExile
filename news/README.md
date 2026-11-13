@@ -10,8 +10,8 @@ Each run reports only what's **new since the last run**: a short news summary, t
 ## Procedure (for Claude)
 
 1. **Load context.** `git pull` on `main`. Read [state.json](state.json) (`last_run`, `seen`, `ranking`, `patch_notes`),
-   the Top picks + "Current call" table in [../builds/wand-and-spell-shortlist.md](../builds/wand-and-spell-shortlist.md),
-   the "Look for" columns in [../leagues/3.30-nerf-watch.md](../leagues/3.30-nerf-watch.md), and Nick's rules (top of the shortlist).
+   the Top picks table and Fallback plans in [../builds/wand-and-spell-shortlist.md](../builds/wand-and-spell-shortlist.md),
+   the "Look for" columns in [../leagues/3.30-nerf-watch.md](../leagues/3.30-nerf-watch.md), and Nick's rules (in [../builds/shortlist-reference.md](../builds/shortlist-reference.md#nicks-rules-sources-and-ratings), which since Nov 13 also holds the shortlist's evidence sections: community check, boss damage, leads, pending).
 2. **Check sources** (WebSearch, then a web-fetch agent for pages; curl is blocked for most PoE sites). Only things dated after `last_run` count.
    | Priority | Source | What to look for |
    |---|---|---|
@@ -19,7 +19,7 @@ Each run reports only what's **new since the last run**: a short news summary, t
    | 1 | **Reddit via the Arctic Shift archive** (web-fetch agent; curl is blocked). List posts since `last_run`: `https://arctic-shift.photon-reddit.com/api/posts/search?subreddit=<sub>&after=<last_run ISO>&limit=100&sort=desc&fields=id,title,score,num_comments,created_utc,link_flair_text,url`. Do **r/pathofexile** (GGG-flaired posts land here first: patch notes, announcements, FAQ) and **r/PathOfExileBuilds** (player build threads, practice runs, starter reviews). If 100 come back, page with `before=<oldest created_utc>`. Comments: `.../api/comments/search?link_id=<id>&limit=100&fields=author,score,body`. Title search and `posts/ids` fail; reddit.com galleries are blocked. Scores are captured early and run low | New GGG posts; threads on shortlisted skills; new starter ideas that fit Nick |
    | 2 | Search "3.30 league starter" + each top-pick skill name (YouTube titles show up in search even though YouTube itself is blocked) | Creator videos/guides for 3.30. New videos worth hearing: ask Nick to run `tools/yt_transcript.py` on his PC |
    | 2 | mobalytics.gg/poe tier list + build pages, poe-vault.com starter lists, poebuilds.cc league page, pathofexile.com forum build sections | Tier list relabelled 3.30? New 3.30 guides for shortlisted skills |
-   | 2 | Community practice-run sheet (linked in the shortlist's Community check) | New timed runs, especially for shortlisted builds |
+   | 2 | Community practice-run sheet (linked in the Community check of the shortlist's reference doc) | New timed runs, especially for shortlisted builds |
    | 2 | maxroll.gg (blocked: titles via search only; Nick can screenshot the tier list) | Tier list updated for 3.30? |
    | 3 | poe.ninja/poe1/builds (after launch only; JS page, ask Nick for a screenshot) | What people actually play |
    | 3 | outputlag, sportskeeda, game news sites | Recaps (fine as pointers; verify against GGG) |
