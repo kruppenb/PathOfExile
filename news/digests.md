@@ -8,7 +8,7 @@ How these are made: [README.md](README.md).
 - GGG: still no 3.30 hotfix. Launch is today at 11am PST (19:00 UTC).
 - 10 new guides transcribed ([videos/README.md](../videos/README.md)):
   - **Goratha** updated Penance Brand for 3.30: "not really a bossing build". Meta-crafts cost double, so the Crown spike comes later, and Lost Unity is uncertain after the Breach rework ("rougher league start"). He now says Armageddon Brand is "probably the best way to level by far".
-  - **Spicysushi's tier list** (142k views) puts **Penance Brand ignite Ele and Bladefall in B**: "the max hit is just not there on a budget". A tier is Stormburst totems, Earthshatter, Static Strike Guardian, Luminary and Poison Animate Weapon.
+  - **Spicysushi's tier list** (142k views) names Bladefall in its warned B tier, and **Penance Brand ignite Ele** in the same warning a minute later: "the max hit is just not there on a budget". A tier is Stormburst totems, Earthshatter, Static Strike Guardian, Luminary and Poison Animate Weapon.
   - **Fallback evidence:**
     - [Master T](https://www.youtube.com/watch?v=ns-gb3WjkcQ): Lightning Tendrils from level 1. "1c uniques" gets all four Voidstones; mid setup ~6M DPS. Heralds are optional, so the Scarab of Refinement removal doesn't hurt it.
     - [Klovehitch](https://www.youtube.com/watch?v=Ab1Pm3zJ5XI): cold-convert Crackling Lance, "best boss single target", "Ubers day two", starts on about 1 div.
@@ -21,6 +21,7 @@ How these are made: [README.md](README.md).
 | ✅ | Lightning Tendrils fallback | New 3.30 guide: cheap, strong early bossing, no Herald cost |
 | ✅ | Crackling Lance fallback | Creator claims best single target and day-2 Ubers |
 
+**Result (build thread, commit 203ab3e):** Penance Brand's Boss rating went from 3–4 to 3. New order: 1. Winter Orb Occultist 10; 2= Penance Brand 9 (9.5 with Obliteration), VD Slinger 9.5, Kinetic Bolt 9.5; 5. KBoC 9; 6= Bladefall 8.5, Tendrils/Conduit 8.5 (confidence High); 8. Spark 7.5. Penance Brand stays the launch-day answer; start Lightning Tendrils instead if early bossing matters most.
 **Next:** final run at 18:47 UTC, then the digests end at launch.
 
 ## 2026-11-13 01:20 UTC (Nick's Reddit link)

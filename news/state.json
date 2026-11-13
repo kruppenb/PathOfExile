@@ -7,41 +7,14 @@
   },
   "ranking_formula": "Boss + Def + Pop/2 (from builds/wand-and-spell-shortlist.md)",
   "ranking": [
-    {
-      "rank": 1,
-      "build": "Penance Brand Ignite Elementalist",
-      "score": 10
-    },
-    {
-      "rank": 2,
-      "build": "Winter Orb Occultist",
-      "score": 9.5
-    },
-    {
-      "rank": 2,
-      "build": "Volatile Dead Spellslinger Elementalist",
-      "score": 9.5
-    },
-    {
-      "rank": 2,
-      "build": "Kinetic Bolt Elementalist",
-      "score": 9.5
-    },
-    {
-      "rank": 5,
-      "build": "Kinetic Blast of Clustering Necromancer",
-      "score": 9
-    },
-    {
-      "rank": 6,
-      "build": "Bladefall + Blade Blast Assassin (Slinger -> CoC)",
-      "score": 8.5
-    },
-    {
-      "rank": 7,
-      "build": "Spark of the Nova Archmage Hierophant",
-      "score": 7.5
-    }
+    "1. Winter Orb Occultist 10",
+    "2= Penance Brand Ignite Ele 9 (9.5 w/ Obliteration)",
+    "2= VD Slinger Ele 9.5",
+    "2= Kinetic Bolt Ele 9.5",
+    "5. KBoC Necro 9",
+    "6= Bladefall/Blade Blast Assassin 8.5",
+    "6= Lightning Tendrils/Conduit Ele 8.5",
+    "8. Spark Archmage Hiero 7.5"
   ],
   "unreadable_sources": {
     "maxroll.gg": "robots.txt blocks automated fetch: ask Nick for a screenshot of the league-starter tier list once it says 3.30",
