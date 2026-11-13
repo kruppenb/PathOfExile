@@ -2,6 +2,13 @@
 
 How these are made: [README.md](README.md).
 
+## 2026-11-13 18:50 UTC (final run; digests end at launch)
+
+- No 3.30.0b patch or hotfix before launch. GGG's [launch notice](https://www.pathofexile.com/forum/view-thread/4014085) says realms go down at 11:00 CST and servers go live at 1:00 PM CST, which is **19:00 UTC**.
+- Nov 12 announcements: Challenge Rewards (4014108), the Putrid Seed Jewel (4014080) and Twitch Drops (4014066). None affect your builds.
+- Your build list is unchanged since the 16:50 entry. Final order: 1. Winter Orb Occultist 10; 2= Penance Brand 9 / VD Slinger 9.5 / Kinetic Bolt 9.5; 5. KBoC 9; 6= Bladefall / Tendrils-Conduit 8.5; 8. Spark 7.5. The launch-day answer is Penance Brand, or Lightning Tendrils if early bossing comes first.
+- The scheduled digest is now deleted. After launch, ask for help with your chosen build.
+
 ## 2026-11-13 16:50 UTC (on demand: last-minute streamer guides)
 
 **News**
