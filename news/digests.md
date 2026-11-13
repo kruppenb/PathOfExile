@@ -2,6 +2,17 @@
 
 How these are made: [README.md](README.md).
 
+## 2026-11-13 01:20 UTC (Nick's Reddit link)
+
+- [r/PathOfExileBuilds 1xuhf8s](https://www.reddit.com/r/PathOfExileBuilds/comments/1xuhf8s/) is "[3.30] Ignite Elementalist – League Starter + Massive Ignite Explosions" by animeprincess (score 13, 36 comments). It's **the same Penance Brand Ignite Elementalist** already at #1 on the shortlist: the [mobalytics guide](https://mobalytics.gg/poe/builds/penance-brand-ignite-elementalist-league-starter) plus a new PoB, [pobb.in/rqEMV7nZaPrq](https://pobb.in/rqEMV7nZaPrq). OP says the Elementalist nerfs cost "a little bit of damage and some minor golem bonuses". Endgame uses Venarius' Astrolabe to get three Shaper notables and +3 to Penance Brand, which frees a point for Herald stacking.
+- Comments:
+  - **Lost Unity** (the Herald of the Hive ring) is the big power spike.
+  - Before it, the brand's ~2 s damage delay feels clunky and "you could get surrounded" (Belieber_420, 33 points). OP's fix is Swiftbrand, with Rebuke/Nycta + Spellblade for Voidstone bosses.
+  - OP: the first four Voidstone bosses on a day-1 budget "took some time to kill. It's the biggest weakness".
+  - Ynead: Herald stacking may cost more because the Scarab of Refinement was removed, which means fewer bars and Herald tattoos.
+  - Most other replies are very positive ("comfy everywhere", "strong at all facets", "a little squishy").
+  - OP says Pconc is the quicker or more optimal start, and PB ignite scales higher.
+
 ## 2026-11-13 00:50 UTC (on demand, since 05:00 Nov 12)
 
 **News**
