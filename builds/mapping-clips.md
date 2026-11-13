@@ -4,25 +4,25 @@
 
 To move or add a clip: edit `tools/mapping_clips.json` and run `python tools/yt_gif.py <slug> --force` on the PC (YouTube is blocked from Claude's cloud sessions).
 
-## 1=. Penance Brand Ignite Elementalist
-
-![Penance Brand Ignite Elementalist mapping](media/penance-brand-ignite-elementalist.gif)
-
-Goratha 3.29, 'Mapping and clearing' chapter (gameplay starts ~3:32; 2:50-3:30 is PoB) · [watch from 3:44](https://www.youtube.com/watch?v=42t9yK-9_Go&t=224s)
-
-## 1=. Winter Orb Occultist
+## 1. Winter Orb Occultist
 
 ![Winter Orb Occultist mapping](media/winter-orb-occultist.gif)
 
 SoloHood 3.29, T16 8-mod map · [watch from 6:50](https://www.youtube.com/watch?v=zYLg8-yYkoY&t=410s)
 
-## 3=. Volatile Dead Spellslinger Elementalist
+## 2=. Penance Brand Ignite Elementalist
+
+![Penance Brand Ignite Elementalist mapping](media/penance-brand-ignite-elementalist.gif)
+
+Goratha 3.29, 'Mapping and clearing' chapter (gameplay starts ~3:32; 2:50-3:30 is PoB) · [watch from 3:44](https://www.youtube.com/watch?v=42t9yK-9_Go&t=224s)
+
+## 2=. Volatile Dead Spellslinger Elementalist
 
 ![Volatile Dead Spellslinger Elementalist mapping](media/volatile-dead-spellslinger-elementalist.gif)
 
 Tuadh 3.26 league-start run, red maps · [watch from 7:31:40](https://www.youtube.com/watch?v=VJyzmqdrETg&t=27100s)
 
-## 3=. Kinetic Bolt Elementalist
+## 2=. Kinetic Bolt Elementalist
 
 ![Kinetic Bolt Elementalist mapping](media/kinetic-bolt-elementalist.gif)
 
