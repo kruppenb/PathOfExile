@@ -9,7 +9,7 @@ Notes for picking and playing a league starter. Current focus: **3.30 Covens of 
 | **What's new since last check (digest every 6 h)** | [news/digests.md](news/digests.md) · [how it works](news/README.md) |
 | What's new in 3.30 | [leagues/3.30-covens-of-umbra.md](leagues/3.30-covens-of-umbra.md) |
 | What was overpowered in 3.29 (check vs 3.30 patch notes) | [leagues/3.30-nerf-watch.md](leagues/3.30-nerf-watch.md) |
-| **Day-one learnings (Nov 14):** how Lightning Tendrils and Penance Brand are doing, league mechanic and early-map tips | [leagues/3.30-day1-learnings.md](leagues/3.30-day1-learnings.md) |
+| **Day-one learnings (Nov 14):** how Lightning Tendrils and Penance Brand are doing, the top builds and wand attack builds on the ladder, league mechanic and early-map tips | [leagues/3.30-day1-learnings.md](leagues/3.30-day1-learnings.md) |
 | What changed since you last played | [leagues/history.md](leagues/history.md) |
 | Which tools/sites people use now (PoB, poe.ninja, etc.) | [tools/README.md](tools/README.md) |
 | How to pick a starter | [builds/selection-guide.md](builds/selection-guide.md) |

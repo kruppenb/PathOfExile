@@ -274,3 +274,57 @@ Format: upload date | channel | length | views | id | title. YouTube search via 
 
 Note: @SoloHood and @SoloHoodPoE handles failed; channel found via an older video (UCXvQoZjRUkAPxi4YGPKHRAQ). Lexyu's newest uploads are PoE2/Diablo 4. ronarray's newest upload is 2026-08-04.
 Transcripts: none. No video uploaded on/after 2026-11-13 is about Winter Orb in 3.30 except HekaPlays WIoBiVU9pTQ, which is a live stream in progress (no length), so it was skipped.
+
+## Wand and top builds (collected 2026-11-14 ~20:20 UTC)
+Format: upload date | channel | length | views | id | title. YouTube search via results URL with the 'this week' filter (sp=EgQIAxAB), 20 results each; only uploads from 2026-11-13 onward listed.
+
+### search: kinetic blast of clustering 3.30 (filter: this week)
+20261113 | Little_practice | 8:37 | 12822 | xiq34bM5124 | 26   3.30 —    
+20261113 | Bramby | 14:41 | 554 | t1RaXQWDNvk | [PoE 1] League Starter SOLIDI per la 3.30 (senza spendere una fortuna)
+20261113 | OhCouto | 18:55 | 4497 | QVwqccFfAOA | QUAL BUILD JOGAR NA POE 3.30? Os Melhores League Starters
+
+### search: kinetic blast day 1 3.30 (filter: this week)
+20261113 | Ruetoo | 8:10 | 111021 | 3co25Im7t_Q | My 3.30 Starters
+
+### search: wander 3.30 league start (filter: this week)
+(no uploads from 2026-11-13 onward among 6 results)
+
+### search: power siphon 3.30 (filter: this week)
+20261114 | Clueless24 | 3:09 | 2 | BrYqpzKg5dM | Power Siphon Locus Mines Reliquarian 3.30 Eater of Worlds
+20261114 | TeacherGregPOE | 31:41 | 240 | IHS922XS9YY | (3.30) - Power Siphon of the archmage - League starter - Primeiras horas
+20261113 | rank1gear | 15:07 | 173 | 3qnsSMmkK60 | Fresh Start to Eater Exarch Voidstone - Detailed Guide 
+20261113 | The Fool | 50:12 | 11 | 8WoJpTEINGM | Never late... reacting to the newest Path of Exile patch and patch notes.
+20261114 | Afana | 2:03:30 | 1121 | s1wIVETNxkQ |  DROPS ATIVADOS! COMEÇOU O PROJETO SPARK: DO LEVEL 1 AO MAGIC FIND!  
+
+### search: kinetic fusillade day 1 3.30 (filter: this week)
+20261114 | SnycMaster Kevin | 14:48 | 1474 | oksR2Z81TsU | [POE 3.30] HIEROPHANT KINETIC FUSILADE 
+20261113 | lifewithoutpants | 14:52 | 1105 | PQUrW5OoRa4 | Level through the campaign FASTER with Kinetic Fusillade.
+20261113 | Palsteron | 4:53 | 32769 | 7FbDuCkfLR0 | Kinetic Fusillade Ballista Hierophant 
+20261114 | Slesh & Games | 1:30:59 | 118 | cYsvKp74kWs | Kinetic Fusillade Ballista Hierophant 
+
+### search: static strike 3.30 day 1 (filter: this week)
+20261114 | Daviddav | 8:03 | 229 | 4IrdmScqG9s | Day1 Static Strike Luminary PoE 3.30 Covens of Umbra league start
+20261114 | Zish | 11:58 | 4405 | e1D-t_VVT5w | [3.30] SSF SSoGL Assassin Day 1 Update - Smooth sailing as expected
+20261114 | Gaming with Mambo3x | 2:32:45 | 185 | 6ZQyZFXfJCM | POE 3.30 Day 1 - A1 to A5. Guardian Static Strike league starter.
+20261114 | Halcyonish | 7:54 | 2194 | x6WiHQldfOU | 3.30 Initial thoughts - Static Strike has been my easiest league start! 
+20261114 | BOKSUN KIM | 1:18 | 111 | W08NOZJss60 | POE 3.30) Day 1    4  (Static Strike Slayer Day 1)
+20261114 | Gaming with Mambo3x | 2:23:09 | 73 | -2f4dsg-z8E | POE 3.30 Day 1 - A6 to A10. Guardian Static Strike league starter.
+20261113 | jungroan | 10:42 | 93235 | ifQIDAl1MPE | Blade Flurry Static Strike Slayer 
+20261114 | SephGoesGaming | 6:11:11 | 105 | SRZiBhRZzts | Day 1 Endurance Stacking Reliquarian 
+20261113 | Magicky | 28:13 | 3874 | LPYl2t09hr4 |  Endgame  Static Strike Slayer // Poe 3.30 Covens of Umbra
+20261113 | highwithoutcoke | 6:19 | 2879 | 82C3AYWD9nc | [POE 3.30] Flicker Strike Slayer League Starter - Extremely Low Budget
+
+### search: cyclone shockwave 3.30 day 1 (filter: this week)
+20261114 | Sanavixx | 12:52 | 431 | FJJhnaJPlHs | [Path of Exile 3.30]  Cyclone Shockwave Slayer  Day 1 Update
+20261114 | albatrox18 | 21:28 | 7054 | nARMzQ3etOY | [3.30] Dia 1 - Comentarios + Mecanica Covens + Cyclone Shockwave Campanha
+20261113 | Big Ducks | 9:45 | 56215 | TNqUho75fZw | Even BETTER Than Before? 
+20261114 | Malagant | 6:14:15 | 1140 | niskhoGsFPk | Cyclone Slayer League Start! 
+20261114 | Malagant | 5:55:20 | 1096 | U36H6D3rxlM | Cyclone Slayer League Start! 
+20261114 | Tnh H | 38:13 | 4 | JZ9wvpGFVg4 | Cyclone Shockwave Slayer Path of Exile 3.30 Covens of Umbra Act 1
+20261114 | Sagazyn | 8:33:53 | 30 | bx0yhvXAY50 |  AO VIVO! LEAGUE START 3.30  CYCLONE SHOCKWAVE SLAYER DO ZERO! 
+20261114 | KaidGames2 | 9:04 | 281 | FNfPNeqbBh0 | THE MOST OP CYCLONE SLAYER BUILD I'VE EVER PLAYED! POE Cyclone Build 3.30
+20261113 | KaidGames2 | 8:42 | 446 | yhdBvmjrwBY | TOP 5 MOST BROKEN BUILDS IN POE 3.30! Path of Exile Builds (POE 3.30 BUILDS)
+20261113 | Piotr Maciejczak | 13:32 | 29632 | uqEGim3qQX0 | POMOG CI WYBRA STARTER BUILD na NOW LIG Path of Exile 3.30
+20261114 | Earth's House | 10:05 | 0 | YR9hp_QsBKU | PoE 3.30 
+
+Transcripts: none saved. YouTube blocked transcript requests from this IP (youtube-transcript-api: IpBlocked; yt-dlp subtitles: HTTP 429), failed twice, skipped. Picked for transcription, retry later with tools/yt_transcript.py: oksR2Z81TsU (Kinetic Fusillade Hierophant day 1, Spanish), IHS922XS9YY (Power Siphon of the Archmage first hours, Portuguese), PQUrW5OoRa4 (lifewithoutpants, Kinetic Fusillade campaign leveling), x6WiHQldfOU (Halcyonish, Static Strike day-1 thoughts), FJJhnaJPlHs (Sanavixx, Cyclone Shockwave Slayer day 1 update).
