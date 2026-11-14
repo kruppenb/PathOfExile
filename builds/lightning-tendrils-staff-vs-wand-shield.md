@@ -104,6 +104,14 @@ The one-page version of this section, with every later stage of the tree and gem
 
 That is about 65c. The staff, ring and helmet alone are 13c.
 
+**The rest of your gear stays** (added Nov 14, Nick's question). Only the staff and the amulet have to change at the swap. Master T: "The staff swap is going to be literally any staff in the game", as long as it is a war staff with attack block, and "nothing else will change from this point on" until maps. On trade, Xirgil's Crank at 6c is wearable from level 23, so buy it instead of hunting a rare. His other Act 7 pieces are plain rares with resistances, mana, a little armour and energy shield, +34 Strength and +86 Dexterity, and no life rolls at all. Three things to check on your own gear:
+
+- **Resistances.** The staff is two-handed, so the shield comes off with whatever it carried. Purity of Elements is in his Act 7 links and helps here.
+- **Strength and Dexterity.** The staff, the Flame and Stone golems, Vitality, Purity of Elements and Arrogance need Strength. Haste, Arctic Armour and Less Duration need Dexterity. He calls the build "starved for attributes".
+- **Mana.** His Act 7 rings, belt and helmet all carry mana, and he says 3.30's higher costs made him give a whole ring to mana later.
+
+Armour and energy shield bases can wait until the start of maps, which is when Divine Shield and Wicked Ward come in. Not verified: how Righteous Fire of Arcane Devotion is sustained at this stage. Put it on last, with fire resistance capped, and take it off again if it drains you; the build runs without it.
+
 **Tree.** Follow Master T's "Act 7 Staff Swap" tree. From the Power Siphon tree you refund the wand notables (Wandslinger, Fusillade, Disintegration, Elder Power) and Deep Wisdom, Disciple of the Forbidden, Divine Judgement, Heart and Soul, Instability, Overcharge and Searing Heat. You take Zealot's Oath, Crackling Speed, Enigmatic Defence, Lightning Walker, Mental Rapidity, Might, Mystic Bulwark and Safeguard. On the way to maps add Divine Shield, Wicked Ward, Whirling Barrier, Sanctum of Thought, Static Blows and Influence.
 
 **Links in Act 7** (his PoB):
