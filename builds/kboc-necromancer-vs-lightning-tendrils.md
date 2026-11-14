@@ -127,7 +127,7 @@ Added Nov 14 evening, after Nick asked for testimonials. Excerpts and links: [ne
 
 ## What the switch costs
 
-One refund point per passive, five per ascendancy point, plus one Labyrinth run to pick Necromancer at the altar. Orbs of Regret are about 2c today (thin data) and a Divine Orb about 98c. Quest refund points and gold (in the passive screen) also pay for refunds.
+One refund point per passive, five per ascendancy point, plus one Labyrinth run to pick Necromancer at the altar. Orbs of Regret are about 2c today (thin data) and a Divine Orb about 98c. Quest refund points and gold (at Faustus, "Respecialization") also pay for refunds.
 
 | When you switch | Refund points | About |
 |---|---|---|

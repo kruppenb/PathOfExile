@@ -114,6 +114,8 @@ Armour and energy shield bases can wait until the start of maps, which is when D
 
 **Tree.** Follow Master T's "Act 7 Staff Swap" tree. From the Power Siphon tree you refund the wand notables (Wandslinger, Fusillade, Disintegration, Elder Power) and Deep Wisdom, Disciple of the Forbidden, Divine Judgement, Heart and Soul, Instability, Overcharge and Searing Heat. You take Zealot's Oath, Crackling Speed, Enigmatic Defence, Lightning Walker, Mental Rapidity, Might, Mystic Bulwark and Safeguard. On the way to maps add Divine Shield, Wicked Ward, Whirling Barrier, Sanctum of Thought, Static Blows and Influence.
 
+**Paying for the refund** (added Nov 14, Nick's question). Free refund points from quests go first. For the rest, gold is the cheap way: talk to Faustus, the Currency Exchange trader (in Kingsmarch, or in your hideout once invited), and choose "Respecialization". The passive tree opens in a mode where each refunded point costs gold. The price rises with character level: one 3.25 guide gives 8,450 gold a point near level 90 and "only hundreds" during the campaign. Not confirmed for 3.30, and no figure found for level 55 to 60. Orbs of Regret also work, one point each, at about 2c each on Nov 14, which would cost more than the whole gear kit.
+
 **Links in Act 7** (his PoB):
 
 - Lightning Tendrils, Added Lightning Damage, Controlled Destruction, Arcane Surge. Infused Channelling replaces Added Lightning Damage by maps.
