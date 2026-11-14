@@ -125,3 +125,152 @@
 2026-03-07 | theslinkyshadow | 14:56 | 3602 views | T9a8lEMYJkc | POE1 3.28 Penance Brand Ignite Build Diary - Day 1 Campaign Completion!
 2026-01-27 | IcyBaron | 11:20 | 2089 views | qP99qv6XrjM | Penance Brand of Dissipation – Full Endgame Showcase (Ubers, T16–T17) | Pohx Private League
 2023-12-21 | Zizaran | 15:23 | 473508 views | 7q2-xrQ4RCA | Penance Brand of Dissipation is INSANELY STRONG! - Inquisitor Build Guide ft. Manni
+
+## Winter Orb (collected 2026-11-14 ~19:55 UTC)
+Format: upload date | channel | length | views | id | title. YouTube search via results URL (yt-dlp has no working ytsearchdate here); the sort-by-date param was ignored (relevance order), so 'this week' filter runs were added.
+
+### search: winter orb 3.30
+20261112 | Fubgun | 8:48 | 302554 | mpj396DknOA | Best League Starters in 3.30, Full Tier list - Path of Exile 1
+20261111 | Fubgun | 14:53 | 115365 | FXbh7V4ALB0 | The Biggest Changes in The 3.30 Patch notes - Path of Exile 1
+20261112 | Jorgen | 12:53 | 167239 | ZtEHrTcdoW8 |  5 Cool Path Of Exile 1 League Starter Builds To Check Out  |  Covens of Umbra League 3.30
+20260730 | TheMehmetBozlak | 10:04 | 15154 | bo7HKjT1VwQ | [3.30] Winter Orb Build (No Ralakesh)  |  Occultist  |  Covens of Umbra  |  Path of Exile 3.30
+20261111 | Peuget2 | 9:17 | 80861 | sOKiVtyhb8M | Outstanding Damage and Tankiness! Lightning Tendrils Elementalist League Starter for PoE 3.30
+20261111 | Kamisu | 5:50 | 127162 | Z_VGuaHmSMY | [POE 3.30] One Slayer to rule them all...
+20260826 | Arccueid | 24:07 | 2642 | mFNoCXC0UfM | PoE 3.29 Allflame SCSSF Winter Orb Elementalist vs All Uber Bosses + The Feared (0 Death)
+20260501 | Tanjar | 12:56 | 42177 | WicFAYLnRiY | WINTER ORB OCCULTIST l ZERO TO HERO l EP. 2 l FARMING CROPS AND FARMING DROPS
+20260721 | Zizaran | 9:14 | 243558 | OZypCJ-5Bog | This build will be the META! - Winter Orb Elementalist Build Guide [PoE 3.29]
+20260730 | Fubgun | 4:05 | 60071 | XpJMIq2mVLc | Double your Winter Orb Damage With Snapshotting - Path of Exile 1
+20261112 | Owen | 5:39 | 12886 | CwNekfUe9j4 | [3.30] Wintertide Brand Elementalist/Occultist Build Guide
+20261111 | The Divine Ledger | 8:23 | 32328 | Xaa6xKxAdFw | PoE 3.30 League Starters: Top 10 After the Patch Notes
+
+### search: winter orb day 1
+20260726 | Fubgun | 8:13 | 131976 | W0AnGpWnSFM | One of my Best Starters Yet - Day 1 Build Update for Winter Orb - Path of Exile 1
+20260723 | Fubgun | 13:13 | 170903 | QNfIrVN-W44 | How to Level as Winter Orb Elementalist in Campaign - Path of Exile 1
+20260725 | SoloHood | 4:13 | 8622 | 3oedKtr6Hls | Started PoE 3.29 with Winter Orb OCCULTIST… Here’s How It’s Going
+20260727 | Cicero Xott | 5:59 | 4676 | CyrSx0Ss4_M | [PoE1] Winter Orb Elementalist // Weekend 1 Summary // Quality Support Maxxing
+20260717 | jungroan | 4:57:52 | 152797 | xpsV4hSIwqs | Winter Orb SSF Start  Eater/Exarch in UNDER 5 HOURS
+20260724 | Legi1 | 4:53 | 5554 | azzrEX_eMLI | Winter Orb Elementalist Leaguestart Primer [PoE 3.29]
+20260425 | Tanjar | 16:19 | 80924 | gT-wKMMd0g8 | WINTER ORB OCCULTIST l ZERO TO HERO l EP. 1 l BLIGHT GAINS AND ALVA PAINS
+20260725 | Vashthalas | 11:42 | 2396 | 5LCbzPrRaFk | Winter Orb Totem Hierophant Day 1 Update  |  POE - 3.29
+20260722 | Fubgun | 23:09 | 277278 | --XDhqSlwPA | Winter Orb Elementalist Full Build Guide  |  My League Starter for 3.29 Curse of The Allflame
+20261024 | IcyBaron | 7:02:50 | 7981 | sU8X40B4i-o | Winter Orb Elementalist Eater & Exarch Leaguestart Practice Run
+20260718 | PhazePlays | 8:07 | 165082 | kO1ZTP_WLvE | [3.29] ARCTIC SALVO Build Guide — Creeping Frost & Winter Orb Elementalist [Path of Exile 1]
+20260719 | ronarray | 14:16 | 152710 | yn1MzoinnUw | [PoE 3.29] Winter Orb Occultist Build - IN DEPTH League Starter Guide - Path of Exile
+
+### search: winter orb league start covens
+20261112 | Jorgen | 12:53 | 167239 | ZtEHrTcdoW8 |  5 Cool Path Of Exile 1 League Starter Builds To Check Out  |  Covens of Umbra League 3.30
+20260722 | Fubgun | 23:09 | 277278 | --XDhqSlwPA | Winter Orb Elementalist Full Build Guide  |  My League Starter for 3.29 Curse of The Allflame
+20260725 | SoloHood | 4:13 | 8622 | 3oedKtr6Hls | Started PoE 3.29 with Winter Orb OCCULTIST… Here’s How It’s Going
+20250617 | chesar | 5:44 | 5612 | KjzgU9hA6wc | How good is Winter Orb in 3.26 League Start?
+20260724 | Legi1 | 4:53 | 5547 | azzrEX_eMLI | Winter Orb Elementalist Leaguestart Primer [PoE 3.29]
+20260724 | Peuget2 | 10:49 | 15009 | abaeLXmsdKY | Winter Orb Elementalist! My League Starter for PoE 3.29 Curse of the Allflame
+20260723 | Fubgun | 13:13 | 170903 | QNfIrVN-W44 | How to Level as Winter Orb Elementalist in Campaign - Path of Exile 1
+20260720 | Peuget2 | 9:32 | 22789 | yRmMxrYS3bM | Winter Orb Elementalist - League Starter Leveling Guide  |  PoE 3.29
+20260719 | ronarray | 14:16 | 152645 | yn1MzoinnUw | [PoE 3.29] Winter Orb Occultist Build - IN DEPTH League Starter Guide - Path of Exile
+20260724 | Master T | 20:44 | 51461 | POs8F63fhr4 | Try This If You Dont Want To Play Winter Orb - Whispering Tendrils - League Start Build Poe 3.29
+20260718 | Peuget2 | 11:35 | 32577 | 62JkpZ4VtCk | Winter Orb Elementalist - League Starter Preview  |  PoE 3.29
+20260723 | Peuget2 | 14:49 | 18537 | ytPBHmpLAeE | Winter Orb Elementalist League Starter - Full Build Guide! Tanky & Fast  |  PoE 3.29
+
+### search: winter orb (filter: this week)
+20261111 | Kamisu | 5:50 | 127162 | Z_VGuaHmSMY | [POE 3.30] One Slayer to rule them all...
+20261113 |   | 25:41 | 12 | pepztWSDV9A | Winter Orb Elementalist 3.29 SSFSC Ubers
+20261112 | Skwouick | 10:27 | 7 | M_l0zjqjqvw | Winter Orb - 3.29 - Ubers
+20261110 | NerdAndProudOfIt | 18:40 | 4098 | lEn7EX6iee4 |  Iconic Old Magic Cards Are DISAPPEARING And You Haven't Noticed!?
+20261111 | Peuget2 | 9:17 | 80861 | sOKiVtyhb8M | Outstanding Damage and Tankiness! Lightning Tendrils Elementalist League Starter for PoE 3.30
+20261111 | VFlzero | 1:39 | 86 | BDG5QBKW0uk | path of exile 1: 3.29 Winter orb + power charge+golem stacking T17
+20261112 | Owen | 5:39 | 12886 | CwNekfUe9j4 | [3.30] Wintertide Brand Elementalist/Occultist Build Guide
+20261110 | Aleshxile | 12:00 | 33139 | WbDGNiNTJzI | POE 3.30 Witch Necromancer Animate Weapon Of Ranged Arms - Low Budget - League Starter  - Maven
+20261113 | OLDMTG | 22:52 | 164 | jbjqMkPpkBU | Mono Red Goblins vs Matt's GW Erhnam Geddon - X-Points - T68 - Match 4 - #mtg9394 #oldschoolmtg
+20261109 | jbaris | 3:17 | 45 | ufwHwYK1ZFw | Hall of Gransmasters Deathless - Winter Orb - PoE 3.29
+20261111 | RNGenius | 8:11 | 314 | QeOEZfkOfMs | WINTER ORB GOLEM ELEMENTALIST BUILD GUIDE  |  POE 1 PATCH 3.29
+20261114 | HekaPlays /  | NA | 8 | WIoBiVU9pTQ |  Path of Exile 3.30   |    Winter Orb  League Start • Acts 1–10 2026-11-14 11:48
+20261111 | Aleshxile | 11:01 | 3960 | fFzDzASJ6ro | POE 3.30 Ranger Pathfinder Poison Concoction of Bouncing - Low Budget - League Starter  - Maven
+20261107 | Dr3adful | 30:15 | 11354 | fNS9JG4QMdo | Reviewing 8 Builds I Played In Curse Of The Allflame League
+20261111 | oMatheus | 8:26 | 15896 | w4M0r1xUIIg | As 6 Builds pra Começar a 3.30! Nerfs, Buffs e Dicas do Patch  |  Path of Exile
+
+### search: winter orb 3.30 (filter: this week)
+20261112 | Jorgen | 12:53 | 167297 | ZtEHrTcdoW8 |  5 Cool Path Of Exile 1 League Starter Builds To Check Out  |  Covens of Umbra League 3.30
+20261112 | Owen | 5:39 | 12886 | CwNekfUe9j4 | [3.30] Wintertide Brand Elementalist/Occultist Build Guide
+20260730 | TheMehmetBozlak | 10:04 | 15155 | bo7HKjT1VwQ | [3.30] Winter Orb Build (No Ralakesh)  |  Occultist  |  Covens of Umbra  |  Path of Exile 3.30
+20261111 | Peuget2 | 9:17 | 80861 | sOKiVtyhb8M | Outstanding Damage and Tankiness! Lightning Tendrils Elementalist League Starter for PoE 3.30
+20261111 | Kamisu | 5:50 | 127162 | Z_VGuaHmSMY | [POE 3.30] One Slayer to rule them all...
+20261114 | FastAF  | 3:02 | 4569 | 7bZ6Y6ytwdA | 20c 1-Shot K.O Bosskiller build to CARRY your 3.30 league start!Lightning Tendrils Elementalist
+20260808 | Tuadh | 46:51 | 32500 | GULT7eNfmW0 | 1 Divine Winter Orb vs All Ubers
+20261021 | Tuadh | 6:26:36 | 34085 | FYRUo1t-9h8 | HCSSF Winter Orb Exarch & Eater Leaguestart Run
+20261110 | Aleshxile | 12:00 | 33139 | WbDGNiNTJzI | POE 3.30 Witch Necromancer Animate Weapon Of Ranged Arms - Low Budget - League Starter  - Maven
+20261108 | Slesh & Games | 4:16:49 | 947 | 2XgV7qjR3do |  PATH OF EXILE 1 — Winter Orb Elementalist League Starter 3.30   |  SLESH & GAMES
+20261111 | Fubgun | 14:53 | 115365 | FXbh7V4ALB0 | The Biggest Changes in The 3.30 Patch notes - Path of Exile 1
+20261112 | Mist | 18:02 | 907 | THMUtEBnGM0 | PoE - 3.30  |  Patch Note Review And My League Start Plan
+20261108 | The Divine Ledger | 8:35 | 32478 | BOewAmpBQ48 | PoE 3.30 League Starters: My Top 7 After the ExileCon Reveal
+20261112 | Fubgun | 8:48 | 302554 | mpj396DknOA | Best League Starters in 3.30, Full Tier list - Path of Exile 1
+20261114 | HekaPlays /  | NA | 8 | WIoBiVU9pTQ |  Path of Exile 3.30   |    Winter Orb  League Start • Acts 1–10 2026-11-14 11:49
+
+### search: winter orb occultist (filter: this week)
+20261112 | Owen | 5:39 | 12886 | CwNekfUe9j4 | [3.30] Wintertide Brand Elementalist/Occultist Build Guide
+20261111 | The Divine Ledger | 8:23 | 32357 | Xaa6xKxAdFw | PoE 3.30 League Starters: Top 10 After the Patch Notes
+20261111 | Exile Mind | 4:59 | 4027 | qXEWh0PTBxM | These 5 Builds Are Still Safe for 3.30 League Start
+20261114 | HekaPlays /  | NA | 8 | WIoBiVU9pTQ |  Path of Exile 3.30   |    Winter Orb  League Start • Acts 1–10 2026-11-14 11:48
+20261107 | Dr3adful | 30:15 | 11348 | fNS9JG4QMdo | Reviewing 8 Builds I Played In Curse Of The Allflame League
+20261113 | KaidGames2 | 12:47 | 508 | 32GIsU61ivg | The BEST Builds To PLAY & LOSERS To AVOID in POE 3.30! POE Tier List
+20261112 | Pidzam | 15:19 | 22809 | DqnRmSy3RgU | [PoE] Starter buildy na lig 3.30 Path of Exile - Covens of Umbra!
+20261109 | Non Official Daily(ish) Joseph Anderson | 5:35:46 | 22198 | WIRTiUtib_M | all drops lead to hell  |  Queen's Domain Stream 1
+
+### search: winter orb elementalist (filter: this week)
+20261112 | Owen | 5:39 | 12886 | CwNekfUe9j4 | [3.30] Wintertide Brand Elementalist/Occultist Build Guide
+20261111 | Peuget2 | 9:17 | 80861 | sOKiVtyhb8M | Outstanding Damage and Tankiness! Lightning Tendrils Elementalist League Starter for PoE 3.30
+20261114 | FastAF  | 3:02 | 4569 | 7bZ6Y6ytwdA | 20c 1-Shot K.O Bosskiller build to CARRY your 3.30 league start!Lightning Tendrils Elementalist
+20261111 | Kamisu | 5:50 | 127162 | Z_VGuaHmSMY | [POE 3.30] One Slayer to rule them all...
+20261108 | Slesh & Games | 4:16:49 | 947 | 2XgV7qjR3do |  PATH OF EXILE 1 — Winter Orb Elementalist League Starter 3.30   |  SLESH & GAMES
+20261114 | HekaPlays /  | NA | 8 | WIoBiVU9pTQ |  Path of Exile 3.30   |    Winter Orb  League Start • Acts 1–10 2026-11-14 11:48
+20261112 | Fubgun | 8:48 | 302554 | mpj396DknOA | Best League Starters in 3.30, Full Tier list - Path of Exile 1
+20261108 | The Divine Ledger | 8:35 | 32478 | BOewAmpBQ48 | PoE 3.30 League Starters: My Top 7 After the ExileCon Reveal
+20261111 | RNGenius | 8:11 | 314 | QeOEZfkOfMs | WINTER ORB GOLEM ELEMENTALIST BUILD GUIDE  |  POE 1 PATCH 3.29
+20261113 |   | 25:41 | 12 | pepztWSDV9A | Winter Orb Elementalist 3.29 SSFSC Ubers
+20261109 |   | 8:38 | 51704 | GlubFOEPGMg | PoE13.30  TOP5  (3.29  )
+20261111 | The Divine Ledger | 8:23 | 32418 | Xaa6xKxAdFw | PoE 3.30 League Starters: Top 10 After the Patch Notes
+20261111 | JOHNTEXX | 4:40 | 103 | Ew84Q7HRmDU | PoE 3.30: 6 starters e minha build  |  Blizzard e PS Plus  |  Game News 11/11 • JOHNTEXX
+20261113 | KaidGames2 | 12:47 | 508 | 32GIsU61ivg | The BEST Builds To PLAY & LOSERS To AVOID in POE 3.30! POE Tier List
+20261111 | Exile Mind | 4:59 | 4027 | qXEWh0PTBxM | These 5 Builds Are Still Safe for 3.30 League Start
+
+### channel: ronarray (6 newest)
+20260804 | ronarray | 14:31 | 82623 | 40OXHa8SMco | [PoE 3.29] UBER EK Ignite Build - DoT Cap, Ubers, Screen Clear - Elementalist Guide - Path of Exile
+20260803 | ronarray | 11:53 | 26211 | fE36hIilfGY | [PoE 3.29] Message in Bottle - OPEN or SELL? QUAD Tab Test for Charts Farm - Path of Exile
+20260802 | ronarray | 11:34 | 15645 | PD_e4ORnOYo | [PoE 3.29] MultiLink Helmet + Shock Boots - Craft Guide for Ignite Elementalist Build Path of Exile
+20260731 | ronarray | 11:29 | 37203 | bQoc2kAoaTg | [PoE 3.29] How I Farm My Divines - HARVEST + Delirium Strategy Guide + Atlas Tree - Path of Exile
+20260730 | ronarray | 13:09 | 46470 | -AMof_MGFKc | [PoE 3.29] EK Ignite Elementalist Build - Tanky + Screen Pops Endgame Update - Path of Exile
+20260728 | ronarray | 11:50 | 57447 | DtJ3BiIRQJ4 | [PoE 3.29] EARLY Strategy to Farm ~1 Divine per 2 Maps - Atlas Tree Farming Guide - Path of Exile
+
+### channel: SoloHood (6 newest)
+20260803 | SoloHood | 14:46 | 2121 | uedYrGX6RAo | DIVINE IRE + Lightning Warp Occultist: TELEPORTING Through Maps  |  PoE 3.29
+20260728 | SoloHood | 12:00 | 5215 | zYLg8-yYkoY | Winter Orb OCCULTIST to 4 Voidstones  |  PoE 3.29
+20260725 | SoloHood | 4:13 | 8622 | 3oedKtr6Hls | Started PoE 3.29 with Winter Orb OCCULTIST… Here’s How It’s Going
+20260630 | SoloHood | 15:47 | 8400 | rPdOSgsbMUo | OFF-META Liminal Coil Tactician  |  Coiling Bolts Build [PoE 2]
+20260611 | SoloHood | 4:08 | 6708 | NC7DkrF1FFo | Frostbolt Chronomancer vs 200% Delirium !Scuffed setup! [PoE 2]
+20260610 | SoloHood | 12:34 | 22280 | 0BR4yZfADes | FROSTBOLT Grim PILLARS Chronomancer  |  T15 Screen Cleaner [PoE 2 0.5]
+
+### channel: Lexyu (6 newest)
+20260920 | Lexyu | 10:07 | 15549 | PvSh4ccoRxY | The Best Starter Build I've Made - Oil Barrage Ice Nova Druid Shaman Leveling Guide - PoE2 0.5.5
+20260903 | Lexyu | 4:27:01 | 11096 | TsJvwef_H0w | My Starter Build for the 0.5.5 League - Oil Barrage Ice Nova Druid Shaman - PoE 2 Forbidden Rites
+20260701 | Lexyu | 50:01 | 2385 | ack2ID97yh8 | DAY 1 ENDGAME IN SEASON 14! Rapid Fire Leveling Build - Diablo 4 Lord of Hatred Death Awakening
+20260630 | Lexyu | 1:30:04 | 5280 | TKR9Tu5xbrE | FASTEST LEVELING BUILD FOR SEASON 14 - Fire Charged Bolts Sorcerer - Diablo 4 LoH Death Awakening
+20260629 | Lexyu | 1:34:44 | 2156 | EJhWWaZQQKY | PREPARE FOR SEASON 14! Rapid Fire Leveling Build Speedrun - Diablo 4 Lord of Hatred Death Awakening
+20260625 | Lexyu | 6:22 | 54282 | jDHIY-oD8_U | THE FASTEST FLICKER WARP SPEED! Lightning Warp Lich Build Guide - Path of Exile 2 Patch 0.5
+
+### channel: Zizaran (6 newest)
+20261112 | Zizaran | 4:47 | 61373 | VJCmw_1iCWI | This might get nerfed before launch...
+20261112 | Zizaran | 6:32 | 99411 | vV8Z7MELGno | This will be MY LEAGUESTARTER! - Boneshatter Juggernaut Build [PoE1 3.30]
+20261108 | Zizaran | 40:01 | 104972 | MEI35-4AsP8 | We had a live podcast at Exilecon!!
+20261013 | Zizaran | 7:06 | 76336 | XeteXHNNzBM | POE1 League DATE REVEAL!!! - Exilecon & POE2 Timeline discussion
+20260927 | Zizaran | 8:53 | 75173 | 5hQ_vsELPWQ | Last Epoch's new Season is pretty huge
+20260920 | Zizaran | 1:09:42 | 31060 | tHZ8lKzoiRQ | I Interviewed the Devs of Emberville!
+
+### channel: Fubgun (6 newest)
+20261113 | Fubgun | 9:06 | 84337 | _mMOrBJzETM | The New atlas is insane, Day 1 Atlas Plans - Path of exile 3.30
+20261113 | Fubgun | 7:13 | 166020 | RjryuPvTcGk | This interaction Makes Bows S+ Tier in 3.30 - Path of Exile 1
+20261112 | Fubgun | 8:48 | 302554 | mpj396DknOA | Best League Starters in 3.30, Full Tier list - Path of Exile 1
+20261112 | Fubgun | 17:01 | 101331 | P0ehhV6elVc | Lightning Arrow Deadeye, League Start Guide for 3.30 - Path of Exile 1
+20261111 | Fubgun | 14:53 | 115365 | FXbh7V4ALB0 | The Biggest Changes in The 3.30 Patch notes - Path of Exile 1
+20261110 | Fubgun | 14:02 | 111740 | t4aPj5Ngpl8 | The Endgame Meta is Changing, Covens of Umbra - Path of Exile 1
+
+Note: @SoloHood and @SoloHoodPoE handles failed; channel found via an older video (UCXvQoZjRUkAPxi4YGPKHRAQ). Lexyu's newest uploads are PoE2/Diablo 4. ronarray's newest upload is 2026-08-04.
+Transcripts: none. No video uploaded on/after 2026-11-13 is about Winter Orb in 3.30 except HekaPlays WIoBiVU9pTQ, which is a live stream in progress (no length), so it was skipped.
