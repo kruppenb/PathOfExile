@@ -85,6 +85,8 @@ Going straight to the staff tree now costs 45 points. Doing Peuget2's swap now a
 
 ## If you move: what to do at level 55 to 60
 
+The one-page version of this section, with every later stage of the tree and gems, is the [staff sheet](leveling/lightning-tendrils-staff-elementalist.html) made from Master T's PoB.
+
 **Buy** (prices from Nov 14):
 
 | Item | Price | Wearable from | What it does |
