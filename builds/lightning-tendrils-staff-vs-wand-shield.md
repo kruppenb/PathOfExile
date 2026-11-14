@@ -4,6 +4,11 @@ Written 2026-11-14, day two of 3.30, at Nick's request. He is levelling Lightnin
 
 Sources: both authors' PoB files and guide videos, one poe.ninja ladder snapshot from day two (62,168 characters, 841 Lightning Tendrils Elementalists) and poe.watch prices from the same day. PoB is not updated for 3.30. Raw data is linked at the bottom.
 
+**PoB for the staff build** (added Nov 14 at Nick's request):
+
+- **Starter version, ready to import:** [lightning-tendrils-staff-elementalist.pob.txt](https://github.com/kruppenb/PathOfExile/blob/main/builds/leveling/lightning-tendrils-staff-elementalist.pob.txt). It is Master T's PoB cut down to nine stages, Act 1 to Late Maps, and it opens on "Act 7 Staff Swap", the stage you would join at. Copy the whole file (GitHub has a "Copy raw file" button), then in Path of Building open Import/Export Build, paste it where it asks for a URL or code, and press Import. Change stage with the Loadout dropdown at the top. The [staff sheet](leveling/lightning-tendrils-staff-elementalist.html) has the same code in a copy box.
+- **Master T's own link:** [his Mobalytics guide page](https://mobalytics.gg/poe/profile/mastert/builds/3-29-masterts-whispering-tendrils-elementalist), from the video description. The page holds one PoB code with all 19 stages, endgame included; he has not posted a pobb.in link. The same code is saved as [pob/mastert-lightning-tendrils-all-variants.pob.txt](pob/mastert-lightning-tendrils-all-variants.pob.txt).
+
 ## Verdict
 
 **Move to the staff version.** Three reasons, in order of weight:
