@@ -24,6 +24,13 @@ were garbled. I only name items I'm confident about. Most videos are **3.29 or o
 
 ### Takeaways for Nick
 
+**Added 2026-11-14, day one of 3.30** (pulled on Nick's PC; the write-up is [leagues/3.30-day1-learnings.md](../leagues/3.30-day1-learnings.md)):
+- **Palsteron, Lightning Tendrils totems day-1 update** ([video](https://www.youtube.com/watch?v=e0XJpBbbiKg), 56k views · [raw](raw/2026-11-14-palsteron-nevermind-this-is-crazy-lightning-tendri-e0XJpBbbiKg.md)): he dropped Storm Burst totems for Tendrils totems. "One of, if not the highest damage leveling skill". Every third pulse is a strong pulse that always crits, so Elemental Overload plus Controlled Destruction works early and crit chance is "not worth it" on plain Tendrils. Tips: +1 lightning gems on wand and shield, cards with underlined rewards need two copies, Tabula about 4c.
+- **Master T, Wicker Man datamine** ([video](https://www.youtube.com/watch?v=1ipDnuWs-RE) · [raw](raw/2026-11-13-master-t-the-wickerman-was-datamined-and-its-insa-1ipDnuWs-RE.md)): best parts for Tendrils are 12% more maximum lightning damage (head), 40% increased damage against chilled enemies (arm) and +5% maximum chill effect (leg). Drop sources are datamined, "allegedly".
+- **Fubgun, day-1 atlas plans** ([video](https://www.youtube.com/watch?v=_mMOrBJzETM) · [raw](raw/2026-11-13-fubgun-the-new-atlas-is-insane-day-1-atlas-plan-_mMOrBJzETM.md)): shrine nodes first (five shrines a map, two buffs each), then map nodes, then Eldritch altars on Dunes or Jungle Valley.
+- **Goratha, league-start plans** ([video](https://www.youtube.com/watch?v=0CMGku2AeUM) · [raw](raw/2026-11-13-goratha-goratha-s-3-30-league-start-plans-fireba-0CMGku2AeUM.md)): he started Fireball of Radiation with Righteous Fire on a Reliquarian, not Penance Brand.
+- **Peuget2's day-one uploads** (acoymfsDiWQ and three short clips) are Act 1 and pre-launch chat with connection problems; nothing on how the build maps. His Nov 14 stream "This is OP Lightning Tendrils…" had no transcript yet. **FastAF's** Tendrils video and **Path of Evening's** "What We Learned From Coven League Start" also came back without transcripts. **Ruthless Gaming's** Penance Brand stream stops in Act 3, before the brand.
+
 **Added 2026-11-11, late** (seven more pulled on Nick's PC with his go-ahead, all with full transcripts; seven PoB codes saved in `builds/pob/`):
 - **Lightning Tendrils Elementalist (Peuget2, 3.30)** is tanky and hits hard, and its author is blunt about the cost: "you need to stand still", and it won't clear off screen. He levels with **Power Siphon** to the second lab and later adds Cast while Channelling.
 - **Lightning Conduit Elementalist (Telvanni, 3.29)**: Conduit from the first lab, "zero deaths going through the campaign".
