@@ -18,3 +18,9 @@ Source: poe.ninja item history (id 676), poe.watch (id 1595); day mapping for pa
 ## Staff Tendrils prices, Nov 15 (poe.watch)
 
 Xirgil's Crank 6c, Marylene's Fallacy 23c, Berek's Grip 5c, Duskdawn 115c (~1.1-1.3 div, 5-link ~145c thin), Coruscating Elixir 5c, Foulborn Lori's Lantern (lucky low life) 290c.
+
+## KBoC Necromancer prices, Nov 15 (poe.watch)
+
+Whispers of Infinity 1,183c (~12 div, 54 traded/day; fell to 21c by day 7 of 3.29 but held 350-1,500c all of 3.28), Anathema ~296c (~3 div; min 30c, possibly a shared default value, check trade), Crown of the Inward Eye 75c, Shavronne's Revelation 9c, Kinetic Blast of Clustering gem 5c (L1), Doedre's Tenure 1c. Overwhelming Malice medium cluster: not priced (poe.ninja page cut off); check trade. Respec cost from builds/kboc-necromancer-vs-lightning-tendrils.md: 85-124 points ≈ 1.7-2.5 div in Orbs of Regret, less with gold.
+
+Nov 15 advice: the Inspired Learning money (~6 div) funds the whole swap except Whispers of Infinity; it does not buy the amulet, so boss damage stays the build's weak side. Keep ~3 div and recheck Whispers around day 5-7.
