@@ -31,6 +31,29 @@ Pick **one or two mechanics** and specialise the atlas tree around them. Questio
 - **Boss rushing / Fate stacking (3.30)**: good fit for strong single-target builds — likely a big league-start money maker because the league rewards are on bosses.
 - **Delve / Heist / Sanctum**: side activities, marked on the atlas in 3.30.
 
+## Update Nov 19 (after 3.30.0c): boss rushing is now the Tendrils farm
+
+Sources: GGG patch notes 3.30.0b Hotfix 2–4 and [3.30.0c](https://www.pathofexile.com/forum/view-thread/4017172) (Nov 18); creator videos from Nov 16–19 in `videos/raw/` (Master T, XTheFarmerX, Peuget2, Fubgun, Allie, ilnino); r/pathofexile via Arctic Shift. Profit numbers are each creator's own claim.
+
+**Patch changes that matter (all under "Endgame Changes" / Covens League, not Ruthless):**
+- Fates: "The majority of Fate Empowerment effects have had their damage reduced, particularly at very high area levels" and "Added several new chase reward outcomes for invoking Fates in high tier Maps." Hotfix 3: you may now invoke three copies of the same Fate.
+- New notable **Celestial Presence** (multiple choice) guarantees Eldritch Altars of the type you pick.
+- Sacred Flora (Harvest): wisps now only spread to Normal and Magic monsters by default; Bountiful Harvest lost its 30% wisp spread.
+- Blight Threads: "+40% Surpassing Chance that a lane … is at least Magic." Reddit (149 up, Nov 19) says Blight maps drop "1/4 of prior loot or worse".
+- Breach hives get extra rares in the final wave; Runic monsters drop 20–30% more; rare/red beasts give more rarity and XP; Abyssal Consorts have less life.
+
+**Strategies that suit Tendrils (strong single target, slower clear):**
+
+| Strategy | Who / claim | Tree | Notes |
+|---|---|---|---|
+| **Fated Nightmare map bosses** | **Master T** (the staff Tendrils guide author), Nov 17: farms Fate-empowered Nightmare bosses and Grim-Fated ubers on Tendrils; money from Nightmarish Books of Depravity, Grim Fates and uber drops | No link; he takes all Mirage nodes (a Mirage = a second boss) and a full map-modifier-effect atlas, and runs mercenaries | He says Fate bosses "make bosses … rippy" and you need his day-3 setup (good armour/ES gear, abyss jewels in Darkness Enthroned) first |
+| **Nightmare boss rush + Ziggurat anomalies** | **XTheFarmerX**, Nov 19, on an Energy Blade Lightning Tendrils Inquisitor: ~30 div/hr (35 in his 1 h 8 min run, 51 div gross) | [poeplanner 64NP](https://poeplanner.com/a/64NP) | Ziggurat Nightmare maps rolled to 85%+ "atlas drops" (<2c a map), 3 cheapest Threads just for the "multiplying modifiers" node, take every Atlas Anomaly node (Scholar's Vault after ~50–65% of maps), shrines + mercenaries + Kalguur on the way. Says a ~40 div build |
+| **"Divine Rush" (Fates with divine icons)** | **Peuget2**, Nov 19: 31 div from Fate cards over ~100–150 partly-run maps, ~57 div in total | [atlas](https://atlas-blush-beta.vercel.app/#oQL-K9b2MF5bF9siOL4rq_Hr2V-fDfUuovrnWILZVC0BTtA) (he says the tree has changed since the video and is now easier with the same loot) | Check the first cauldron; no divine/valuable icon → kill boss and leave. City Square, 1 Expedition + 1 Incursion Thread (not run). Celestial Presence on player altars. True Terrors / Gross Abnormalities make bosses dangerous; unspec if they kill you |
+
+**Mid-game, before the boss rush (Master T):** full map-modifier-effect "star" + shrines + red or blue altars, or Harvest pillar-and-leave, or Blight. Same idea as the Nov 16 plan below.
+
+**Not for Tendrils right now:** Fubgun's rare stacking (8 Legion + 8 Abyss + 8 Bestiary Threads, 25–30 div/hr) needs a Headhunter-level character; Breach-Harvest (ilnino, 10–15 div/hr) and Allie's Harvest (100 div by day 3) are clear-speed farms.
+
 ## 3.30 atlas plan for Lightning Tendrils (Nov 16, day 3)
 
 Sources: creator videos from Nov 13–15 in `videos/raw/` (Fubgun, Spicysushi, Aakoz, Pohx, POEGuy, Palsteron) and r/pathofexile via Arctic Shift. Profit numbers are each creator's own claim from day 1–2, unverified, and day-1 prices fall fast.
