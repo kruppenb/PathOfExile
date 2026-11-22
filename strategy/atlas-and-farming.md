@@ -31,6 +31,13 @@ Pick **one or two mechanics** and specialise the atlas tree around them. Questio
 - **Boss rushing / Fate stacking (3.30)**: good fit for strong single-target builds — likely a big league-start money maker because the league rewards are on bosses.
 - **Delve / Heist / Sanctum**: side activities, marked on the atlas in 3.30.
 
+## Shaper / Elder voidstone (Nov 22)
+
+**Buy the guardian maps instead of respeccing the atlas.** poe.watch, league "Covens", Nov 22: each Elder guardian map (The Enslaver's / Eradicator's / Constrictor's / Purifier's Map) is ~10c with ~9,000 traded a day; a Reddit comment (Nov 17–22) puts Shaper guardian maps at ~5c (poe.watch has no entry). Divine = 212c. A full set of 4 + 4 is roughly 60c.
+- Route: 4 Shaper guardians → Shaper; 4 Elder guardians → Elder ("you can run elder guardian maps on any map in the atlas", Reddit). Shaper and Elder drop the Uber Elder fragments (Knowledge/Shape and Terror/Emptiness); Uber Elder gives the voidstone. Uber Elder fragments trade too little for a price.
+- Self-farming: the 3.30 tree still has clusters for extra Guardian / Conqueror / Synthesis map drops from map bosses, near the top of the tree on the same side as Destructive Play (Vascor's overview, Nov 13). Node names and values not verified. Only worth it if you farm map bosses anyway (boss-rush trees).
+- 3.30.0 notes (Endgame Changes): "Shaper, Elder and Conqueror Fragments no longer grant increased Item Quantity to Maps, and will no longer be consumed when used along with a Map."
+
 ## Update Nov 19 (after 3.30.0c): boss rushing is now the Tendrils farm
 
 Sources: GGG patch notes 3.30.0b Hotfix 2–4 and [3.30.0c](https://www.pathofexile.com/forum/view-thread/4017172) (Nov 18); creator videos from Nov 16–19 in `videos/raw/` (Master T, XTheFarmerX, Peuget2, Fubgun, Allie, ilnino); r/pathofexile via Arctic Shift. Profit numbers are each creator's own claim.
