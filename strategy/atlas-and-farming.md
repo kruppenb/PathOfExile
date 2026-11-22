@@ -42,6 +42,15 @@ Transcripts in `videos/raw/` (Nov 18–21). Claims are the creators' own.
 | **OrientalBear**, Destructive Play + Heist caches (Nov 18) | [pob.co.kr](https://pob.co.kr/a/SpmLjsj0l6) | Granary, skip the map boss, kill only the extra bosses; shrines | ~2.5 div per 10 maps; "brainless" |
 | SnooBAE85, Abomination boss rush (Nov 21), no Destructive Play | [tree](https://tinyurl.com/2paz9m9r) | Outer-ring map-modifier effect, Atlas Anomaly chance (Archon's Vault about every other map), Mirage; no Threads. Nightmare Abomination maps at 75c | ~47 div/hr, ~1 div per map net |
 
+**Step by step (WITCH POE's loop, adapted for free T16s, Nov 22):**
+1. Tree 64HK: Destructive Play, Maven wheel (chisel side), map-boss map drops (Shaper/Elder/Conqueror, not Synthesis), every Harvest spawn node, Mirage wheels + 40% Mirage keystone, map-upgrade nodes, unique-boss Thread drops (target Abyss/Ultimatum). Skip "unique monsters have 2 additional modifiers" and Harvest wisp juice (too slow/rippy for them).
+2. Alch City Square, roll to 6 mods against your regex (~3c). No Threads in the device.
+3. Full clear the outskirts first (bosses are in the centre): more clear under Maven = 1 to 3 extra bosses.
+4. Alch + scour each Harvest grove to rare, pop it (3–4 a map).
+5. Middle: invoke Fates, kill the 3 City Square bosses + extras. If there's a Mirage, run it again.
+6. Keep Shaper/Elder guardian maps (voidstone) and Conqueror maps (run them: extra Conqueror boss, more Grim Fates).
+Plain maps work with the keystone (OrientalBear runs normal Granary); Conqueror-influenced City Square (20–35c) is the paid upgrade.
+
 Reddit (Nov 19–21): Destructive Play is paired with Fates and Conqueror bosses; one player lost money on 50c Conqueror maps ("10c back per map"), another made 90 div in under 4 hours. AsterixLeGaul's tree [poeplanner 6479](https://poeplanner.com/a/6479), who now skips the special-map nodes because those maps got cheap.
 
 ## Shaper / Elder voidstone (Nov 22)
