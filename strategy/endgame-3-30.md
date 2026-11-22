@@ -4,7 +4,7 @@ For Nick's Lightning Tendrils Elementalist (TehSenate, ~lvl 89, ~1M DPS). Trade 
 
 ## The ladder
 
-1. **Finish the atlas + 4 Voidstones** → every map drops as T16.
+1. **Finish the atlas + 4 Voidstones** → each Voidstone makes its quadrant T16; with 4, every map is T16.
 2. **Farm** with the atlas tree (see [atlas-and-farming.md](atlas-and-farming.md): shrines/altars → Fated Nightmare boss rush).
 3. **Pinnacles → Uber pinnacles → Grim-Fated pinnacles → Coven Queen** (the 3.30 final boss).
 
@@ -75,7 +75,9 @@ Sources: vtomes Covens guide (Nov 18), vhpg Grim Fate guide (Nov 21), poedb Nigh
 2. **Grim Fates** drop "sometimes" from **Fate-empowered bosses in T16 maps** (vhpg). Not from un-fated bosses, not from campaign or low maps. No drop rate published.
 3. Use a Grim Fate on a **pinnacle** boss (sources disagree: map device vs atlas, like Maven's beacon) → **Pinnacle Viscera** → that is the route to the **Coven Queen** (summoned with a Cursed Poppet, per vhpg/aoeah; kill count unknown).
 
-**Why nothing drops at 2 Voidstones:** your maps are mostly T14–15, Grim Fates want T16; Viscera are a chance per *fated* boss, so skipped or un-fated bosses give nothing. Two more Voidstones fix the tier.
+**Why nothing drops:** each Voidstone makes **its quadrant** all T16 (Nick runs T16s in both), so tier isn't the blocker. Grim Fates and Viscera only roll on a boss you actually **invoked Fates on**, and even then they're a chance with no published rate. Master T (Nov 17) found Grim Fates "too RNG" and guessed the map's "atlas drops" modifier helps (unconfirmed).
+
+**How to fate a T16 boss:** same as the campaign. Kill the witch coven pack at a cauldron in the map → pick a Fate card (cards with underlined text need 2 copies). At the boss, click the cauldron, slot up to 3 Fates, confirm (it's easy to confirm with none slotted), then fight. Duplicates triple the reward. Start with 1 Fate; fated bosses hit much harder.
 
 **Nightmare maps** (the old T17s, since 3.28): Fortress, Citadel, Abomination, Ziggurat, Sanctuary. 20% quality, unmodifiable, "a new set of bosses, uber monsters and a new tier of modifiers", meant as the bridge to **uber** pinnacles. So the boss is near uber strength, not a normal map boss. You get them when a T16 drop converts (0.5 / 2 / 4.5 / 8% with 1–4 Voidstones). Each drops 1–4 uber key fragments; first clear of each gives 1 atlas point (5 total).
 - On ~1M DPS: **sell them** (50–75c each on Nov 19–21) rather than run them. Creators farming them on Tendrils were on far more damage (Master T's set; XTheFarmerX said ~40 div build).
