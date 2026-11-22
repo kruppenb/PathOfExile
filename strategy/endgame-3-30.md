@@ -65,3 +65,18 @@ Sources: maxroll boss guides (Shaper/Elder Jun 2024, Maven Feb 2025), poedb, Mob
   - **Memory game** (phase 3 onward; 3 zones, later 6): she's invulnerable, so **stop casting**, watch the zones light up, stand in the first one early, then walk them in order. A wrong step makes it faster and slows you. If it goes wrong, logging out is a known fallback.
   - Phase 7: 5 beams with moving gaps + fire projectile (ignite). Drop Gravity Well puddles in the centre so they don't block you.
 - **Tendrils:** the hard one for a stand-still build. Damage windows are short, so bring as much DPS as you can and treat it as a movement fight.
+
+## Fates endgame and Nightmare maps (added Nov 22)
+
+Sources: vtomes Covens guide (Nov 18), vhpg Grim Fate guide (Nov 21), poedb Nightmare map page (3.28 data), aoeah (RMT, marked), creator videos in `videos/raw/` (Master T Nov 17, SnooBAE85 Nov 21, Cyn Nov 19).
+
+**The Fate loop**
+1. Fates from cauldrons → invoke up to 3 on the **map boss** → that boss can drop **Viscera** (chance, not guaranteed). Greater (top-tier) Viscera only drop from the **atlas-map** version of a boss.
+2. **Grim Fates** drop "sometimes" from **Fate-empowered bosses in T16 maps** (vhpg). Not from un-fated bosses, not from campaign or low maps. No drop rate published.
+3. Use a Grim Fate on a **pinnacle** boss (sources disagree: map device vs atlas, like Maven's beacon) → **Pinnacle Viscera** → that is the route to the **Coven Queen** (summoned with a Cursed Poppet, per vhpg/aoeah; kill count unknown).
+
+**Why nothing drops at 2 Voidstones:** your maps are mostly T14–15, Grim Fates want T16; Viscera are a chance per *fated* boss, so skipped or un-fated bosses give nothing. Two more Voidstones fix the tier.
+
+**Nightmare maps** (the old T17s, since 3.28): Fortress, Citadel, Abomination, Ziggurat, Sanctuary. 20% quality, unmodifiable, "a new set of bosses, uber monsters and a new tier of modifiers", meant as the bridge to **uber** pinnacles. So the boss is near uber strength, not a normal map boss. You get them when a T16 drop converts (0.5 / 2 / 4.5 / 8% with 1–4 Voidstones). Each drops 1–4 uber key fragments; first clear of each gives 1 atlas point (5 total).
+- On ~1M DPS: **sell them** (50–75c each on Nov 19–21) rather than run them. Creators farming them on Tendrils were on far more damage (Master T's set; XTheFarmerX said ~40 div build).
+- Run them once you have 4 Voidstones and several million DPS; never stack Fates on a Nightmare boss until a plain one dies easily.
