@@ -49,14 +49,14 @@ Transcripts in `videos/raw/` (Nov 18–21). Claims are the creators' own.
 4. Alch + scour each Harvest grove to rare, pop it (3–4 a map).
 5. Middle: invoke Fates, kill the 3 City Square bosses + extras. If there's a Mirage, run it again.
 6. Keep Shaper/Elder guardian maps (voidstone) and Conqueror maps (run them: extra Conqueror boss, more Grim Fates).
-Plain maps work with the keystone (OrientalBear runs normal Granary); Conqueror-influenced City Square (20–35c) is the paid upgrade.
+Maven must witness the map, and she only witnesses bosses she hasn't ticked off for her current invitation: rotate Conqueror maps (4 → Elderslayers invite, run it to reset), rotate T16 maps, or kill only the extra bosses and leave the real map boss alive (OrientalBear). Plain maps work with the keystone (OrientalBear runs normal Granary); Conqueror-influenced City Square (20–35c) is the paid upgrade.
 
 Reddit (Nov 19–21): Destructive Play is paired with Fates and Conqueror bosses; one player lost money on 50c Conqueror maps ("10c back per map"), another made 90 div in under 4 hours. AsterixLeGaul's tree [poeplanner 6479](https://poeplanner.com/a/6479), who now skips the special-map nodes because those maps got cheap.
 
 ## Shaper / Elder voidstone (Nov 22)
 
 **Buy the guardian maps instead of respeccing the atlas.** poe.watch, league "Covens", Nov 22: each Elder guardian map (The Enslaver's / Eradicator's / Constrictor's / Purifier's Map) is ~10c with ~9,000 traded a day; a Reddit comment (Nov 17–22) puts Shaper guardian maps at ~5c (poe.watch has no entry). Divine = 212c. A full set of 4 + 4 is roughly 60c.
-- Route: 4 Shaper guardians → Shaper; 4 Elder guardians → Elder ("you can run elder guardian maps on any map in the atlas", Reddit). Shaper and Elder drop the Uber Elder fragments (Knowledge/Shape and Terror/Emptiness); Uber Elder gives the voidstone. Uber Elder fragments trade too little for a price.
+- Route: 4 Shaper guardians → Shaper; 4 Elder guardians → Elder ("you can run elder guardian maps on any map in the atlas", Reddit). In 3.30 Shaper + Elder themselves give the Decayed voidstone (see strategy/endgame-3-30.md); Uber Elder is not needed.
 - Self-farming: the 3.30 tree still has clusters for extra Guardian / Conqueror / Synthesis map drops from map bosses, near the top of the tree on the same side as Destructive Play (Vascor's overview, Nov 13). Node names and values not verified. Only worth it if you farm map bosses anyway (boss-rush trees).
 - 3.30.0 notes (Endgame Changes): "Shaper, Elder and Conqueror Fragments no longer grant increased Item Quantity to Maps, and will no longer be consumed when used along with a Map."
 
