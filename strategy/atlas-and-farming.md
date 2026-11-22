@@ -31,6 +31,19 @@ Pick **one or two mechanics** and specialise the atlas tree around them. Questio
 - **Boss rushing / Fate stacking (3.30)**: good fit for strong single-target builds — likely a big league-start money maker because the league rewards are on bosses.
 - **Delve / Heist / Sanctum**: side activities, marked on the atlas in 3.30.
 
+## Destructive Play boss rush (Nov 22)
+
+Transcripts in `videos/raw/` (Nov 18–21). Claims are the creators' own.
+
+| Video | Tree | How | Claim |
+|---|---|---|---|
+| **WITCH POE**, "Destructive Play Is So Back" (Nov 21) | [poeplanner 64HK](https://poeplanner.com/a/64HK) | Destructive Play + Maven wheel (chisel side), map-boss map drops (Shaper/Elder yes, Synthesis no), unique-boss and map-upgrade nodes, every reachable Harvest node (3–4 Harvests a map), Mirage. Threads: Abyss + Ultimatum targeted, Incursion + Betrayal blocked. Conqueror City Square maps, ~37c rolled, 6-mod | 87 div gross from ~40 maps in 2 h 06 m (~37 div/hr). Much of it from Grim Fates (8 in 40 maps, ~4 div each) that they suspect is an unintended interaction, so it may get hotfixed |
+| **Cyn**, "100 Maps with Maven's Destructive Play" (Nov 19) | none (on screen only) | Destructive Play with Maven watching (up to 3 extra bosses), map drop / Conqueror map / Mirage chance. Citadel City Square maps bought at ≤20c | ~48 div from 100 maps; mostly Nightmare maps, chisels, Maven items |
+| **OrientalBear**, Destructive Play + Heist caches (Nov 18) | [pob.co.kr](https://pob.co.kr/a/SpmLjsj0l6) | Granary, skip the map boss, kill only the extra bosses; shrines | ~2.5 div per 10 maps; "brainless" |
+| SnooBAE85, Abomination boss rush (Nov 21), no Destructive Play | [tree](https://tinyurl.com/2paz9m9r) | Outer-ring map-modifier effect, Atlas Anomaly chance (Archon's Vault about every other map), Mirage; no Threads. Nightmare Abomination maps at 75c | ~47 div/hr, ~1 div per map net |
+
+Reddit (Nov 19–21): Destructive Play is paired with Fates and Conqueror bosses; one player lost money on 50c Conqueror maps ("10c back per map"), another made 90 div in under 4 hours. AsterixLeGaul's tree [poeplanner 6479](https://poeplanner.com/a/6479), who now skips the special-map nodes because those maps got cheap.
+
 ## Shaper / Elder voidstone (Nov 22)
 
 **Buy the guardian maps instead of respeccing the atlas.** poe.watch, league "Covens", Nov 22: each Elder guardian map (The Enslaver's / Eradicator's / Constrictor's / Purifier's Map) is ~10c with ~9,000 traded a day; a Reddit comment (Nov 17–22) puts Shaper guardian maps at ~5c (poe.watch has no entry). Divine = 212c. A full set of 4 + 4 is roughly 60c.
